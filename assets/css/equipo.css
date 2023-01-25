@@ -22,6 +22,9 @@ h1{
     font-family: 'El Messiri', sans-serif;
 }
 
+h3{
+    text-align: center;
+}
 
 .imagen{
     background-image: url(../img/plantas.jpg);
