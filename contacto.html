@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Font principal El Messiri -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font secundaria Source Sans Pro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/contacto.css" />
+  </head>
+  <body>
+    <div class="container text-center" id="main-container">
+      <div class="titulo">
+        <h1>¡Contáctanos!</h1>
+      </div>
+      <div class="mensaje-bienvenida">
+        <p>
+          ¿Tienes alguna duda, sugerencia o aclaración? Ponte en contacto con
+          nosotros.
+        </p>
+      </div>
+
+      <form class="formulario">
+        <div class="row" id="enter-data-1">
+          <div class="col-6">
+            <label for="name">Nombre*</label>
+            <br />
+            <input type="text" id="name" name="name" required maxlength="40" />
+          </div>
+          <div class="col-6">
+            <label for="mensaje">Teléfono*</label>
+            <br />
+            <input type="text" id="tel" name="tel" required />
+          </div>
+        </div>
+
+        <div class="row" id="enter-data-2">
+          <div class="col-6">
+            <label for="mensaje">Email*</label>
+            <br />
+            <input type="text" id="tel" name="tel" required />
+          </div>
+          <div class="col-6">
+            <label for="mensaje">Mensaje*</label>
+            <br />
+            <input type="text" id="tel" name="tel" required />
+          </div>
+        </div>
+        <button type="submit" class="send-button">ENVIAR</button>
+      </form>
+    </div>
+
+    <div class="container text-center">
+      <div id="sub-container">
+        <img src="./assets/Sobre.png" height="40px" width="60px" alt="ícono sobre">
+        <h2>Suscríbete</h2>
+        <p>Suscríbete a nuestro newsletter</p>
+        <input type="text" id="newsletter" name="newsletter" required />
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

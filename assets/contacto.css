@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(232, 231, 227);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main-container{
+    color: rgb(52, 58, 54);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.titulo{
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.mensaje-bienvenida{
+    margin-bottom: 40px;
+}
+
+#enter-data-1{
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+#enter-data-2{
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+input{
+    color: rgb(172, 182, 173);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(172, 182, 173);
+    width: 350px;
+    background-color: rgb(232, 231, 227);
+}
+
+.send-button{
+    display: flex;
+    align-items: flex-start;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(204, 204, 202);
+    box-shadow: 3px 3px gray;
+    margin-bottom: 40px;
+}
+
+#sub-container{
+    background-color: rgb(172, 182, 173);
+    color: rgb(52, 58, 54);
+    height: 250px;
+    padding: 30px;
+}
+
+h2{
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 30px;
+}
+
+#newsletter{
+    border-radius: 10px;
+    width: 220px;
+
+}
