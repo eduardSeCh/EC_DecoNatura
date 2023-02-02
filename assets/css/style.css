@@ -9,6 +9,7 @@
 body{
     background-color: var(--fondo);
     font-family: 'Source Sans Pro', sans-serif;
+    background-size: cover;
 }
 
 nav{
