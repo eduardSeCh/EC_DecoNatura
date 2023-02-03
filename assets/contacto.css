@@ -3,7 +3,81 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#main-container{
+nav{
+    background-color: rgb(52, 58, 54);
+}
+
+.logo{
+    width: 26px;
+    margin-top: 5px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.nav-link{
+    color:rgb(232, 231, 227);
+}
+
+.nav-link:hover{
+    color: rgb(182 211 162);
+}
+
+.navbar-toggler{
+    color: rgb(135 143 138 / 20%);
+    background-color: rgb(232, 231, 227);
+}
+
+.btn-outline-success{
+    --bs-btn-color:rgb(232, 231, 227);
+    --bs-btn-border-color: rgb(232, 231, 227);
+    --bs-btn-hover-color: rgb(52, 58, 54);
+    --bs-btn-hover-bg: rgb(172, 182, 173);
+    --bs-btn-hover-border-color: rgb(172, 182, 173);
+    --bs-btn-active-bg:rgb(52, 58, 54);
+    --bs-btn-active-border-color: #80837f;
+}
+
+.form-control:focus{
+    border-color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0.202);
+}
+
+.text{
+    text-align: center;
+}
+
+h1{
+    font-family: 'El Messiri', sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    color: rgb(232, 231, 227) ;
+    background-color: rgb(52, 58, 54);
+    height: 40px;
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
+
+h6{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #main-container{
     color: rgb(52, 58, 54);
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -47,7 +121,7 @@ input{
     background-color: rgb(204, 204, 202);
     box-shadow: 3px 3px gray;
     margin-bottom: 40px;
-}
+} */
 
 #sub-container{
     background-color: rgb(172, 182, 173);
