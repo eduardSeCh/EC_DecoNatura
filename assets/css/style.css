@@ -96,10 +96,13 @@ h3{
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(232, 231, 227) ;
     background-color: rgb(52, 58, 54);
+    max-height: 120px;
+    font-size: 16px;
+}
+
+.redes img{
+    width: 40px;
     height: 40px;
 }
