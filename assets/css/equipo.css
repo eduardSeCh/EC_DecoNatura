@@ -6,6 +6,7 @@ body{
 main {
     display: grid;
     grid-template-rows: auto auto auto;
+    height: 100vh;
 }
 
 nav{
@@ -87,16 +88,6 @@ h3{
 
 .carousel-indicators [data-bs-target]{
     background-color: rgb(52 58 54);
-}
-
-
-footer {
-    text-align: center;
-    color: rgb(232, 231, 227) ;
-    background-color: rgb(52, 58, 54);
-    height: 40px;
-    margin-top: 21px;
-    margin-bottom: 0px;
 }
 
 h6{
