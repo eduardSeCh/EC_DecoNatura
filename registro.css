@@ -64,10 +64,32 @@ nav{
     --bs-btn-active-border-color: #80837f;
 }
 
+/* Animacion */
+#vanta{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.vanta-canvas {
+    top: 12% !important;
+    width: 100% !important;
+    height: 80% !important;
+}
+
+main {
+    filter: blur(10px);
+    opacity: 0;
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+}
+
 /* Título y texto de bienvenida */
 
 .registro, .formulario{
     background-color: rgb(232 231 227 / 51%);
+    z-index: 100;
 }
 
 .formulario{
