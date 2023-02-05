@@ -11,6 +11,12 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+}
+
 nav{
     background-color: var(--verde-principal);
 }
@@ -98,7 +104,6 @@ h3{
 footer {
     color: rgb(232, 231, 227) ;
     background-color: rgb(52, 58, 54);
-    max-height: 120px;
     font-size: 16px;
 }
 
