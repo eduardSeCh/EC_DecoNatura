@@ -4,6 +4,9 @@ body{
     background-image: url(hojas_fondo.jpg);
     background-size:cover;
     backdrop-filter: blur(10px);
+    display: grid;
+    grid-template-rows: 1fr 5fr auto;
+    height: 100vh;
 }
 
 /* Barra de navegación */
@@ -74,15 +77,17 @@ nav{
     height: 100%;
 }
 .vanta-canvas {
-    top: 12% !important;
     width: 100% !important;
-    height: 80% !important;
+    height: 100% !important;
 }
 
 main {
     filter: blur(10px);
     opacity: 0;
     transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+    /* display: grid;
+    grid-template-rows: 1fr auto;
+    /*height: 79.2vh; */
 }
 
 /* Título y texto de bienvenida */
@@ -173,19 +178,18 @@ p{
     --bs-btn-active-color: #e8e7e3;
 }
 
-
+/* Quitar esto cuando se fusione con dev */
 footer {
-    text-align: center;
     color: rgb(232, 231, 227) ;
     background-color: rgb(52, 58, 54);
+    font-size: 16px;    
+}
+
+.redes img{
+    width: 40px;
     height: 40px;
-    margin-top: 21px;
-    margin-bottom: 0px;
 }
 
 h6{
     padding-top: 10px;
 }
-
-
-
