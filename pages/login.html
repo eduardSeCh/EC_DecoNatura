@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- Font principal El Messiri -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <!-- Font secundaria Source Sans Pro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <title>Deconatura</title>
+</head>
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+              <!-- Logo -->
+              <img class="logo" src="../assets/img/logo_dc.png" alt="logo deconatura">
+              
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      
+                      <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./acerca_de.html">Acerca de</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contactos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./equipo.html">Equipo</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <img src="../assets/img/iconos/favorito.png" alt="icono de favorito representado por un corazón con una hoja en la parte inferior derecha">
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <img src="../assets/img/iconos/carrito.png" alt="icono de carrito de compras">
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Login</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+    </header>
+    <main class="container main-login">
+        <div class="row text-center justify-content-around">
+            <!-- Carousel -->
+            <div class="col-5">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../assets/img/image1CarouselLogin.png" class="d-block" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <!-- Registro -->
+            <div class="col-5 registro">
+                <div class="iconUser">
+                    <img src="../assets/img/iconos/perfil-del-usuario.svg" alt="">
+                    <h2>Login</h2>
+                </div>
+                <form action="" method="post" class="d-flex formulario-login">
+                    <label for="correo">E-mail</label>
+                    <input type="email" name="" id="correo" placeholder="tucorreo@gmail.com">
+                    <label for="contrasena">Contraseña</label>
+                    <input type="password" name="" id="contrasena">
+                    <button type="submit">Ingresar</button>
+                </form>
+                <a href="#">¿Olvidaste tu contraseña</a>
+                <a href="#">Crear una cuenta</a>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <h6>DecoNatura &copy; 2023. Todos los derechos reservados.</h6>
+    </footer>
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

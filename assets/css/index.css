@@ -1,0 +1,10 @@
+:root {
+    --gris: #80837F;
+    --verde-principal: #343A36;
+    --verde-secundario: #ACB6AD;
+    --fondo: #E8E7E3;
+}
+
+header {
+    background-color: var(--verde-principal);
+}

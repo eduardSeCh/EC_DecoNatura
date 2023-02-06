@@ -1,0 +1,28 @@
+:root {
+    --gris: #80837F;
+    --verde-principal: #343A36;
+    --verde-secundario: #ACB6AD;
+    --fondo: #E8E7E3;
+}
+
+.main-login {
+    background-color: var(--verde-secundario);
+    margin: auto;
+}
+
+.formulario-login {
+    flex-direction: column;
+}
+
+input {
+    padding: .5em;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 1em;
+    border: none;
+}
