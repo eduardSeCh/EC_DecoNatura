@@ -94,3 +94,9 @@ h3 {
   color: var(--fondo);
   padding: 1rem;
 }
+
+footer {
+    color: rgb(232, 231, 227);
+    background-color: rgb(52, 58, 54);
+    font-size: 16px;
+}
