@@ -1,9 +1,6 @@
 body{
     background-color: rgb(232, 231, 227);
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-main {
     display: grid;
     grid-template-rows: auto auto auto;
     height: 100vh;
