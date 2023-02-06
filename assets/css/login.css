@@ -26,3 +26,9 @@ button {
     margin-top: 1em;
     border: none;
 }
+
+footer {
+    color: rgb(232, 231, 227);
+    background-color: rgb(52, 58, 54);
+    font-size: 16px;
+}
