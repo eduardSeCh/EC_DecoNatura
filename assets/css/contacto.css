@@ -1,7 +1,7 @@
 body{
     background-color: rgb(232, 231, 227);
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(./hojas_mate.jpg);
+    background-image: url(../img/hojas_mate.jpg);
     backdrop-filter: inherit;
     display: grid;
     grid-template-rows: auto auto auto;

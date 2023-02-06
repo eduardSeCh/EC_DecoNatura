@@ -1,7 +1,7 @@
 body{
     background-color: rgb(232, 231, 227);
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(hojas_fondo.jpg);
+    background-image: url(../img/hojas_fondo.jpg);
     background-size:cover;
     backdrop-filter: blur(10px);
     display: grid;
