@@ -12,6 +12,12 @@ body{
     background-size: cover;
 }
 
+main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+}
+
 nav{
     background-color: var(--verde-principal);
 }
@@ -97,10 +103,12 @@ h3{
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(232, 231, 227) ;
     background-color: rgb(52, 58, 54);
+    font-size: 16px;
+}
+
+.redes img{
+    width: 40px;
     height: 40px;
 }
