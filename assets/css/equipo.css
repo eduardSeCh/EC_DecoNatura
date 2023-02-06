@@ -6,6 +6,12 @@ body{
     height: 100vh;
 }
 
+main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+}
+
 nav{
     background-color: rgb(52, 58, 54);
 }
@@ -95,4 +101,8 @@ footer {
     color: rgb(232, 231, 227);
     background-color: rgb(52, 58, 54);
     font-size: 16px;
+<<<<<<< HEAD
   }
+=======
+  }
+>>>>>>> equipo

@@ -1,114 +1,96 @@
 /* paleta colores */
 :root {
-    --gris: #80837F;
-    --verde-principal: #343A36;
-    --verde-secundario: #ACB6AD;
-    --fondo: #E8E7E3;
+  --gris: #80837f;
+  --verde-principal: #343a36;
+  --verde-secundario: #acb6ad;
+  --fondo: #e8e7e3;
 }
 
-body{
-    background-color: var(--fondo);
-    font-family: 'Source Sans Pro', sans-serif;
-    background-size: cover;
+body {
+  background-color: var(--fondo);
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-main {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    height: 100vh;
+nav {
+  background-color: var(--verde-principal);
 }
 
-nav{
-    background-color: var(--verde-principal);
+.logo {
+  width: 26px;
+  margin-top: 5px;
+  margin-right: 12px;
+  margin-left: 12px;
 }
 
-.logo{
-    width: 26px;
-    margin-top: 5px;
-    margin-right: 12px;
-    margin-left: 12px;
+.nav-link {
+  color: var(--fondo);
 }
 
-.nav-link{
-    color: var(--fondo);
+.nav-link:hover {
+  color: rgb(182 211 162);
 }
 
-.nav-link:hover{
-    color: rgb(182 211 162);
-}
-
-.navbar-toggler{
-    color: rgb(135 143 138 / 20%);
-    background-color: rgb(232, 231, 227);
+.navbar-toggler {
+  color: rgb(135 143 138 / 20%);
+  background-color: rgb(232, 231, 227);
 }
 
 .header__acerca-de {
-    margin-top: 1rem;
-    position: relative;
+  margin-top: 1rem;
+  position: relative;
 }
 
 .img-header {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .descripcion__acerca-de {
-    position: absolute;
-    display: block;
-    width: 350px;
-    height: 228px;
-    left: 106px;
-    top: 86px;
-    padding: 1rem;
-    color: var(--fondo);
-    background-color: var(--gris);
-    filter: opacity(0.7);
-    mix-blend-mode: normal;
+  position: absolute;
+  display: block;
+  width: 350px;
+  height: 228px;
+  left: 106px;
+  top: 86px;
+  padding: 1rem;
+  color: var(--fondo);
+  background-color: var(--gris);
+  filter: opacity(0.7);
+  mix-blend-mode: normal;
 }
 
-.btn-outline-success{
-    --bs-btn-color:rgb(232, 231, 227);
-    --bs-btn-border-color: rgb(232, 231, 227);
-    --bs-btn-hover-color: rgb(52, 58, 54);
-    --bs-btn-hover-bg: rgb(172, 182, 173);
-    --bs-btn-hover-border-color: rgb(172, 182, 173);
-    --bs-btn-active-bg:rgb(52, 58, 54);
-    --bs-btn-active-border-color: #80837f;
+.btn-outline-success {
+  --bs-btn-color: rgb(232, 231, 227);
+  --bs-btn-border-color: rgb(232, 231, 227);
+  --bs-btn-hover-color: rgb(52, 58, 54);
+  --bs-btn-hover-bg: rgb(172, 182, 173);
+  --bs-btn-hover-border-color: rgb(172, 182, 173);
+  --bs-btn-active-bg: rgb(52, 58, 54);
+  --bs-btn-active-border-color: #80837f;
 }
 
-.form-control:focus{
-    border-color: #ffffff;
-    box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0.202);
+.form-control:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0.202);
 }
 
-.texto{
-    background-color: rgb(52, 58, 54);
-    color:rgb(232, 231, 227);
-    display: flex;
-    align-items: center;
+.texto {
+  background-color: rgb(52, 58, 54);
+  color: rgb(232, 231, 227);
+  display: flex;
+  align-items: center;
 }
 
-h1{
-    font-family: 'El Messiri', sans-serif;
+h1 {
+  font-family: "El Messiri", sans-serif;
 }
 
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
 
 .mision-vision_container {
-    background-color: var(--verde-principal);
-    color: var(--fondo);
-    padding: 1rem;
-}
-
-footer {
-    color: rgb(232, 231, 227) ;
-    background-color: rgb(52, 58, 54);
-    font-size: 16px;
-}
-
-.redes img{
-    width: 40px;
-    height: 40px;
+  background-color: var(--verde-principal);
+  color: var(--fondo);
+  padding: 1rem;
 }
