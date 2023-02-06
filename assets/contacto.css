@@ -1,7 +1,14 @@
 body{
     background-color: rgb(232, 231, 227);
     font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(./hojas_mate.jpg);
+    backdrop-filter: inherit;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
 }
+
+/* Barra de navegación */
 
 nav{
     background-color: rgb(52, 58, 54);
@@ -42,6 +49,20 @@ nav{
     box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0.202);
 }
 
+/* Contenedor contáctanos */
+
+.blur{
+    backdrop-filter: blur(4px);
+    background-color: rgba(61, 73, 59, 0.22);
+}
+
+main{
+    color: rgb(232, 231, 227);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
 .text{
     text-align: center;
 }
@@ -50,93 +71,68 @@ h1{
     font-family: 'El Messiri', sans-serif;
 }
 
-
-footer {
-    text-align: center;
-    color: rgb(232, 231, 227) ;
-    background-color: rgb(52, 58, 54);
-    height: 40px;
-    margin-top: 21px;
-    margin-bottom: 0px;
+/* Botón enviar */
+.btn-primary {
+    --bs-btn-color: rgb(232 231 227);
+    --bs-btn-bg: rgb(52 58 54 / 57%);
+    --bs-btn-border-color: rgb(232 231 227);
+    --bs-btn-hover-color: rgb(52 58 54);
+    --bs-btn-hover-bg: rgb(172 182 173);
+    --bs-btn-hover-border-color: rgb(172 182 173);
+    --bs-btn-active-color: rgb(71 72 71);
+    --bs-btn-active-bg: rgb(232 231 227);
+    --bs-btn-active-border-color: rgb(172 182 173);
 }
 
-h6{
-    padding-top: 10px;
+/* Estilo validación de datos */
+.form-control.is-valid, .was-validated .form-control:valid {
+    background-image: none;
+}
+
+.invalid-feedback{
+    color: rgb(255, 151, 161);
 }
 
 
+/* Newsletter */
 
-
-
-
-
-
-
-
-
-
-
-
-/* #main-container{
-    color: rgb(52, 58, 54);
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.titulo{
-    font-family: 'El Messiri', sans-serif;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-.mensaje-bienvenida{
-    margin-bottom: 40px;
-}
-
-#enter-data-1{
-    margin-bottom: 40px;
-    text-align: left;
-}
-
-#enter-data-2{
-    margin-bottom: 40px;
-    text-align: left;
-}
-
-input{
-    color: rgb(172, 182, 173);
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-color: rgb(172, 182, 173);
-    width: 350px;
-    background-color: rgb(232, 231, 227);
-}
-
-.send-button{
-    display: flex;
-    align-items: flex-start;
-    width: 150px;
-    height: 40px;
-    border: none;
-    border-radius: 12px;
-    background-color: rgb(204, 204, 202);
-    box-shadow: 3px 3px gray;
-    margin-bottom: 40px;
-} */
-
-#sub-container{
+.sub-container{
     background-color: rgb(172, 182, 173);
     color: rgb(52, 58, 54);
     height: 250px;
     padding: 30px;
+    border-radius: 10px;
 }
 
 h2{
     font-family: 'El Messiri', sans-serif;
     margin-top: 30px;
+    font-weight: 600;
 }
 
-#newsletter{
-    border-radius: 10px;
-    width: 220px;
+.isobre{
+    height: 40px ;
+    width: 60px;
+}
 
+/* Botón suscribirse */
+
+.btn-outline-secondary{
+    --bs-btn-color: rgb(52 58 54);
+    --bs-btn-border-color: rgb(52 58 54);
+    --bs-btn-hover-bg: rgb(52 58 54);
+    --bs-btn-hover-border-color: rgb(52 58 54);
+    --bs-btn-active-bg: rgb(52 58 54);
+}
+
+/* Footer */
+
+footer {
+    color: rgb(232, 231, 227);
+    background-color: rgb(52, 58, 54);
+    font-size: 16px;
+  }
+
+h6{
+    padding-top: 10px;
 }
