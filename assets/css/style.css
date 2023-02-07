@@ -35,30 +35,6 @@ nav {
   background-color: rgb(232, 231, 227);
 }
 
-.header__acerca-de {
-  margin-top: 1rem;
-  position: relative;
-}
-
-.img-header {
-  width: 100%;
-  height: auto;
-}
-
-.descripcion__acerca-de {
-  position: absolute;
-  display: block;
-  width: 350px;
-  height: 228px;
-  left: 106px;
-  top: 86px;
-  padding: 1rem;
-  color: var(--fondo);
-  background-color: var(--gris);
-  filter: opacity(0.7);
-  mix-blend-mode: normal;
-}
-
 .btn-outline-success {
   --bs-btn-color: rgb(232, 231, 227);
   --bs-btn-border-color: rgb(232, 231, 227);
