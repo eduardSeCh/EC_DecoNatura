@@ -9,6 +9,7 @@
 body {
   background-color: var(--fondo);
   font-family: "Source Sans Pro", sans-serif;
+  height: 100vh;
 }
 
 nav {
@@ -75,4 +76,21 @@ footer {
     color: rgb(232, 231, 227);
     background-color: rgb(52, 58, 54);
     font-size: 16px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width:475px){
+  footer {
+      font-size: 16px;
+  }
+  .redes img {
+      width: 40px;
+  }
+  .logoPrincipal img{
+      width: 60px;
+  }
 }

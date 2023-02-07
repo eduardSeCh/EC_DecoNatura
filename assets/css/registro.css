@@ -178,7 +178,6 @@ p{
     --bs-btn-active-color: #e8e7e3;
 }
 
-/* Quitar esto cuando se fusione con dev */
 footer {
     color: rgb(232, 231, 227) ;
     background-color: rgb(52, 58, 54);
@@ -193,3 +192,21 @@ footer {
 h6{
     padding-top: 10px;
 }
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  @media (max-width:475px){
+    footer {
+        font-size: 16px;
+    }
+    .redes img {
+        width: 40px;
+    }
+    .logoPrincipal img{
+        width: 60px;
+    }
+  }

@@ -136,3 +136,20 @@ footer {
 h6{
     padding-top: 10px;
 }
+
+footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  @media (max-width:475px){
+    footer {
+        font-size: 16px;
+    }
+    .redes img {
+        width: 40px;
+    }
+    .logoPrincipal img{
+        width: 60px;
+    }
+  }
