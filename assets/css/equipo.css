@@ -1,15 +1,19 @@
 body{
     background-color: rgb(232, 231, 227);
     font-family: 'Source Sans Pro', sans-serif;
-    display: grid;
-    grid-template-rows: auto auto auto;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
 }
 
+header {
+    flex-grow: 1;
+}
+
 main {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
 }
 
 nav{
@@ -96,26 +100,31 @@ h3{
 h6{
     padding-top: 10px;
 }
+footer {
+    display: flex;
+    align-items: center6;
+    justify-content: center;
+  color: rgb(232, 231, 227);
+  background-color: rgb(52, 58, 54);
+  font-size: 16px;
+  height: auto;
+  margin-top: auto;
+}
 
 footer ul {
     list-style: none;
     padding: 0;
   }
   
-  @media (max-width:475px){
-    footer {
-        font-size: 16px;
+  
+    @media (max-width:475px){
+      footer {
+          font-size: 14px;
+      }
+      .redes img {
+          width: 30px;
+      }
+      .logoPrincipal img{
+          width: 60px;
+      }
     }
-    .redes img {
-        width: 40px;
-    }
-    .logoPrincipal img{
-        width: 60px;
-    }
-  }
-
-footer {
-    color: rgb(232, 231, 227);
-    background-color: rgb(52, 58, 54);
-    font-size: 16px;
-}
