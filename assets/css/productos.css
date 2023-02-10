@@ -89,12 +89,37 @@ h4{
     text-align: left;
 }
 
-.producto_img> img {
-    width: 170px;
-    border-radius: 10px;
-    margin-top: 23px;
+.producto{
+    margin-top: 1rem;
 }
 
+.producto_img {
+    height: 15rem;    
+}
+
+.producto_img > img {
+    width: 170px;
+    border-radius: 10px;
+    /* margin-top: 23px; */
+    height: inherit;
+    transition: scale .3s ease-in-out;
+}
+
+.producto_img > img:hover{
+    scale: 1.1;
+}
+
+/* .producto_img__chica img{
+    margin: 0;
+} */
+
+.producto_categoria{
+    margin-top: 1rem;
+}
+
+.producto_nombre {
+    margin-top: -1rem;
+}
 
 .producto_categoria, .producto_nombre, .producto_precio{
     text-align: left;
