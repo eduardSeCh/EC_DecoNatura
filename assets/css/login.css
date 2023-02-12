@@ -5,14 +5,12 @@
     --fondo: #E8E7E3;
 }
 
-
 body {
     background-image:url(../img/login/fondo_beige_plantas.jpg);
-    background-size: cover;
-    
+    background-size: cover;   
 }
 
-
+/* Contenedor principal */
 .main-login {
     margin: auto;
     background: rgba( 255, 255, 255, 0.25 );
@@ -21,39 +19,25 @@ body {
     backdrop-filter: blur(12px);
 }
 
-.formulario-login {
-    flex-direction: column;
+/* Carusel */
+img {
+    border-radius: 6px;
 }
 
+/* Formulario */
 
-.col-5{
-    background-color: aqua;
+.icono_usuario{
+    margin-bottom: 8px;
+    width: 100px;
 }
 
-
-/* input {
-    padding: .5em;
-    outline: none;
-    border: none;
-    background-color: #eee;
-    border-radius: 5px;
-} */
-
-button {
-    margin-top: 1em;
-    border: none;
+h2{
+    font-family: "El Messiri", sans-serif;
 }
 
-footer {
-    color: rgb(232, 231, 227);
-    background-color: rgb(52, 58, 54);
-    font-size: 16px;
-}
-
-
-.footer_form{
-    text-align: center;
-
+/* Cuadro que contiene ícono*/
+.input-group-text{
+    background-color: rgb(200 211 204);
 }
 
 .boton_contenedor{
@@ -61,20 +45,7 @@ footer {
     justify-content: center;
 }
 
-img {
-    border-radius: 6px;
-}
-
-a{
-    text-decoration: none;
-    color: #343a36;
-}
-
-.icono_usuario{
-    margin-bottom: 8px;
-    width: 100px;
-}
-
+/* Botón ingresar */
 
 .btn-primary{
     --bs-btn-color: #343a36;
@@ -82,6 +53,7 @@ a{
     --bs-btn-border-color: #343a36;
     --bs-btn-hover-border-color: #343a36;
     --bs-btn-active-color: #e8e7e3;
+    margin-top: 1em;
 }
 
 .btn:hover {
@@ -96,10 +68,12 @@ a{
     border-color: rgb(52 58 54);
 }
 
-h2{
-    font-family: "El Messiri", sans-serif;
+/* Otros enlaces */
+.footer_form{
+    text-align: center;
 }
 
-.input-group-text{
-    background-color: rgb(200 211 204);
+a{
+    text-decoration: none;
+    color: #343a36;
 }
