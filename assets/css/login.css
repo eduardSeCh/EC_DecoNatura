@@ -8,6 +8,9 @@
 body {
     background-image:url(../img/login/fondo_beige_plantas.jpg);
     background-size: cover;   
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
 }
 
 /* Contenedor principal */

@@ -102,7 +102,7 @@ h6{
 }
 footer {
     display: flex;
-    align-items: center6;
+    align-items: center;
     justify-content: center;
   color: rgb(232, 231, 227);
   background-color: rgb(52, 58, 54);
