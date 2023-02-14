@@ -76,12 +76,27 @@
     background-color: rgb(52 58 54 / 8%);
 }
 
-
+/* Promoción */
 .row-liquidacion{
-    background-image: url(../img/oferta01.jpg);
+    background-image: url(../img/vela_promo.jpg);
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.txt_promocion{
+    background-color: #000000ad;
+    color: #e8e7e3;
+    height: inherit;
+    border-radius: 5px;
+}
+
+.txt_promocion > h2{
+    padding-top: 55px;
+}
+
+.txt_promocion > p{
+    font-size: larger;
 }
 
 
@@ -124,4 +139,9 @@ h4{
 .producto_categoria, .producto_nombre, .producto_precio{
     text-align: left;
     padding-left: 20%;
+}
+
+.btn-secondary{
+    margin-bottom: 15px;
+    background-color: #495057;
 }
