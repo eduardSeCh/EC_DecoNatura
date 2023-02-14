@@ -8,3 +8,37 @@
 header {
     background-color: var(--verde-principal);
 }
+
+.productos_img {
+    width:150px;
+    border-radius: 5px;
+}
+
+.promocion {
+    background-color: rgb(52 58 54 / 53%);
+    backdrop-filter: inherit;
+    height: inherit;
+}
+
+.blur{
+    background-image: url(../img/main/promocion_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    backdrop-filter: blur(1px);
+}
+
+h2{
+    color:#E8E7E3;
+    font-size: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: #343A36;
+    font-weight: 600;
+}
+
+.btn-light{
+    background-color: #E8E7E3;
+}
