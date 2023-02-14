@@ -26,6 +26,14 @@ body {
   z-index: 100;
 }
 
+h2, h3 {
+  font-family: "El Messiri", sans-serif;
+}
+
+h6{
+  margin-top: 10px;
+}
+
 .img-header {
   width: 100%;
   height: auto;
@@ -41,7 +49,8 @@ footer ul {
     padding: 0;
 }
 
- @media (max-width:980px){
+
+@media (max-width:980px){
     .descripcion__acerca-de{
         height: 150px;
         font-size: 0.7em;
