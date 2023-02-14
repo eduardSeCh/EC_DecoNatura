@@ -8,3 +8,40 @@
 header {
     background-color: var(--verde-principal);
 }
+
+/* Productos */
+.productos_img {
+    width:150px;
+    border-radius: 5px;
+}
+
+.blur{
+    background-image: url(../img/main/promocion_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    backdrop-filter: blur(1px);
+}
+
+.promocion {
+    background-color: rgb(52 58 54 / 53%);
+    backdrop-filter: inherit;
+    height: inherit;
+}
+
+h2{
+    color:#E8E7E3;
+    font-size: 45px;
+}
+
+
+/* Botón ver productos... */
+.btn-light{
+    background-color: #E8E7E3;
+}
+
+a{
+    text-decoration: none;
+    color: #343A36;
+    font-weight: 600;
+}
