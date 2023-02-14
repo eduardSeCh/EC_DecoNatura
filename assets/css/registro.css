@@ -1,7 +1,7 @@
 body{
     background-color: rgb(232, 231, 227);
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(../img/hojas_fondo.jpg);
+    background-image: url(../img/login/fondo_beige_plantas.jpg);
     background-size:cover;
     backdrop-filter: blur(10px);
     display: grid;
@@ -93,8 +93,9 @@ main {
 /* Título y texto de bienvenida */
 
 .registro, .formulario{
-    background-color: rgb(232 231 227 / 51%);
+    background-color: rgb(253 250 239 / 57%);;
     z-index: 100;
+    box-shadow: 1px 0px 20px 1px rgb(170 170 170);
 }
 
 .formulario{
