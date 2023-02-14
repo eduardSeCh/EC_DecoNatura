@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="shortcut icon" href="./assets/img/iconos/logo_dc_b.png" type="image/x-icon">
-
     <title>Deconatura</title>
 </head>
 
@@ -29,7 +28,6 @@
             <div class="container-fluid">
                 <!-- Logo -->
                 <img class="logo" src="./assets/img/logo_dc.png" alt="logo deconatura">
-
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -57,8 +55,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -84,13 +82,25 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/img/plantas.jpg" class="d-block w-100" alt="...">
+                        <img src="./assets/img/main/main01_sala.jpg" class="d-block w-100 opacity-50" alt="...">
+                        <div class="carousel-caption ">
+                            <h1>DecoNatura</h1>
+                            <h3>Conectados con la naturaleza</h3>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="./assets/img/main/main02_cocina.jpg" class="d-block w-100 opacity-50" alt="...">
+                        <div class="carousel-caption">
+                            <h1>DecoNatura</h1>
+                            <h3>Conectados con la naturaleza</h3>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="./assets/img/main/main03_suculentas.jpg" class="d-block w-100 opacity-50" alt="...">
+                        <div class="carousel-caption ">
+                            <h1>DecoNatura</h1>
+                            <h3>Conectados con la naturaleza</h3>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -107,77 +117,85 @@
         </div>
     </header>
 
+    <!-- Productos -->
     <main class="container text-center">
         <section class="productos-destacados">
-            <div class="row">
+            <div class="row mt-5 my-3">
                 <h3>Productos destacados</h3>
             </div>
+
+            <!-- Primera fila -->
             <div class="row">
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <img class="productos_img" src="./assets/img/main/platos_azul.jpg" alt="">
                     <hr>
-                    <p class="precio">$000.00 MXN</p>
+                    <p class="precio">$500.00 MXN</p>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <img class="productos_img" src="./assets/img/main/vela_bosque.jpg" alt="">
                     <hr>
-                    <p class="precio">$000.00 MXN</p>
+                    <p class="precio">$100.00 MXN</p>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col-12 col-sm-6 col-md-3 ">
+                    <img class="productos_img" src="./assets/img/main/lampara_luna.jpg" alt="">
                     <hr>
-                    <p class="precio">$000.00 MXN</p>
+                    <p class="precio">$300.00 MXN</p>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="productos_img" src="./assets/img/main/espejo_blob.jpg" alt="">
                     <hr>
-                    <p class="precio">$000.00 MXN</p>
+                    <p class="precio">$800.00 MXN</p>
                 </div>
             </div>
         </section>
-        <!-- promocion -->
-        <section class="container-fluid">
-            <div class="row">
-                <img src="" alt="">
-                <h2>Ahorra hasta en un 50%</h2>
-            </div>
+
+    <!-- Ahorra ...-->
+    <div class="blur">
+        <section class="container-fluid promocion">
+            <br>
+            <br>
+            <h2>Ahorra hasta en un 50%</h2>
             <div class="row justify-content-center">
                 <div class="col-6">
-                    <button>Ver todos los productos</button>
+                    <button type="button" class="btn btn-light">
+                        <a href="./pages/productos.html">Ver todos los productos</a>
+                    </button>
                 </div>
             </div>
         </section>
-        <section class="container productos-destacados">
+    </div>
+
+        <!-- Segunda fila -->
+        <section class="container productos-destacados mt-4">
             <div class="row">
-                <h3>Categorias</h3>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="productos_img" src="./assets/img/main/vaso_cristaleria.jpg" alt="...">
                     <hr>
-                    <p class="precio">$000.00 MXN</p>
+                    <p class="precio">$250.00 MXN</p>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="productos_img" src="./assets/img/main/cuadro_bosque.jpg" alt="...">
                     <hr>
-                    <p class="precio">$000.00 MXN</p>
+                    <p class="precio">$195.00 MXN</p>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="productos_img" src="./assets/img/main/suculenta.jpg" alt="...">
                     <hr>
-                    <p class="precio">$000.00 MXN</p>
+                    <p class="precio">$150.00 MXN</p>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col-12 col-sm-6 col-md-3">
+                    <img class="productos_img" src="./assets/img/main/helecho.jpg" alt="..">
                     <hr>
-                    <p class="precio">$000.00 MXN</p>
+                    <p class="precio">$200.00 MXN</p>
                 </div>
             </div>
         </section>
     </main>
+
     <!-- Footer -->
     <footer class="container-fluid text-center py-2">
         <div class="row d-flex align-items-center">
+<<<<<<< HEAD
           <div class="col-6 col-sm-4 logoPrincipal">
             <img src="/assets/img/iconos/marcaLogo.png" alt="" width="80" />
           </div>
@@ -206,6 +224,24 @@
                   alt=""
                   width="80"
                   />
+=======
+            <div class="col">
+                <img src="/assets/img/iconos/marcaLogo.png" alt="..." width="80">
+            </div>
+            <div class="col">
+                <ul>
+                    <li>Métodos de pago</li>
+                    <li>Cambios y devoluciones</li>
+                    <li>Envío</li>
+                </ul>
+                <h6>DecoNatura &copy; 2023. Todos los derechos reservados.</h6>
+            </div>
+            <div class="col">
+                <div class="row redes">
+                    <div class="col"><img src="/assets/img/iconos/instagramLogo.svg" alt="..." width="60"></div>
+                    <div class="col"><img src="/assets/img/iconos/twitterLogo.svg" alt="..." width="60"></div>
+                    <div class="col"><img src="/assets/img/iconos/facebookLogo.svg" alt="..." width="60"></div>
+>>>>>>> pagPrincipal
                 </div>
                 <div class="col col-sm-12">
                   <p class="m-0">@DecoNatura_mx</p>
@@ -214,7 +250,12 @@
             </div>
             <h6>DecoNatura &copy; 2023. Todos los derechos reservados.</h6>
         </div>
+<<<<<<< HEAD
       </footer>
+=======
+    </footer>
+
+>>>>>>> pagPrincipal
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
