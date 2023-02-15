@@ -1,0 +1,37 @@
+/* paleta colores */
+:root {
+    --gris: #80837f;
+    --verde-principal: #343a36;
+    --verde-secundario: #acb6ad;
+    --fondo: #e8e7e3;
+  }
+  
+  body {
+    background-color: var(--fondo);
+    font-family: "Source Sans Pro", sans-serif;
+    height: 100vh;
+  }
+
+
+footer {
+    color: rgb(232, 231, 227);
+    background-color: rgb(52, 58, 54);
+    font-size: 1rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width:475px){
+  footer {
+      font-size: 14px;
+  }
+  .redes img {
+      width: 30px;
+  }
+  .logoPrincipal img{
+      width: 60px;
+  }
+}
