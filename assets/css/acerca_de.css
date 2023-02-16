@@ -30,23 +30,10 @@ h2, h3 {
   font-family: "El Messiri", sans-serif;
 }
 
-h6{
-  margin-top: 10px;
-}
 
 .img-header {
   width: 100%;
   height: auto;
-}
-
-footer {
-  color: rgb(232, 231, 227);
-  background-color: rgb(52, 58, 54);
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
 }
 
 
@@ -61,15 +48,5 @@ footer ul {
     .descripcion__acerca-de{
         width: calc(100% - 100px);
         height: 8rem;
-    }
-
-    footer {
-        font-size: 16px;
-    }
-    .redes img {
-        width: 30px;
-    }
-    .logoPrincipal img{
-        width: 60px;
     }
 }

@@ -17,11 +17,16 @@ nav {
 }
 
 .logo {
-  width: 26px;
+  width: 34px;
   margin-top: 5px;
   margin-right: 12px;
   margin-left: 12px;
 }
+
+.logo_footer {
+  margin-top: 10px;
+}
+
 
 .nav-link {
   color: var(--fondo);
@@ -72,10 +77,22 @@ h3 {
   padding: 1rem;
 }
 
+
+/* Footer */
+
 footer {
-    color: rgb(232, 231, 227);
-    background-color: rgb(52, 58, 54);
+    color: #e8e7e3;
+    background-color: #343a36;
     font-size: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e8e7e3;
+}
+
+footer a:hover {
+  color: #b6d3a2;
 }
 
 footer ul {
@@ -83,14 +100,25 @@ footer ul {
   padding: 0;
 }
 
+
+@media (max-width:767px){
+  .contenedor_redes {
+    padding-top: 22px;
+  }
+}
+
 @media (max-width:475px){
   footer {
       font-size: 14px;
   }
   .redes img {
-      width: 30px;
+      width: 45px;
   }
-  .logoPrincipal img{
+  .logo_footer img{
       width: 60px;
   }
+}
+
+h6{
+  padding: 10px 10px;
 }

@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/equipo.css">
     <link rel="shortcut icon" href="../assets/img/iconos/logo_dc_b.png" type="image/x-icon">
     <title>Deconatura - Equipo</title>
@@ -28,8 +30,9 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- Logo -->
-                <img class="logo" src="../assets/img/logo_dc.png" alt="logo deconatura">
-                
+                <a href="../index.html">
+                  <img class="logo" src="../assets/img/logo_dc.png" alt="Logo DecoNatura">
+                </a>
 
           <button
             class="navbar-toggler"
@@ -112,7 +115,7 @@
       </section>
       <hr />
       <!-- Contenedor integrantes de equipo -->
-      <section class="container integrantes align-items-center">
+      <section class="container integrantes align-items-center mb-2">
         <div class="row my-auto">
           <h3>¡Conoce a nuestro equipo!</h3>
         </div>
@@ -151,7 +154,7 @@
               <div
                 class="row text-center justify-content-center align-items-center my-2"
               >
-                <div class="col-10 col-sm-4 px-5">
+                <div class="col-10 col-md-4 px-5">
                   <img
                     src="/assets/img/perfil/FranciscoPerfil.jpeg"
                     class="d-block w-100"
@@ -178,7 +181,7 @@
               <div
                 class="row text-center justify-content-center align-items-center"
               >
-                <div class="col-10 col-sm-4 px-5">
+                <div class="col-10 col-md-4 px-5">
                   <img
                     src="/assets/img/perfil/GabrielEduardoPerfil.jpeg"
                     class="d-block w-100"
@@ -202,7 +205,7 @@
               <div
                 class="row text-center justify-content-center align-items-center"
               >
-                <div class="col-10 col-sm-4 px-5">
+                <div class="col-10 col-md-4 px-5">
                   <img
                     src="/assets/img/perfil/JessicaPerfil.jpeg"
                     class="d-block w-100"
@@ -227,7 +230,7 @@
               <div
                 class="row text-center justify-content-center align-items-center"
               >
-                <div class="col-10 col-sm-4 px-5">
+                <div class="col-10 col-md-4 px-5">
                   <img
                     src="/assets/img/perfil/EduardoPerfil.jpg"
                     class="d-block w-100"
@@ -272,43 +275,55 @@
     </main>
 
     <!-- Footer -->
-    <footer class="container-fluid text-center py-2">
-      <div class="row align-items-center">
-        <div class="col-6 col-sm-4 logoPrincipal">
-          <img src="/assets/img/iconos/marcaLogo.png" alt="" width="80" />
-        </div>
-        <div class="col-6 col-sm-4">
-          <ul>
-            <li>Metodos de pago</li>
-            <li>Cambios y devoluciones</li>
-            <li>Envio</li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-4">
-          <div class="row redes">
-            <div class="col-2 col-sm-4">
-              <img
-                src="/assets/img/iconos/instagramLogo.svg"
-                alt=""
-                width="60"
-              />
-            </div>
-            <div class="col-2 col-sm-4">
-              <img src="/assets/img/iconos/twitterLogo.svg" alt="" width="60" />
-            </div>
-            <div class="col-2 col-sm-4">
-              <img
-                src="/assets/img/iconos/facebookLogo.svg"
-                alt=""
-                width="60"
-                />
+    <footer class="container-fluid text-center pt-3">
+      <div class="row d-flex align-items-center">
+          <div class="col-6 col-md-4 logo_footer">
+              <img src="/assets/img/iconos/logodc_footer.png" alt="Logo DecoNatura" width="70">
+          </div>
+          <div class="col-6 col-md-4">
+              <ul>
+                  <a href="#">
+                      <li>Métodos de pago</li>
+                  </a>
+                  <a href="#">
+                      <li>Cambios y devoluciones</li>
+                  </a>
+                  <a href="#">
+                      <li>Envío</li>
+                  </a>
+              </ul>
+          </div>
+          <!-- Íconos redes sociales -->
+          <div class="col-12 col-md-4 contenedor_redes">
+              <div class="row redes">
+                  <div class="col">
+                      <img 
+                      src="/assets/img/iconos/instagramLogo.svg" 
+                      alt="ícono de instagram"
+                      width="50"
+                      >
+                  </div>
+                  <div class="col">
+                      <img 
+                      src="/assets/img/iconos/twitterLogo.svg" 
+                      alt="ícono de twitter" 
+                      width="50"
+                      >
+                  </div>
+                  <div class="col">
+                      <img 
+                      src="/assets/img/iconos/facebookLogo.png"
+                      alt="ícono de facebook" 
+                      width="50"
+                      >
+                  </div>
               </div>
               <div class="col col-sm-12">
-                <p class="m-0">@DecoNatura_mx</p>
-            </div>
-            </div>
+                  <p class="m-0">@DecoNatura_mx</p>
+              </div>
           </div>
-        <h6>DecoNatura &copy; 2023. Todos los derechos reservados.</h6>
+      </div>
+      <h6>DecoNatura &copy; 2023. Todos los derechos reservados.</h6>
       </div>
     </footer>
     

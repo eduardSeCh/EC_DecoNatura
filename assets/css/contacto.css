@@ -14,12 +14,6 @@ nav{
     background-color: rgb(52, 58, 54);
 }
 
-.logo{
-    width: 26px;
-    margin-top: 5px;
-    margin-right: 12px;
-    margin-left: 12px;
-}
 
 .nav-link{
     color:rgb(232, 231, 227);
@@ -125,31 +119,3 @@ h2{
     --bs-btn-active-bg: rgb(52 58 54);
 }
 
-/* Footer */
-
-footer {
-    color: rgb(232, 231, 227);
-    background-color: rgb(52, 58, 54);
-    font-size: 16px;
-  }
-
-h6{
-    padding-top: 10px;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  @media (max-width:475px){
-    footer {
-        font-size: 16px;
-    }
-    .redes img {
-        width: 40px;
-    }
-    .logoPrincipal img{
-        width: 60px;
-    }
-  }

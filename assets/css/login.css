@@ -23,7 +23,7 @@ body {
 }
 
 /* Carusel */
-img {
+.carrusel_img {
     border-radius: 6px;
 }
 
