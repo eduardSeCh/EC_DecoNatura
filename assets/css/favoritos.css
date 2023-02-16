@@ -12,6 +12,7 @@
     --bs-btn-active-color: #e8e7e3;
 }
 
+
 .btn:hover {
     color: var(--bs-btn-hover-color);
     background-color: #343a36;
