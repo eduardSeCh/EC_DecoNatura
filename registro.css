@@ -4,7 +4,6 @@ body{
     background-image: url(hojas_fondobeige.jpg);
     background-size:cover;
     backdrop-filter: blur(7px);
-    
 }
 
 /* Barra de navegación */
@@ -81,25 +80,27 @@ nav{
     height: 100% !important;
 }
 
+main {
+    filter: blur(10px);
+    opacity: 0;
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+}
 
-.registro{
+/* Contenedor central */
+.central{
     background: #e8e7e365;
     box-shadow: 1px 0px 20px 1px rgb(170 170 170);
     border-radius: 10px;
 }
 
-.formulario{
-    padding-top: 32px;
-    padding-bottom: 60px;
-}
-
+/* Registro - texto */
 section {
     padding-top: 32px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.logodc_registro{
+section img{
     width: 100px;
 }
 
@@ -109,6 +110,12 @@ section h2{
 
 section p{
     font-size: 17px;
+}
+
+/* Contenerdor del formulario */
+.formulario{
+    padding-top: 32px;
+    padding-bottom: 60px;
 }
 
 /* Formulario */
@@ -122,18 +129,17 @@ section p{
     border-right: none;
 }
 
-
 .form-control:focus{
     background-color: #f8f8f8b3;
     box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0);
     border-color:#80837f;
 }
 
+/* Minicontenedor para íconos */
 .input-group-text{
     border: none;
     background-color: #e8e7e300;
 }
-
 
 /* Botón crear cuenta */
 .btn-dark {
@@ -148,6 +154,7 @@ section p{
 .form-control.is-valid, .was-validated .form-control:valid {
     background-image: none;
 }
+
 
 /* Checkbox */
 .form-check-input{
