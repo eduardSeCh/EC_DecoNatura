@@ -1,17 +1,16 @@
 body{
-    background-color: rgb(232, 231, 227);
+    background-color: #e8e7e3;
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(hojas_fondo.jpg);
+    background-image: url(hojas_fondobeige.jpg);
     background-size:cover;
-    backdrop-filter: blur(10px);
-    display: grid;
-    grid-template-rows: 1fr 5fr auto;
-    height: 100vh;
+    backdrop-filter: blur(7px);
+    
 }
 
 /* Barra de navegación */
+/* luego se borra */
 nav{
-    background-color: rgb(52, 58, 54);
+    background-color: #343a36;
 }
 
 .logo{
@@ -26,12 +25,12 @@ nav{
 }
 
 .nav-link:hover{
-    color: rgb(182 211 162);
+    color: #b6d3a2;
 }
 
 .navbar-toggler{
     color: rgb(135 143 138 / 20%);
-    background-color: rgb(232, 231, 227);
+    background-color: #e8e7e3;
 }
 
 /* Buscador */
@@ -66,6 +65,7 @@ nav{
     --bs-btn-active-bg:rgb(52, 58, 54);
     --bs-btn-active-border-color: #80837f;
 }
+/* --------------------------------------------- */
 
 /* Animacion */
 #vanta{
@@ -81,28 +81,17 @@ nav{
     height: 100% !important;
 }
 
-main {
-    filter: blur(10px);
-    opacity: 0;
-    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
-    /* display: grid;
-    grid-template-rows: 1fr auto;
-    /*height: 79.2vh; */
-}
 
-/* Título y texto de bienvenida */
-
-.registro, .formulario{
-    background-color: rgb(232 231 227 / 51%);
-    z-index: 100;
+.registro{
+    background: #e8e7e365;
+    box-shadow: 1px 0px 20px 1px rgb(170 170 170);
+    border-radius: 10px;
 }
 
 .formulario{
     padding-top: 32px;
     padding-bottom: 60px;
-    border-left: transparent;
 }
-
 
 section {
     padding-top: 32px;
@@ -110,14 +99,17 @@ section {
     padding-right: 20px;
 }
 
-h2{
+.logodc_registro{
+    width: 100px;
+}
+
+section h2{
     font-family: 'El Messiri', sans-serif;
 }
 
-p{
+section p{
     font-size: 17px;
 }
-
 
 /* Formulario */
 
@@ -128,68 +120,46 @@ p{
     border-left: none;
     border-top: none;
     border-right: none;
-    padding-top: 30px;
 }
 
 
 .form-control:focus{
-    background-color: #ffffff00;
+    background-color: #f8f8f8b3;
     box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0);
-    border-color:rgb(128, 131, 127);
+    border-color:#80837f;
 }
 
-/* Apariencia cuando los datos son válidos */
-.form-control.is-valid, .was-validated .form-control:valid {
-    background-image: none;
-    border-radius: 15px;
+.input-group-text{
+    border: none;
+    background-color: #e8e7e300;
 }
 
-/* Apariencia cuando los datos no son válidos */
-.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
-    border-radius: 15px;
-}
-
-.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
-    color:rgb(52, 58, 54);
-    font-size: 20px;
-    opacity: 1;
-    padding-top: 5px;
-}
-
-
-/* Checkbox */
-
-.form-check-input:checked {
-    background-color:rgb(52, 58, 54);
-    border-color: rgb(52, 58, 54);
-}
-
-.form-check-input:focus{
-    border-color: rgb(147 148 147);
-    box-shadow: 0 0 0 0.25rem rgb(52 58 54 / 33%);
-}
 
 /* Botón crear cuenta */
 .btn-dark {
     --bs-btn-color: #343a36;
-    --bs-btn-bg: #bdbfbd;;
+    --bs-btn-bg: #bdbfbd00;;
     --bs-btn-border-color: #343a36;
     --bs-btn-hover-border-color: #343a36;
     --bs-btn-active-color: #e8e7e3;
 }
 
-/* Quitar esto cuando se fusione con dev */
-footer {
-    color: rgb(232, 231, 227) ;
-    background-color: rgb(52, 58, 54);
-    font-size: 16px;    
+/* Apariencia cuando los datos son válidos */
+.form-control.is-valid, .was-validated .form-control:valid {
+    background-image: none;
 }
 
-.redes img{
-    width: 40px;
-    height: 40px;
+/* Checkbox */
+.form-check-input{
+    border-color: #80837f;
 }
 
-h6{
-    padding-top: 10px;
+.form-check-input:checked {
+    background-color:#343a36;
+    border-color: #343a36;
+}
+
+.form-check-input:focus{
+    border-color: #939493;
+    box-shadow: 0 0 0 0.25rem rgb(52 58 54 / 33%);
 }

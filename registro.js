@@ -30,8 +30,9 @@ window.addEventListener("DOMContentLoaded", () => {
     minWidth: 200.0,
     scale: 1.0,
     scaleMobile: 1.0,
-    color1: 0x77ff,
-    color2: 0xe000ff,
+    color1: 0x466446, // cambio
+    color2: 0x8db38d, // cambio
+    colorMode: "lerp", //cambio
     birdSize: 1.7,
     wingSpan: 38.0,
     separation: 77.0,
