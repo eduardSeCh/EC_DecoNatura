@@ -22,6 +22,9 @@ const tomarProducto = (storeData) => {
           <div class="producto_precio">
             <p>${storeData[i].precio}</p>
           </div>
+          <div>
+           <button type="button" class="btn btn-secondary">Añadir al carrito</button>
+          </div>
         </div`;
     }
     //Inicializa el carousel
