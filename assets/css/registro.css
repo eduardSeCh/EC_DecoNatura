@@ -1,33 +1,12 @@
 body{
-    background-color: rgb(232, 231, 227);
-    font-family: 'Source Sans Pro', sans-serif;
-    background-image: url(../img/login/fondo_beige_plantas.jpg);
+    background-color: #e8e7e3;
+    background-image: url(../img/hojas_fondobeige.jpg);
     background-size:cover;
-    backdrop-filter: blur(10px);
-    display: grid;
-    grid-template-rows: 1fr 5fr auto;
-    height: 100vh;
+    backdrop-filter: blur(7px);
+    height:0%;
 }
 
-/* Barra de navegación */
-nav{
-    background-color: rgb(52, 58, 54);
-}
-
-.nav-link{
-    color:rgb(232, 231, 227);
-}
-
-.nav-link:hover{
-    color: rgb(182 211 162);
-}
-
-.navbar-toggler{
-    color: rgb(135 143 138 / 20%);
-    background-color: rgb(232, 231, 227);
-}
-
-/* Buscador */
+/* Buscador modificado en nav bar */
 .form-search{
     border-radius: 0.375rem;
     border-color: #ffffff00;
@@ -49,18 +28,13 @@ nav{
     border-style: none;
 }
 
-/* Botón buscar */
-.btn-outline-success{
-    --bs-btn-color:rgb(232, 231, 227);
-    --bs-btn-border-color: rgb(232, 231, 227);
-    --bs-btn-hover-color: rgb(52, 58, 54);
-    --bs-btn-hover-bg: rgb(172, 182, 173);
-    --bs-btn-hover-border-color: rgb(172, 182, 173);
-    --bs-btn-active-bg:rgb(52, 58, 54);
-    --bs-btn-active-border-color: #80837f;
+main {
+    filter: blur(10px);
+    opacity: 0;
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
 
-/* Animacion */
+/* Animación */
 #vanta{
     z-index: 0;
     position: absolute;
@@ -74,47 +48,46 @@ nav{
     height: 100% !important;
 }
 
-main {
-    filter: blur(10px);
-    opacity: 0;
-    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
-    /* display: grid;
-    grid-template-rows: 1fr auto;
-    /*height: 79.2vh; */
-}
 
-/* Título y texto de bienvenida */
-
-.registro, .formulario{
-    background-color: rgb(253 250 239 / 57%);;
-    z-index: 100;
+/* Contenedor central */
+.central{
+    background: #e8e7e365;
     box-shadow: 1px 0px 20px 1px rgb(170 170 170);
+    border-radius: 10px;
 }
 
-.formulario{
-    padding-top: 32px;
-    padding-bottom: 60px;
-    border-left: transparent;
-}
-
-
+/* Registro - texto */
 section {
     padding-top: 32px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-h2{
+section img{
+    width: 100px;
+}
+
+section h2{
     font-family: 'El Messiri', sans-serif;
 }
 
-p{
+section p{
     font-size: 17px;
+}
+
+/* Contenerdor del formulario */
+.formulario{
+    padding-top: 32px;
+    padding-bottom: 60px;
+}
+
+/* Contenerdor registro y formulario */
+.registro, .formulario{
+    z-index: 100;
 }
 
 
 /* Formulario */
-
 .form-control{
     background-color: rgb(255 255 255 / 0%);
     border-bottom-color:rgb(52, 58, 54);
@@ -122,14 +95,18 @@ p{
     border-left: none;
     border-top: none;
     border-right: none;
-    padding-top: 30px;
 }
 
-
 .form-control:focus{
-    background-color: #ffffff00;
+    background-color: #f8f8f8b3;
     box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0);
-    border-color:rgb(128, 131, 127);
+    border-color:#80837f;
+}
+
+/* Minicontenedor para íconos */
+.input-group-text{
+    border: none;
+    background-color: #e8e7e300;
 }
 
 /* Apariencia cuando los datos son válidos */
@@ -143,32 +120,32 @@ p{
     border-radius: 15px;
 }
 
-.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
-    color:rgb(52, 58, 54);
-    font-size: 20px;
-    opacity: 1;
-    padding-top: 5px;
-}
-
 
 /* Checkbox */
 
+.form-check-input{
+    border-color: #80837f;
+}
+
 .form-check-input:checked {
-    background-color:rgb(52, 58, 54);
-    border-color: rgb(52, 58, 54);
+    background-color:#343a36;
+    border-color: #343a36;
 }
 
 .form-check-input:focus{
-    border-color: rgb(147 148 147);
+    border-color: #939493;
     box-shadow: 0 0 0 0.25rem rgb(52 58 54 / 33%);
 }
 
 /* Botón crear cuenta */
 .btn-dark {
     --bs-btn-color: #343a36;
-    --bs-btn-bg: #bdbfbd;;
+    --bs-btn-bg: #bdbfbd00;
     --bs-btn-border-color: #343a36;
     --bs-btn-hover-border-color: #343a36;
     --bs-btn-active-color: #e8e7e3;
 }
 
+footer{
+    position: absolute;
+}
