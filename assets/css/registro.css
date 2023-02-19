@@ -146,6 +146,16 @@ section p{
     --bs-btn-active-color: #e8e7e3;
 }
 
+/* Validar formulario */
+/* contraseña */
+.invalid-pass {
+    width: 100%;
+    padding-left: 3rem;
+    color: red;
+    margin-top: .23rem;
+    font-size: .875rem;
+}
+
 footer{
     position: absolute;
 }
