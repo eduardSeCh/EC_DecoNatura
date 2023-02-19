@@ -72,6 +72,30 @@ h3 {
   padding: 1rem;
 }
 
+/* Carousel */
+.owl-nav {
+  display: none;
+}
+/* 
+.owl-stage {
+  display: flex;
+} */
+
+@media (max-width:768px){
+  .owl-carousel .producto {
+    width: 50%;
+  }
+}
+
+.owl-item.active{
+  display: flex;
+}
+
+.owl-item.active .producto{
+  margin: 1rem auto;
+  justify-content: center;
+}
+
 footer {
     color: rgb(232, 231, 227);
     background-color: rgb(52, 58, 54);

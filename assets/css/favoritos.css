@@ -1,3 +1,6 @@
+main {
+    height: 100vh;
+}
 
 .barra_menu2{
     background-color: #bdbfbd;
@@ -107,6 +110,7 @@ h4{
 
 .producto{
     margin-top: 1rem;
+    position: relative;
 }
 
 .producto_img {
@@ -158,4 +162,12 @@ h4{
 .producto-corazon img {
   mix-blend-mode: multiply;
   
+}
+
+.favorito-eliminar{
+    all: unset;
+    position: absolute;
+    top:2%;
+    left: 5%;
+    z-index: 100;
 }
