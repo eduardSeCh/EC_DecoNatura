@@ -37,7 +37,7 @@ const tomarProducto = (storeData) => {
           items: storeData.length > 2 ? 3 : storeData.length,
         },
         1000: {
-          items: storeData.length > 2 ? 3 : storeData.length,
+          items: storeData.length > 3 ? 4 : storeData.length > 2 ? 3 : storeData.length,
         },
       },
     });

@@ -154,9 +154,9 @@ h4{
 
 .producto-corazon {
     position: relative;
-    top: -98%;
-    width: 50%;
-    z-index: 100;
+    /* top: -98%;
+    width: 50%; */
+    /* z-index: 100; */
 }
 
 .producto-corazon img {
@@ -167,7 +167,16 @@ h4{
 .favorito-eliminar{
     all: unset;
     position: absolute;
-    top:2%;
-    left: 5%;
+    top: 73%;
+    left: 60%;
     z-index: 100;
+}
+
+/* Button carousel */
+.owl-dot span{
+    background-color: #869791 !important;
+}
+
+.owl-dot span:hover {
+    background-color: #5c8576 !important;
 }
