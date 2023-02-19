@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/login.css">
     <link rel="shortcut icon" href="../assets/img/iconos/logo_dc_b.png" type="image/x-icon">
@@ -28,8 +29,9 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- Logo -->
-                <img class="logo" src="../assets/img/logo_dc.png" alt="logo deconatura">
-
+                <a href="../index.html">
+                    <img class="logo" src="../assets/img/logo_dc.png" alt="Logo DecoNatura">
+                </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -110,7 +112,7 @@
                 <!-- Login -->
                 <div class="col-12 col-md-6 my-2">
                     <div class="iconUser container text-center">
-                        <img class="icono_usuario" src="../assets/img/iconos/icono_usuario.png"
+                        <img class="icono_usuario" src="../assets/img/iconos/logo_usuario.png"
                             alt="icono de un usuario dentro de un circulo en color verde">
                         <h2>¡Nos alegra verte!</h2>
                         <br>
@@ -128,7 +130,7 @@
                                     alt="icono de un sobre en color verde">
                             </span>
                             <label for="inputEmail" class="form-label"></label>
-                            <input type="email" class="form-control" id="inputEmail" aria-describedby="email"
+                            <input type="email" class="form-control campo" id="inputEmail" aria-describedby="email"
                                 placeholder="example@correo.com">
                         </div>
 
@@ -139,7 +141,7 @@
                                     alt="icono de un candado en color verde">
                             </span>
                             <label for="inputPassword" class="form-label"></label>
-                            <input type="password" class="form-control" id="inputPassword" maxlength="8"
+                            <input type="password" class="form-control campo" id="inputPassword" maxlength="8"
                                 placeholder="••••••••">
                         </div>
 
@@ -167,6 +169,7 @@
         </div>
     </main>
 
+    <!-- Ventana emergente para recuperar contraseña -->
     <div class="forgotpassword-form-container" id="forgot-pw">
         <div class="forgotpassword-form">
             <a onclick="hideFPW()">X</a>
@@ -182,39 +185,57 @@
             </form>
         </div>
     </div>
-
+    
     <!-- Footer -->
-    <footer class="container-fluid text-center py-2">
+    <footer class="container-fluid text-center pt-3">
         <div class="row d-flex align-items-center">
-            <div class="col-6 col-sm-12 logoPrincipal">
-                <img src="/assets/img/iconos/marcaLogo.png" alt="" width="80" />
+            <div class="col-6 col-md-4 logo_footer">
+                <img src="/assets/img/iconos/logodc_footer.png" alt="Logo DecoNatura" width="70">
             </div>
-
-            <div class="col-6 col-sm-12">
+            <div class="col-6 col-md-4">
                 <ul>
-                    <li>Métodos de pago</li>
-                    <li>Cambios y devoluciones</li>
-                    <li>Envío</li>
+                    <a href="#">
+                        <li>Métodos de pago</li>
+                    </a>
+                    <a href="#">
+                        <li>Cambios y devoluciones</li>
+                    </a>
+                    <a href="#">
+                        <li>Envío</li>
+                    </a>
                 </ul>
             </div>
-
-            <div class="col">
+            <!-- Íconos redes sociales -->
+            <div class="col-12 col-md-4 contenedor_redes">
                 <div class="row redes">
                     <div class="col">
-                        <img src="/assets/img/iconos/instagramLogo.svg" alt="icono de la red social instagram"
-                            width="60" />
+                        <img 
+                        src="/assets/img/iconos/instagramLogo.svg" 
+                        alt="ícono de instagram"
+                        width="50"
+                        >
                     </div>
                     <div class="col">
-                        <img src="/assets/img/iconos/twitterLogo.svg" alt="icono de la red social twitter" width="60" />
+                        <img 
+                        src="/assets/img/iconos/twitterLogo.svg" 
+                        alt="ícono de twitter" 
+                        width="50"
+                        >
                     </div>
                     <div class="col">
-                        <img src="/assets/img/iconos/facebookLogo.svg" alt="icono de la red social facebook"
-                            width="60" />
+                        <img 
+                        src="/assets/img/iconos/facebookLogo.png"
+                        alt="ícono de facebook" 
+                        width="50"
+                        >
                     </div>
-                    <p class="mt-1">@DecoNatura_mx</p>
+                </div>
+                <div class="col col-sm-12">
+                    <p class="m-0">@DecoNatura_mx</p>
                 </div>
             </div>
-            <h6>DecoNatura &copy; 2023. Todos los derechos reservados.</h6>
+        </div>
+        <h6>DecoNatura &copy; 2023. Todos los derechos reservados.</h6>
         </div>
     </footer>
 
