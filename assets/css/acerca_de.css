@@ -1,52 +1,60 @@
 body {
-  /* display: grid; */
-  /* grid-template-rows: auto auto auto; */
   height: 100vh;
 }
 
-.header__acerca-de {
-  margin-top: 1rem;
-  position: relative;
-  padding: 0;
+.descripcion__acerca-de, .mision-vision_container, .valores{
+  font-size: 20px;
 }
 
+/* Contenedor descripción acerca de */
 .descripcion__acerca-de {
   position: absolute;
-  /* display: block; */
-  width: 350px;
+  width: 400px;
   height: 228px;
-  left: 30%;
-  top: 50%;
-  transform: translate(-30%,-50%);
+  transform: translate(22%,50%);
   padding: 1rem;
-  color: var(--fondo);
-  background-color: var(--gris);
-  filter: opacity(0.7);
-  mix-blend-mode: normal;
+  font-size: 20px;
+  color: #373b3e;
   z-index: 100;
 }
 
-h2, h3 {
+
+h1, h2 {
   font-family: "El Messiri", sans-serif;
 }
 
-
+/* Fotografía figura ave */
 .img-header {
   width: 100%;
-  height: auto;
 }
 
-
-@media (max-width:980px){
+/* Breakpoints para el contenedor de la descripción */
+@media (max-width:992px){
     .descripcion__acerca-de{
-        height: 150px;
-        font-size: 0.7em;
+        background-color: #343a36d1;
+        color: #e8e7e3;
+        border-radius: 5px;
     }
 }
 
-@media (max-width:475px){
+@media (max-width:576px){
     .descripcion__acerca-de{
-        width: calc(100% - 100px);
-        height: 8rem;
+        transform: translate(-1%,11%);
     }
+
+    .descripcion__acerca-de p{
+      font-size: 18px;
+    }
+}
+
+@media (max-width:391px){
+  .descripcion__acerca-de{
+      width: calc( 91% - -39px);
+      transform: translate(-1%,9%);
+  }
+}
+
+/* Contenedor misión - visión */
+.mision-vision_container{
+  border-radius: 10px;
 }
