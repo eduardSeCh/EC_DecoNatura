@@ -1,0 +1,102 @@
+body{
+    background-color: #e8e7e3;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(../img/fondo_beigec.jpg);
+    background-repeat: no-repeat;
+}
+
+/* Contenedor contáctanos */
+.blur{
+    backdrop-filter: blur(15px);
+}
+
+main{
+    color: #343a36;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.text h1{
+    text-align: center;
+}
+
+.logo_r{
+    width: 120px;
+}
+
+/* Formulario */
+.contacto{
+    background-color: rgb(255 255 255 / 0%);
+    border-bottom-color:rgb(52, 58, 54);
+    border-radius: 0px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.contacto:focus{
+    background-color: #f8f8f8b3;
+    box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0);
+    border-color:#80837f;
+}
+
+/* Minicontenedor para íconos */
+.input-group-text{
+    border: none;
+    background-color: #e8e7e300;
+}
+
+/* Botón enviar */
+.btn-primary {
+    --bs-btn-bg: #e8e7e300;
+    --bs-btn-color: rgb(52 58 54);
+    --bs-btn-border-color: rgb(52 58 54);
+    --bs-btn-hover-bg: rgb(52 58 54);
+    --bs-btn-hover-border-color: rgb(52 58 54);
+    --bs-btn-active-bg: rgb(52 58 54);
+}
+
+/* Estilo validación de datos */
+.form-control.is-valid, .was-validated .form-control:valid {
+    background-image: none;
+}
+
+.invalid-feedback{
+    color: rgb(190, 2, 21);
+}
+
+/* Imagen */
+.imagen_lateral{
+    width: 72vh;
+    border-radius: 10px;
+}
+
+
+/* Newsletter */
+.sub-container{
+    background-color: rgb(172, 182, 173);
+    color: rgb(52, 58, 54);
+    height: 250px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.isobre{
+    height: 40px ;
+    width: 60px;
+}
+
+h2{
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+/* Botón suscribirse */
+.btn-outline-secondary{
+    --bs-btn-color: rgb(52 58 54);
+    --bs-btn-border-color: rgb(52 58 54);
+    --bs-btn-hover-bg: rgb(52 58 54);
+    --bs-btn-hover-border-color: rgb(52 58 54);
+    --bs-btn-active-bg: rgb(52 58 54);
+}

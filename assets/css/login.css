@@ -1,0 +1,77 @@
+:root {
+    --gris: #80837F;
+    --verde-principal: #343A36;
+    --verde-secundario: #ACB6AD;
+    --fondo: #E8E7E3;
+}
+
+body {
+    background-image:url(../img/login/fondo_beige_plantas.jpg);
+    background-size: cover;   
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.main-login {
+    margin: auto;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 1px 0px 20px 1px rgb(170 170 170);
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+}
+
+/* Carusel */
+.carrusel_img {
+    border-radius: 6px;
+}
+
+/* Formulario */
+
+.icono_usuario{
+    margin-bottom: 8px;
+    width: 100px;
+}
+
+h2{
+    font-family: "El Messiri", sans-serif;
+}
+
+/* Cuadro que contiene ícono*/
+.input-group-text{
+    background-color: rgb(200 211 204);
+}
+
+.boton_contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+/* Botón ingresar */
+
+.btn-primary{
+    --bs-btn-color: #343a36;
+    --bs-btn-bg: #bdbfbd00;
+    --bs-btn-border-color: #343a36;
+    --bs-btn-hover-border-color: #343a36;
+    --bs-btn-active-color: #e8e7e3;
+    margin-top: 1em;
+}
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #343a36;
+    border-color: #343a3600;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: #495057;
+    border-color: rgb(52 58 54);
+}
+
+/* Otros enlaces */
+.footer_form{
+    text-align: center;
+}
