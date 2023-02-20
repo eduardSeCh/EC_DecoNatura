@@ -90,79 +90,130 @@
 
     <main>
         <div id="vanta" style="position: absolute;"></div>
-        <!-- Formulario de registro -->
-        <div class="container">
-            <div class="row justify-content-center my-5">
+        <!-- Contenedor central -->
+        <div class="container central">           
+            <div class="row my-5"> 
                 <!-- Texto - Registro -->
-                <div class="registro col-12 col-sm-5">
+                <div class="registro col-12 col-md-6">
                     <section>
-                        <h2> Registro </h2>
-                        <p> La naturaleza está más cerca de ti.
-                            Crea tu cuenta llenando el siguiente formulario y empieza a planear la decoración de tu
-                            hogar con nuestros increíbles productos. </p>
+                        <img class="mx-auto d-block" src="../assets/img/iconos/logo_dc_b.png" alt="Logo deconatura">
+                        <h2 class="text-center my-3"> Registro </h2>
+                        <p class="px-3"> 
+                            La naturaleza está más cerca de ti.
+                            Crea tu cuenta llenando el siguiente formulario y empieza a planear la decoración de tu hogar con nuestros increíbles productos. </p>
                     </section>
                 </div>
-
-                <!-- Datos -->
-                <div class="formulario col-12 col-sm-5">
-                    <form class="row g-3 needs-validation" novalidate>
-
+                
+                <!-- Datos - Formulario -->
+                <div class="formulario col-12 col-md-6 pe-3">
+                    <form class="row g-3 needs-validation pt-3 pe-3" novalidate>
+                        
                         <!-- Nombre -->
-                        <div class="form-floating col-12">
-                            <input type="text" class="form-control" id="inputName" value="" required>
-                            <label for="inputName" class="form-label">Nombre completo*</label>
-                            <div class="invalid-feedback">
-                                Necesitamos tu nombre.
-                            </div>
+                        <p>Nombre completo*</p>
+                        <div class="input-group mt-0 mb-3">
+                            <span class="input-group-text" id="">
+                                <img src="../assets/img/iconos/icono_usuario2.png" style="width: 15px;"
+                                    alt="icono de un sobre en color verde">
+                            </span>
+                            <label for="inputName" class="form-label"></label>
+                            <input type="text"
+                                class="form-control" 
+                                id="inputName"
+                                aria-label="Name" 
+                                placeholder="Nombre" 
+                                required>
+                                <br>
+                                <div class="invalid-feedback ps-5">
+                                    Necesitamos tu nombre.
+                                </div>
                         </div>
-
+                        
                         <!-- Email -->
-                        <div class="form-floating col-12">
-                            <input type="email" class="form-control" id="floatingInput" required>
-                            <label for="floatingInput" class="form-label">Email*</label>
-                            <div class="invalid-feedback">
+                        <p>Email*</p>
+                        <div class="input-group mt-0 mb-3">
+                            <span class="input-group-text" id="">
+                                <img src="../assets/img/iconos/icono_correo.png" style="width: 15px;"
+                                    alt="icono de un sobre en color verde">
+                            </span>
+                            <label for="inputEmail" class="form-label"></label>
+                            <input type="email" 
+                                class="form-control" 
+                                id="inputEmail"        
+                                aria-describedby="email"
+                                placeholder="example@correo.com"
+                                required>
+                            <br>
+                            <div class="invalid-feedback ps-5">
                                 Por favor escribe un email.
                             </div>
                         </div>
 
                         <!-- Número -->
-                        <div class="form-floating col-12">
-                            <input type="text" class="form-control" id="inputPhoneNumber" value="" required>
-                            <label for="inputPhoneNumber" class="form-label">Número de teléfono* </label>
-                            <div class="invalid-feedback">
-                                Pon tu número telefónico.
-                            </div>
+                        <p>Número de teléfono*</p>
+                        <div class="input-group mt-0 mb-3">
+                            <span class="input-group-text" id="">
+                                <img src="../assets/img/iconos/icono_telefono.png" style="width: 15px;"
+                                    alt="icono de un sobre en color verde">
+                            </span>
+                            <label for="inputPhoneNumber" class="form-label"></label>
+                            <input type="text"
+                                class="form-control" 
+                                id="inputPhoneNumber"
+                                aria-label="Phone number" 
+                                placeholder="5555-5555" 
+                                required>
+                                <br>
+                                <div class="invalid-feedback ps-5">
+                                    Pon tu número telefónico.
+                                </div>
                         </div>
 
                         <!-- Contraseña -->
-                        <div class="form-floating col-12">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="" required>
-                            <label for="floatingPassword">Contraseña*</label>
-                            <div class="invalid-feedback">
-                                Escribe una contraseña, por favor.
-                            </div>
+                        <p>Contraseña*</p>
+                        <div class="input-group mt-0 mb-3">
+                            <span class="input-group-text" id="">
+                                <img src="../assets/img/iconos/icono_candado.png" style="width: 15px;"
+                                    alt="icono de un candado en color verde">
+                            </span>
+                            <label for="inputPassword" class="form-label"></label>
+                            <input type="password" 
+                                    class="form-control" 
+                                    id="inputPassword" 
+                                    maxlength="8"
+                                    placeholder="••••••••"
+                                    required>
+                                <div class="invalid-feedback ps-5">
+                                    Escribe una contraseña, por favor.
+                                </div>
                         </div>
 
-                        <!-- Checkbox -->
+                        <!-- Checkbox 1-->
                         <div class="col-12">
                             <div class="form-check">
                                 <label class="form-check-label" for="invalidCheck">
                                     He leído y acepto la política de privacidad.
                                 </label>
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <input class="form-check-input"
+                                        type="checkbox" 
+                                        value="" 
+                                        id="invalidCheck" 
+                                        required>
                                 <div class="invalid-feedback">
                                     Debes estar de acuerdo antes de continuar.
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Checkbox -->
+                        
+                        <!-- Checkbox 2-->
                         <div class="col-12">
                             <div class="form-check">
-                                <label class="form-check-label">
+                                <label class="form-check-label" >
                                     Quiero recibir novedades y promociones.
                                 </label>
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck">
+                                <input class="form-check-input" 
+                                        type="checkbox" 
+                                        
+                                        required>
                                 <div class="valid-feedback">
                                     ¡Gracias por tu interés!
                                 </div>
@@ -170,7 +221,7 @@
                         </div>
 
                         <!-- Botón enviar -->
-                        <div class="col-12">
+                        <div class="col-12 boton_contenedor">
                             <button class="btn btn-dark" type="submit">Crear una cuenta</button>
                         </div>
                     </form>
