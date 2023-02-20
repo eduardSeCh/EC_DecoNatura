@@ -151,9 +151,10 @@ section p{
 .invalid-pass {
     width: 100%;
     padding-left: 3rem;
-    color: red;
+    color: #b02a37;
     margin-top: .23rem;
     font-size: .875rem;
+    display: none;
 }
 
 footer{

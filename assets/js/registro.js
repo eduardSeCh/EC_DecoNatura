@@ -49,35 +49,57 @@ window.addEventListener("DOMContentLoaded", () => {
 //Validar datos formulario
 function validateName(name) {
   const regName = /^[a-zA-ZÁÉÍÓÚáéíóúñÑ ]{3,50}$/;
-  return regName.test(name) || document.querySelector('#invalid-name').classList.remove('invalid-feedback');
+  if (regName.test(name)) {
+    document.querySelector('#invalid-name').style = 'display: none';
+    return true;
+  }else{
+    document.querySelector('#invalid-name').style = 'display: block';
+    return false;
+  }
 }
 
 function validateEmail(email) {
   const regEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return regEmail.test(email) || document.querySelector('#invalid-email').classList.remove('invalid-feedback');
+  if (regEmail.test(email)) {
+    document.querySelector('#invalid-email').style = 'display: none';
+    return true;
+  }else{
+    document.querySelector('#invalid-email').style = 'display: block';
+    return false;
+  }
 }
 
 function validatePhone(phoneNumber) {
   const regPhone = /^\s*\d{10}\s*$/;
-  return regPhone.test(phoneNumber) || document.querySelector('#invalid-tel').classList.remove('invalid-feedback');
+  if (regPhone.test(phoneNumber)) {
+    document.querySelector('#invalid-tel').style = 'display: none';
+    return true;
+  }else{
+    document.querySelector('#invalid-tel').style = 'display: block';
+    return false;
+  }
 }
 
 function validatePass(password) {
   const regPassword = /^.{8,}$/;
-  return regPassword.test(password) || document.querySelector('#invalid-pass').classList.remove('invalid-feedback');
+  if (regPassword.test(password)) {
+    document.querySelector('#invalid-pass').style = 'display: none';
+    return true;
+  }else{
+    document.querySelector('#invalid-pass').style = 'display: block';
+    return false;
+  }
 }
 
 function validateForm(name,email,tel,pass) {
   if(validateName(name) && validatePhone(tel) && validateEmail(email) && validatePass(pass)){
-    document.querySelector('#invalid-name').classList.add('invalid-feedback');
-    document.querySelector('#invalid-pass').classList.add('invalid-feedback');
-    document.querySelector('#invalid-tel').classList.add('invalid-feedback');
-    document.querySelector('#invalid-email').classList.add('invalid-feedback');
+    //document.querySelector('#invalid-name').style = 'display: none;';
     return true
   }else{
     return false
   }
 }
+
 
 //Registrar usuario
 const enviarform = document.querySelector('.needs-validation');
