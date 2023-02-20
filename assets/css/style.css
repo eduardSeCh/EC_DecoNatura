@@ -77,8 +77,29 @@ h3 {
   padding: 1rem;
 }
 
+/* Carousel */
+.owl-nav {
+  display: none;
+}
+/* 
+.owl-stage {
+  display: flex;
+} */
 
-/* Footer */
+@media (max-width:768px){
+  .owl-carousel .producto {
+    width: 50%;
+  }
+}
+
+.owl-item.active{
+  display: flex;
+}
+
+.owl-item.active .producto{
+  margin: 1rem auto;
+  justify-content: center;
+}
 
 footer {
     color: #e8e7e3;

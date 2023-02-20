@@ -1,3 +1,6 @@
+main {
+    height: 100vh;
+}
 
 .barra_menu2{
     background-color: #bdbfbd;
@@ -11,6 +14,7 @@
     --bs-btn-hover-border-color: #343a36;
     --bs-btn-active-color: #e8e7e3;
 }
+
 
 .btn:hover {
     color: var(--bs-btn-hover-color);
@@ -99,13 +103,13 @@
     font-size: larger;
 }
 
+
 h4{
     text-align: left;
 }
 
 .producto{
     margin-top: 1rem;
-    margin-bottom: 1rem;
     position: relative;
 }
 
@@ -125,6 +129,11 @@ h4{
     scale: 1.1;
 }
 
+.favorito-button {
+    display: inline-block;
+    all: unset;
+}
+
 .producto_categoria{
     margin-top: 1rem;
 }
@@ -138,30 +147,36 @@ h4{
     padding-left: 20%;
 }
 
-/* Corazon de megusta */
-.favorito-button{
+.btn-secondary{
+    margin-bottom: 15px;
+    background-color: #495057;
+}
+
+.producto-corazon {
+    position: relative;
+    /* top: -98%;
+    width: 50%; */
+    /* z-index: 100; */
+}
+
+.producto-corazon img {
+  mix-blend-mode: multiply;
+  
+}
+
+.favorito-eliminar{
     all: unset;
     position: absolute;
-    top:73%;
+    top: 73%;
     left: 60%;
-    filter: grayscale(100%) invert(100%) brightness(100%);
     z-index: 100;
 }
 
-.favorito-button.active {
-    filter:  none;
+/* Button carousel */
+.owl-dot span{
+    background-color: #869791 !important;
 }
 
-@keyframes cambioTamanio {
-    50%{
-        scale: 1.12;
-    }
-    100%{
-        scale: 1;
-    }
-}
-
-.favorito-button:active {
-    animation: cambioTamanio .5s ease-in-out;
-    /* filter: none; */
+.owl-dot span:hover {
+    background-color: #5c8576 !important;
 }
