@@ -12,7 +12,7 @@ buttonIngresar.addEventListener("submit", (e) => {
             const emailModal = document.querySelector('#emailModal');
             const telModal = document.querySelector('#telModal')
             userNameModal.textContent = `Nos alegra verte ${user.name}`;
-            emailModal.textContent = `Correo: ${user.email}`; 
+            emailModal.textContent = `Correo: ${user.email}`;
             telModal.textContent = `Télefono: ${user.tel}`;
             mensaje.show();
             break;
