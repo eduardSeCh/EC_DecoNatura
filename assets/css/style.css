@@ -122,3 +122,24 @@ footer ul {
 h6{
   padding: 10px 10px;
 }
+
+/* Scrollbar */
+
+/* Scroll  */
+html::-webkit-scrollbar {
+  width: 12px;
+  background-color: #c8c4b2;  
+  background-color: #e0e0e0f8;  
+}
+
+/* Thumb -barra pequeña */
+html::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #aeaeae;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: #64776a;
+}
+
+
