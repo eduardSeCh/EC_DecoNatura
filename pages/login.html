@@ -122,7 +122,7 @@
                     <br>
 
                     <!-- Formulario -->
-                    <form action="" method="post">
+                    <form id="formRegistro">
                         <p>Email</p>
                         <div class="input-group flex-nowrap mb-3">
                             <span class="input-group-text" id="addon-wrapping">
@@ -168,7 +168,32 @@
 
         </div>
     </main>
-
+    <!-- Ventana usuario -->
+    <div class="modal" tabindex="-1" id="welcomeModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title"></h5>
+                    </div>
+                    <div class="card-body">
+                        <p id="emailModal"></p>
+                        <p id="telModal"></p>
+                        <!-- Agrega aquí más información del usuario -->
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
     <!-- Ventana emergente para recuperar contraseña -->
     <div class="forgotpassword-form-container" id="forgot-pw">
         <div class="forgotpassword-form">
@@ -243,6 +268,7 @@
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/forgotpw.js"></script>
+    <script src="../assets/js/login.js"></script>
 </body>
 
 </html>
