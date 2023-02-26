@@ -1,0 +1,28 @@
+
+.input-group{
+    margin: 1rem;
+}
+
+@media (max-width: 767px){
+    .input-group{
+        width: 50%;
+    }
+    .listCarrito-prudcto--img{
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 768px){
+    .input-group{
+        width: 20%;
+    }
+    /* .listCarrito-prudcto--img{
+        padding: 4rem;
+    } */
+}
+
+@media (min-width: 1024px){
+    .input-group{
+        width: 10rem;
+    }
+}

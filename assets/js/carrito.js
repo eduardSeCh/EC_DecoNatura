@@ -1,41 +1,44 @@
 const storeData = JSON.parse(localStorage.getItem("carrito"));
 
 let subtotal = 0;
-let envio = 80.00;
+let envio = 80.0;
 const tomarProducto = () => {
   if (storeData.length >= 1) {
-    let listaCarrito = document.createElement('div');
-    listaCarrito.classList.add('listaCarrito');
+    let listaCarrito = document.createElement("div");
+    listaCarrito.classList.add("listaCarrito");
     //Cargar productos a acarrito
     for (let i = 0; i < storeData.length; i++) {
       //Cargar subtotal
       listaCarrito.innerHTML += `
-      <div class="row justify-content-between align-items-center m-5" style="height: 80%;">
-          <div class=" col-2">
-            <img src="${storeData[i].img}" alt="..." width=100%>
+      <div class="row justify-content-around align-items-center my-3">
+          <div class="col-12 col-sm-6 col-md-2 listCarrito-prudcto--img">
+            <img src="${storeData[i].img}" alt="..." width=100% style="border-radius: 3%;">
           </div>
-          <div class="producto_categoria col-3">
+          <div class="producto_categoria col-12 col-sm-6 col-md-3">
             <h3>${storeData[i].nombre}</h3>
             <p>${storeData[i].categoria}</p>
-            </div>
-          <div class="input-group col-2" style="width: 13%;">
+          </div>
+          <div class="input-group col-12 col-sm-6 col-md-2">
             <button class="btn btn-outline-secondary decrement-btn" type="button">-</button>
-            <input type="number" class="form-control numberProduct" style="background-color: #f7f7f700;" value="1" data-precio="${parseInt(storeData[i].precio.match(/\d+/)[0])}">
+            <input type="number" class="form-control numberProduct text-center" style="background-color: #f7f7f700;" value="1" data-precio="${parseInt(
+              storeData[i].precio.match(/\d+/)[0]
+            )}">
             <button class="btn btn-outline-secondary increment-btn" type="button">+</button>
-            </div>
-            <div class="producto_precio col-3">
+          </div>
+          <div class="producto_precio col-12 col-sm-6 col-md-3">
             <p>${storeData[i].precio}</p>
           </div>
-          <div class="col-2">
+          <div class="col-12 col-sm-12 col-md-2">
             <button type="button" class="btn btn-outline-danger" id="${i}">Eliminar</button>
           </div>
       </div`;
-        document.querySelector('main').appendChild(listaCarrito);
+      document.querySelector("main").appendChild(listaCarrito);
 
-        subtotal += parseInt(storeData[i].precio.match(/\d+/)[0]);
+      subtotal += parseInt(storeData[i].precio.match(/\d+/)[0]);
     }
-    const Secciontotal = document.querySelector('main').insertAdjacentHTML('beforeend',
-    `
+    const Secciontotal = document.querySelector("main").insertAdjacentHTML(
+      "beforeend",
+      `
     <div class="row d-flex flex-wrap justify-content-center">
     <hr size="2">
     <div class="col-8 text-end">
@@ -46,10 +49,11 @@ const tomarProducto = () => {
         <div class="col text-start">
         <p>$${envio}</p> 
         <p id="subtotal">$${subtotal} MXN</p>
-        <p id="total">$${subtotal+envio} MXN</p>
+        <p id="total">$${subtotal + envio} MXN</p>
         </div>
         </div>
-        `)
+        `
+    );
   } else {
     document.querySelector(
       ".row"
@@ -60,28 +64,28 @@ const tomarProducto = () => {
 tomarProducto();
 
 //Aumentar -  disminuir cantidad producto
-const btnDecrement = document.querySelectorAll('.decrement-btn');
+const btnDecrement = document.querySelectorAll(".decrement-btn");
 btnDecrement.forEach((boton) => {
-  boton.addEventListener('click',()=> {
-    const input = boton.closest('.input-group').querySelector('.numberProduct');
+  boton.addEventListener("click", () => {
+    const input = boton.closest(".input-group").querySelector(".numberProduct");
     if (input.value > 0) {
       input.value--;
       subtotal -= parseFloat(input.dataset.precio) * input.value;
-      document.querySelector('#subtotal').textContent = `$${subtotal} MXN`;
-      document.querySelector('#total').textContent = `$${subtotal+envio} MXN`
+      document.querySelector("#subtotal").textContent = `$${subtotal} MXN`;
+      document.querySelector("#total").textContent = `$${subtotal + envio} MXN`;
     }
-  })
-})
-const btnIncrement = document.querySelectorAll('.increment-btn');
+  });
+});
+const btnIncrement = document.querySelectorAll(".increment-btn");
 btnIncrement.forEach((boton) => {
-  boton.addEventListener('click',()=> {
-    const input = boton.closest('.input-group').querySelector('.numberProduct');
-      input.value++;
-       subtotal += parseFloat(input.dataset.precio);
-       document.querySelector('#subtotal').textContent = `$${subtotal} MXN`;
-       document.querySelector('#total').textContent = `$${subtotal+envio} MXN`
-  })
-})
+  boton.addEventListener("click", () => {
+    const input = boton.closest(".input-group").querySelector(".numberProduct");
+    input.value++;
+    subtotal += parseFloat(input.dataset.precio);
+    document.querySelector("#subtotal").textContent = `$${subtotal} MXN`;
+    document.querySelector("#total").textContent = `$${subtotal + envio} MXN`;
+  });
+});
 
 //Eliminar producto
 const eliminarProducto = (id) => {
@@ -100,13 +104,15 @@ const eliminarProducto = (id) => {
 
 // Añade un event listener a los botones de eliminar
 const botonesEliminar = document.querySelectorAll(".btn-outline-danger");
-botonesEliminar.forEach((boton,index) => {
+botonesEliminar.forEach((boton, index) => {
   boton.addEventListener("click", () => {
-    const id = boton.getAttribute('id');
+    const id = boton.getAttribute("id");
     console.log("su id:", id);
     console.log(boton);
     eliminarProducto(id);
-    document.querySelector('.listaCarrito').removeChild(boton.parentElement.parentElement);
+    document
+      .querySelector(".listaCarrito")
+      .removeChild(boton.parentElement.parentElement);
     location.reload();
   });
 });
