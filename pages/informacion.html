@@ -2,25 +2,26 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Estilos Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Font principal El Messiri -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet" />
     <!-- Font secundaria Source Sans Pro -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/acerca_de.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/informacion.css">
+    <!-- <link rel="stylesheet" href="../assets/css/equipo.css"> -->
     <link rel="shortcut icon" href="../assets/img/iconos/logo_dc_b.png" type="image/x-icon">
-    <title>Acerca de</title>
+    <title>Más información</title>
 </head>
 
 <body>
@@ -49,7 +50,7 @@
                             <a class="nav-link" href="acerca_de.html">Acerca de</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="productos.html">Productos</a>
+                            <a class="nav-link" href="./productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.html">Contacto</a>
@@ -81,79 +82,51 @@
                 </div>
             </div>
         </nav>
-
-        <!-- Descripción -->
-    <div class="header__acerca-de">
-        <div class="descripcion__acerca-de">
-            <h1>Acerca de nosotros</h1>
-            <p>DecoNatura nace de la observación de las diversas formas de vida que hay en la naturaleza y cómo poder trasladar eso a piezas decorativas y otros artículos para el hogar.</p>
-        </div>
-        <img class="img-header" src="../assets/img/figura_ave.jpg" alt="fotografía de dos piezas decorativas: a la izquierda se encuentra la figura de un ave en color rojo que está posada sobre un  cubo en color negro y a la derecha se encuentra un florero en color rojo que tiene de base dos libros.">
-    </div>
     </header>
 
+    <main>
+        <div class="container my-5">
+            <!-- Fila 1 Pago -->
+            <div class="row align-items-center my-3">
+                <!-- Ícono -->
+                <div class="col-12 col-md-4">
+                    <img src="../assets/img/iconos/icono_pago.svg" class="mx-auto d-block mb-3"  alt="icono de pago representado por dos tarjetas de crédito empalmadas y con un leve giro" style=" width: 200px;">
+                </div>
+                <!-- Descripción -->
+                <div class="col-12 col-md-8 info"> 
+                    <h3>Métodos de pago</h3>
+                    
+                    <p>Para que puedas realizar tus compras sin ningún inconveniente, manejamos distintas formas de pago. Puedes realizar tus compras con tarjeta de crédito, tarjeta de débito, PayPal, efectivo y a través de tiendas Oxxo</p>
+                </div>
+            </div>
+            <!-- Fila 2 Cambio -->
+            <div class="row align-items-center my-3">
+                <!-- Ícono -->
+                <div class="col-12 col-md-4">
+                    <img src="../assets/img/iconos/icono_cambio.svg" class="mx-auto d-block mb-3"  alt="icono de cambio/devolucion representado por una caja rodeada de dos flechas" style=" width: 200px;">
+                </div>
+                <!-- Descripción -->
+                <div class="col-12 col-md-8 info">
+                    <h3>Cambios y devoluciones</h3>
 
-    <main class="container">
-        <!-- Mision y vision -->
-        <div class="row text-center mision-vision_container my-5 py-4">
-            <div class="col-12 col-md-6">
-                <h2>Misión</h2>
-                <p>Buscamos proporcionar a nuestros clientes artículos cuyo diseño agreguen un toque de la naturaleza en
-                    su hogar.</p>
+                    <p>Los cambios y devoluciones pueden ser solicitados en caso de productos defectuosos, en mal estado, o si el producto no es el que se había pedido.</p>
+                </div>
             </div>
-            <div class="col-12 col-md-6">
-                <h2>Visión</h2>
-                <p>"Ser la mejor opción de nuestros clientes al comprar productos para el hogar en línea, ofreciendo una experiencia de compra única y sencilla, brindando un servicio al cliente excepcional".</p>
-            </div>
-        </div>
-
-        <!-- Valores -->
-        <div class="my-4">
-            <h2 class="text-center">Valores</h2>
-        </div>
-        <div class="row valores text-center">
-            <div class="col-12 col-sm-4">
-                <img class="mb-2" src="../assets/img/iconos/calidad_icon.png" width="60"
-                    alt="icono de verificación representado por una palomita encerrada en un círculo">
-                <h3>Calidad</h3>
-                <p>Ofrecer productos de alta calidad a precios asequibles.</p>
-            </div>
-            <div class="col-12 col-sm-4">
-                <img class="mb-2" src="../assets/img/iconos/innovacion_icon.png" width="58"
-                    alt="icono de un foco con una tuerca al interior">
-                <h3>Inovación</h3>
-                <p>Estar siempre buscando formas de mejorar nuestros productos y servicios.</p>
-            </div>
-            <div class="col-12 col-sm-4">
-                <img class="mb-2" src="../assets/img/iconos/equipo_icon.png" width="60"
-                    alt="icono de trabajo en equipo representado por la unión de manos">
-                <h3>Trabajo en equipo</h3>
-                <p>Fomentar un ambiente de trabajo colaborativo y respetuoso.</p>
+            <!-- Fila 3 Envío -->
+            <div class="row align-items-center my-3">
+                <!-- Ícono -->
+                <div class="col-12 col-md-4">
+                    <img src="../assets/img/iconos/icono_envio.svg"  class="mx-auto d-block mb-3" alt="icono de envío representado por un camión visto de manera lateral en donde el contenedor tiene un carrito de compras estampado" style=" width: 200px;">
+                </div>
+                <!-- Descripción -->
+                <div class="col-12 col-md-8 info">
+                    <h3>Envío</h3>
+                    
+                    <p>La entrega se realizará en un plazo mínimo de 24 horas posterior al momento en que usted realiza el pedido y se confirma su pago, dependiendo de la disponibilidad y la distancia. Puede dar seguimiento a su envío con el número de rastreo y conocer el estatus de su producto.
+                    </p>
+                </div>
             </div>
         </div>
-        <br>
-        <div class="row valores text-center my-2">
-            <div class="col-12 col-sm-6">
-                <img class="mb-2" src="../assets/img/iconos/social_icon.svg" width="60"
-                    alt="icono de usuario con un corazón en la parte inferior">
-                <img class="mb-2" src="../assets/img/iconos/ambiental_icon.svg" width="60"
-                    alt="icono de un planeta rodeado por un círculo con dos hojitas">
-                <h3>Responsabilidad social y ambiental</h3>
-                <p>Trabajamos de manera ética y responsable con nuestros proveedores y estamos comprometidos con el
-                    cuidado del medio ambiente.</p>
-            </div>
-            <div class="col-12 col-sm-6">
-                <img class="mb-2" src="../assets/img/iconos/transparencia_icon.svg" width="60" alt="icono de un ojo">
-                <h3>Transparencia</h3>
-                <p>Siempre fomentar un espacio donde exista un entorno de confianza y respeto que este apegado a las
-                    relaciones humanas, incluyendo las comerciales y sociales.</p>
-            </div>
-        </div>
-        <br>
-        <div class="my-4">
-            <h1 class="text-center">“Conectados con la naturaleza”</h1>
-        </div>
-        <br>
     </main>
 
     <!-- Footer -->
@@ -196,9 +169,7 @@
             </div>
         </div>
         <h6>DecoNatura &copy; 2023. Todos los derechos reservados.</h6>
-        </div>
     </footer>
-
 
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
