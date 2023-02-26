@@ -1,4 +1,4 @@
-const storeData = JSON.parse(localStorage.getItem("productos"));
+const storeData = JSON.parse(localStorage.getItem("favoritos"));
 const tomarProducto = (storeData) => {
   if (storeData.length >= 1) {
     //document.querySelector(main).style = "height: 100vh";
@@ -62,7 +62,7 @@ const eliminarProducto = (id) => {
     // Elimina el producto del array
     storeData.splice(id, 1);
     // Vuelve a guardar los datos actualizados en el localStorage
-    localStorage.setItem("productos", JSON.stringify(storeData));
+    localStorage.setItem("favoritos", JSON.stringify(storeData));
     //eliminarProducto.parentNode.remove();
   }
 };

@@ -17,13 +17,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
   <link rel="shortcut icon" href="../assets/img/iconos/logo_dc_b.png" type="image/x-icon" />
-  <link rel="stylesheet" href="../assets/css/style.css" />
-  <link rel="stylesheet" href="../assets/css/favoritos.css" />
   <!-- Enlace para la hoja de estilos CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <!-- Enlace para el tema por defecto de Owl Carousel -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-  <title>Mis favoritos</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/carrito.css" />
+  <title>Mi Carrito</title>
 </head>
 
 <body>
@@ -60,8 +60,10 @@
 
           <!-- Buscador modificado -->
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="" aria-label="Search" id="textSearch">
-            <button class="btn btn-outline-success" type="submit" id="btnSearch">Buscar</button>
+            <input class="form-search me-2" type="search" placeholder="" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
           </form>
 
           <ul class="navbar-nav">
@@ -85,13 +87,8 @@
     </nav>
   </header>
 
-  <main class="container-fluid text-center my-2">
-    <h3>Productos favoritos</h3>
-    <div class="row my-4">
-      
-      <div class="fila owl-carousel owl-theme" id="listaFavoritos">
-      </div>
-    </div>
+  <h3 class="my-2">Carrito de compras</h3>
+  <main class="container-fluid text-center my-2 p-5">
   </main>
 
   <!-- Footer -->
@@ -136,7 +133,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <!-- Enlace para el archivo JS de Owl Carousel -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="../assets/js/favoritos.js"></script>
+  <script src="../assets/js/carrito.js"></script>
 </body>
 
 </html>
