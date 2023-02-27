@@ -108,7 +108,7 @@ footer{
 }
 
 
-/* Ventana emergente */
+/* Ventana emergente "Olvide contraseña" */
 .forgotpassword-form-container {
     display: none;
     position: fixed;
@@ -129,4 +129,64 @@ footer{
     position: relative;
     left: 100%;
     top: 0%; 
+}
+
+
+/* Ventana emergente de bienvenida */
+
+.modal{
+    --bs-modal-footer-border-color: #185ea400;
+    --bs-modal-margin: 5.5rem;
+    background-color: #80837f9c;
+    backdrop-filter: blur(3px);
+}
+
+.modal-title{
+    font-family: "El Messiri", sans-serif;
+}
+
+.modal-header{
+    border-bottom: var(--bs-modal-header-border-width) solid #80837f4d;
+}
+
+.modal-content{
+    background-color: rgb(232 231 227);
+    color: #343a36;
+    --bs-modal-border-color: rgb(0 0 0 / 0%);
+    box-shadow: 1px 0px 20px 4px rgb(52 58 54 / 68%);
+    
+}
+
+.card{
+    --bs-card-border-color: rgb(0 0 0 / 0%);
+    background-color: #e8e7e3; 
+}
+
+.card-header{
+    background-color: #343a3600;
+    font-family: "El Messiri", sans-serif;
+}
+
+.btn-secondary{
+    --bs-btn-color: #343a36;
+    --bs-btn-bg: #bdbfbd00;
+    --bs-btn-border-color: #343a36;
+    --bs-btn-hover-border-color: #343a36;
+    --bs-btn-active-color: #e8e7e3;
+}
+
+.btn-close a{
+    text-decoration: none;
+    color: #e8e7e300;
+    font-size: 15px;
+}
+
+/* Botón cerrar */
+.btn-secondary a{
+    text-decoration: none;
+    color:#343A36;
+}
+
+.btn-secondary a:hover{
+    color: #E8E7E3;
 }
