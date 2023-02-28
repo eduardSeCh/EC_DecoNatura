@@ -91,9 +91,24 @@ function validatePass(password) {
   }
 }
 
+//Ayudaaa para que valide la casilla
+function validateCasilla(terms) {
+  const regTerms = true;
+  if (regTerms.test(terms)) {
+    document.querySelector('#invalid-pass').style = 'display: none';
+    return true;
+  }else{
+    return false;
+  }
+}
+
 function validateForm(name,email,tel,pass) {
   if(validateName(name) && validatePhone(tel) && validateEmail(email) && validatePass(pass)){
     //document.querySelector('#invalid-name').style = 'display: none;';
+
+    //Mostrar ventana de registro exitoso
+    const mensaje = new bootstrap.Modal(document.getElementById("welcomeModal"));
+    mensaje.show();
     return true
   }else{
     return false

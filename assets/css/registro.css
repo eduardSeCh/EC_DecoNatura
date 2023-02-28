@@ -142,7 +142,7 @@ section p{
     --bs-btn-color: #343a36;
     --bs-btn-bg: #bdbfbd00;
     --bs-btn-border-color: #343a36;
-    --bs-btn-hover-border-color: #343a36;
+    --bs-btn-hover-border-color: #343a362b;
     --bs-btn-active-color: #e8e7e3;
 }
 
@@ -160,3 +160,49 @@ section p{
 footer{
     position: absolute;
 }
+
+/* Ventana emergente de registro exitoso */
+
+.modal{
+    --bs-modal-footer-border-color: #185ea400;
+    /* background-color: #80837f9c; */
+    background-color: #20211f9c;
+    backdrop-filter: blur(3px);
+    --bs-modal-footer-gap: 0;
+}
+
+.modal-content{
+    background-color: #acb6ad;
+    box-shadow: 1px 0px 20px 4px rgb(52 58 54 / 68%);
+}
+
+.modal-header{
+    border-bottom: none;
+}
+.modal-header img{
+    margin-left: 44%;
+}
+
+.modal-backdrop{
+    --bs-backdrop-bg: #00000000;
+}
+
+.card{
+    background-color: #acb6ad00;
+    border: none;
+}
+
+.card-body h3{
+    font-family: 'El Messiri', sans-serif;
+}
+
+.modal-footer{
+    justify-content: center;
+}
+
+.btn-secondary{
+    --bs-btn-bg: #e8e7e3;
+    --bs-btn-border-color: #e8e7e300;
+    color: #343a36;
+}
+
