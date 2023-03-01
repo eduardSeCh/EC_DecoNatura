@@ -23,8 +23,10 @@ function telVal(tel){
 }
 
 function msjVal(msj){
-    if(msj.length < 500)
+    if(10 < msj.length && msj.length < 500)
         return true;
+    else
+        return false;
 }
 
 function pwdVal(pwd){
