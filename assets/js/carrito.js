@@ -127,3 +127,26 @@ botonesEliminar.forEach((boton, index) => {
     location.reload();
   });
 });
+
+const btnComprar = document.querySelector('.btn-comprar');
+
+btnComprar.addEventListener('click', () => {
+  // Creamos un div para el mensaje personalizado
+  const mensaje = document.createElement('div');
+  mensaje.textContent = '¡Compra realizada con éxito!';
+  mensaje.style.backgroundColor = '#28a745';
+  mensaje.style.color = 'white';
+  mensaje.style.padding = '10px';
+  mensaje.style.position = 'absolute';
+  mensaje.style.top = '10px';
+  mensaje.style.right = '10px';
+  mensaje.style.borderRadius = '5px';
+  
+  // Añadimos el mensaje al body
+  document.body.appendChild(mensaje);
+  
+  // Ocultamos el mensaje después de 3 segundos
+  setTimeout(() => {
+    mensaje.style.display = 'none';
+  }, 3000);
+});
