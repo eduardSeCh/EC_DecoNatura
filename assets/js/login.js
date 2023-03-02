@@ -9,11 +9,11 @@ buttonIngresar.addEventListener("submit", (e) => {
         if (emailUser.value === user.email && passUser.value === user.password) {
             const mensaje = new bootstrap.Modal(document.getElementById("welcomeModal"));
             const userNameModal = document.querySelector('.card-title');
-            const emailModal = document.querySelector('#emailModal');
-            const telModal = document.querySelector('#telModal')
-            userNameModal.textContent = `Nos alegra verte ${user.name}`;
-            emailModal.textContent = `Correo: ${user.email}`;
-            telModal.textContent = `Teléfono: ${user.tel}`;
+           // const emailModal = document.querySelector('#emailModal');
+           // const telModal = document.querySelector('#telModal')
+            userNameModal.textContent = `¡Nos alegra verte ${user.name}!`;
+           //  emailModal.textContent = `Correo: ${user.email}`;
+           //  telModal.textContent = `Teléfono: ${user.tel}`;
             mensaje.show();
             break;
         }
