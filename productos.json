@@ -2,7 +2,7 @@
     {
         "id": 1,
         "Producto": "Espejo cuerpo completo ",
-        "Precio": 500000,
+        "Precio": 5000.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715810/images/Productos%20parte%202/Espejos/pexels-mathilde-langevin-14320924_ttbxfg.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "Producto": "Espejo charco de agua",
-        "Precio": 375000,
+        "Precio": 3750.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715617/images/Productos%20parte%202/Espejos/pexels-alex-quezada-15477312_uxrbfg.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "Producto": "Espejo solaris",
-        "Precio": 15000,
+        "Precio": 1500.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677722743/images/Productos%20parte%202/Espejos/il_794xN.2429383194_srrr_w2j3ji.webp",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "Producto": "Espejo marco tejido",
-        "Precio": 400000,
+        "Precio": 4000.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677722219/images/Productos%20parte%202/Espejos/9c61a1a9a70e6aaad34ae322327d7612_ujl4mp.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "Producto": "Espejo media luna",
-        "Precio": 450000,
+        "Precio": 4500.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715406/images/Productos%20parte%202/Espejos/dd6efdfbb961eb299f691818dd95f001_btmem3.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "Producto": "Juego de espejos panel",
-        "Precio": 330000,
+        "Precio": 3300.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715409/images/Productos%20parte%202/Espejos/pexels-rachel-claire-5490341_i44pey.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "Producto": "Espejo coral",
-        "Precio": 280000,
+        "Precio": 2800.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715402/images/Productos%20parte%202/Espejos/33b7bd313b2c698e0490e921d7bf2db3_uyrl1g.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "Producto": "Espejo niebla",
-        "Precio": 370000,
+        "Precio": 3700.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715442/images/Productos%20parte%202/Espejos/pexels-michaela-s-8116709_voo6w0.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "Producto": "Espejo champagne",
-        "Precio": 100000,
+        "Precio": 1000.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715875/images/Productos%20parte%202/Espejos/annie-spratt-7gtOBs11-3E-unsplash_rdoumd.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "Producto": "Espejo blob",
-        "Precio": 199900,
+        "Precio": 1999.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715603/images/Productos%20parte%202/Espejos/pexels-yan-krukau-5793655_unh95v.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Espejo"
@@ -82,7 +82,7 @@
     {
         "id": 11,
         "Producto": "Lámpara  hongo",
-        "Precio": 50000,
+        "Precio": 500.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715420/images/Productos%20parte%202/Lamparas/ae59f2d1b3d4f2df7e4a7bc9390d97e3_evva8l.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -90,7 +90,7 @@
     {
         "id": 12,
         "Producto": "Lámpara luna",
-        "Precio": 30000,
+        "Precio": 300.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715388/images/Productos%20parte%202/Lamparas/kristine-wook-j9iRNNL7W5A-unsplash_shp9ai.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -98,7 +98,7 @@
     {
         "id": 13,
         "Producto": "Lámpara cuahuitl",
-        "Precio": 45000,
+        "Precio": 450.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715349/images/Productos%20parte%202/Lamparas/e9b6d5a6699873441c472d49a9a0c3bc_p31nw4.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -106,7 +106,7 @@
     {
         "id": 14,
         "Producto": "Lámpara flores y cuarzo",
-        "Precio": 150000,
+        "Precio": 1500.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715420/images/Productos%20parte%202/Lamparas/885dfdf0e4a7dc150618c2fe04443d5e_ejw4aa.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -114,7 +114,7 @@
     {
         "id": 15,
         "Producto": "Lámpara alcatraz",
-        "Precio": 80000,
+        "Precio": 800.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715410/images/Productos%20parte%202/Lamparas/176f73bd0f149c279daa1583f20fd8c4_tdpovi.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -122,7 +122,7 @@
     {
         "id": 16,
         "Producto": "Lámpara  crisálida",
-        "Precio": 32000,
+        "Precio": 320.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715413/images/Productos%20parte%202/Lamparas/457b6830808c08029d7377ce05419d11_spinqs.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -130,7 +130,7 @@
     {
         "id": 17,
         "Producto": "Lámpara petalos",
-        "Precio": 200000,
+        "Precio": 2000.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715400/images/Productos%20parte%202/Lamparas/004ca96419a2c585dce87c40728a582f_dnzfey.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -138,7 +138,7 @@
     {
         "id": 18,
         "Producto": "Lámpara colgante burbujas",
-        "Precio": 449000,
+        "Precio": 4490.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715412/images/Productos%20parte%202/Lamparas/3bfd1906b1282b3ce1aa9e8aeda14c73_y8xtrm.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -146,7 +146,7 @@
     {
         "id": 19,
         "Producto": "Lámpara colgante lluvia estelar",
-        "Precio": 390000,
+        "Precio": 3900.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715411/images/Productos%20parte%202/Lamparas/1dbe8bb7f36c38e7d508b62217d71269_sp2x7h.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -154,7 +154,7 @@
     {
         "id": 20,
         "Producto": "Lámpara colgante caracoles",
-        "Precio": 265000,
+        "Precio": 2650.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715345/images/Productos%20parte%202/Lamparas/cede5e8e9c9a33160b30a29dec4666f4_aixql6.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Lámparas"
@@ -162,7 +162,7 @@
     {
         "id": 21,
         "Producto": "Vela caracol",
-        "Precio": 5000,
+        "Precio": 50.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715448/images/Productos%20parte%202/Velas/dagmara-dombrovska-vMCwMYx-N8E-unsplash_rfpmxh.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -170,7 +170,7 @@
     {
         "id": 22,
         "Producto": "Vela aroma heno",
-        "Precio": 8000,
+        "Precio": 80.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715850/images/Productos%20parte%202/Velas/ellie-ellien-HWqsW7FLWf4-unsplash_mnxniy.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -178,7 +178,7 @@
     {
         "id": 23,
         "Producto": "Set de velas (aromas tropicales)",
-        "Precio": 22000,
+        "Precio": 220.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715502/images/Productos%20parte%202/Velas/hanna-balan-YasQvzPbGOQ-unsplash_f4la2c.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -186,7 +186,7 @@
     {
         "id": 24,
         "Producto": "Vela aroma bergamota",
-        "Precio": 7500,
+        "Precio": 75.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715702/images/Productos%20parte%202/Velas/svitlana-cNmK8LYCRjc-unsplash_cmk39n.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -194,7 +194,7 @@
     {
         "id": 25,
         "Producto": "Vela aroma madera ahumada",
-        "Precio": 8000,
+        "Precio": 80.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715513/images/Productos%20parte%202/Velas/martipaan-QagIzHwsy4A-unsplash_vii139.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -202,7 +202,7 @@
     {
         "id": 26,
         "Producto": "Vela aroma coco",
-        "Precio": 7500,
+        "Precio": 75.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715504/images/Productos%20parte%202/Velas/pexels-dasha-horoshaya-12861221_ldfctz.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -210,7 +210,7 @@
     {
         "id": 27,
         "Producto": "Vela aroma rosas",
-        "Precio": 7500,
+        "Precio": 75.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715528/images/Productos%20parte%202/Velas/tyler-nix-tkoZIdfFHOE-unsplash_xhwnoi.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -218,7 +218,7 @@
     {
         "id": 28,
         "Producto": "Vela aroma vainilla ",
-        "Precio": 7000,
+        "Precio": 70.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715666/images/Productos%20parte%202/Velas/pexels-los-muertos-crew-7947723_ri6o72.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -226,7 +226,7 @@
     {
         "id": 29,
         "Producto": "Vela aroma brisa marina",
-        "Precio": 7000,
+        "Precio": 70.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715850/images/Productos%20parte%202/Velas/pexels-ekaterina-bolovtsova-7445025_dknpdt.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -234,7 +234,7 @@
     {
         "id": 30,
         "Producto": "Vela aroma lavanda",
-        "Precio": 5500,
+        "Precio": 55.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715468/images/Productos%20parte%202/Velas/pexels-hissetmehurriyeti-9120476_w60loi.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Velas"
@@ -242,7 +242,7 @@
     {
         "id": 31,
         "Producto": "Vajilla marina",
-        "Precio": 110000,
+        "Precio": 1100.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715531/images/Productos%20parte%202/Vaijlla/khloe-arledge-yD7WkMkoldg-unsplash_x9jsvu.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Vajilla"
@@ -250,7 +250,7 @@
     {
         "id": 32,
         "Producto": "Vajilla pastizal ",
-        "Precio": 150000,
+        "Precio": 1500.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715489/images/Productos%20parte%202/Vaijlla/pexels-anna-kanifatova-4259833_zjk2hx.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Vajilla"
@@ -258,7 +258,7 @@
     {
         "id": 33,
         "Producto": "Vajilla terra",
-        "Precio": 70000,
+        "Precio": 700.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715475/images/Productos%20parte%202/Vaijlla/toa-heftiba-Nru6O8KG8Uw-unsplash_docrqo.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Vajilla"
@@ -266,7 +266,7 @@
     {
         "id": 34,
         "Producto": "Vajilla esmeralda",
-        "Precio": 140000,
+        "Precio": 1400.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715739/images/Productos%20parte%202/Vaijlla/pexels-antoni-shkraba-6694733_yqomxs.jpg",
         "Categoría": "Cocina ",
         "Subcategoría": "Vajilla"
@@ -274,7 +274,7 @@
     {
         "id": 35,
         "Producto": "Vajilla bosque antiguo",
-        "Precio": 129000,
+        "Precio": 1290.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715553/images/Productos%20parte%202/Vaijlla/pexels-eva-bronzini-6469342_cdrppc.jpg",
         "Categoría": "Cocina ",
         "Subcategoría": "Vajilla"
@@ -282,7 +282,7 @@
     {
         "id": 36,
         "Producto": "Vajilla monta\u00f1a ",
-        "Precio": 148000,
+        "Precio": 1480.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715519/images/Productos%20parte%202/Vaijlla/pexels-furkanfdemir-6229523_kmyb0y.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Vajilla"
@@ -290,7 +290,7 @@
     {
         "id": 37,
         "Producto": "Vajilla invernal",
-        "Precio": 125000,
+        "Precio": 1250.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715737/images/Productos%20parte%202/Vaijlla/pexels-cottonbro-studio-6863362_dyagee.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Vajilla"
@@ -298,7 +298,7 @@
     {
         "id": 38,
         "Producto": "Vajilla sauce",
-        "Precio": 132500,
+        "Precio": 1325.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715825/images/Productos%20parte%202/Vaijlla/frederic-dupont-X2TRduCQgOQ-unsplash_cjcn83.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Vajilla"
@@ -306,7 +306,7 @@
     {
         "id": 39,
         "Producto": "Vajilla mediterránea",
-        "Precio": 155000,
+        "Precio": 1550.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715499/images/Productos%20parte%202/Vaijlla/pexels-eva-bronzini-6569037_pakyay.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Vajilla"
@@ -314,7 +314,7 @@
     {
         "id": 40,
         "Producto": "Vajilla flor de cerezo ",
-        "Precio": 130000,
+        "Precio": 1300.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715763/images/Productos%20parte%202/Vaijlla/pexels-pavel-danilyuk-7674571_csrbhx.jpg",
         "Categoría": "Decoración",
         "Subcategoría": "Vajilla"
@@ -322,7 +322,7 @@
     {
         "id": 41,
         "Producto": "Juego de copas rosa oro",
-        "Precio": 52000,
+        "Precio": 520.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715610/images/Productos%20parte%202/Cristaleria/andrew-valdivia-TLZhubp7xOo-unsplash_z9jxen.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -330,7 +330,7 @@
     {
         "id": 42,
         "Producto": "Copa vino tinto",
-        "Precio": 9000,
+        "Precio": 90.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715629/images/Productos%20parte%202/Cristaleria/pexels-valeria-boltneva-7474130_eeal8s.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -338,7 +338,7 @@
     {
         "id": 43,
         "Producto": "Copa moderna",
-        "Precio": 8500,
+        "Precio": 85.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715421/images/Productos%20parte%202/Cristaleria/pexels-zumrad-normatova-11060524_kqjs5o.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -346,7 +346,7 @@
     {
         "id": 44,
         "Producto": "Copa cocktail",
-        "Precio": 5500,
+        "Precio": 55.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715359/images/Productos%20parte%202/Cristaleria/pexels-alleksana-4051355_umzxsz.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -354,7 +354,7 @@
     {
         "id": 45,
         "Producto": "Vaso nido",
-        "Precio": 7500,
+        "Precio": 75.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715404/images/Productos%20parte%202/Cristaleria/pexels-any-lane-5945638_n1drh3.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -362,7 +362,7 @@
     {
         "id": 46,
         "Producto": "Juego de 4 vasos",
-        "Precio": 20000,
+        "Precio": 200.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715549/images/Productos%20parte%202/Cristaleria/pexels-anna-pyshniuk-4085480_gwugng.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -370,7 +370,7 @@
     {
         "id": 47,
         "Producto": "Vaso melocotón ",
-        "Precio": 5000,
+        "Precio": 50.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715634/images/Productos%20parte%202/Cristaleria/no-revisions-gA81ZTsql68-unsplash_dj5vvi.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -378,7 +378,7 @@
     {
         "id": 48,
         "Producto": "Vaso corteza",
-        "Precio": 6500,
+        "Precio": 65.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715396/images/Productos%20parte%202/Cristaleria/pexels-vitaly-12433995_hey2pp.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -386,7 +386,7 @@
     {
         "id": 49,
         "Producto": "Vaso ámbar",
-        "Precio": 7500,
+        "Precio": 75.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715385/images/Productos%20parte%202/Cristaleria/ambitious-creative-co-rick-barrett-TSkUCyCuVH4-unsplash_jzfbrt.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
@@ -394,31 +394,31 @@
     {
         "id": 50,
         "Producto": "Vaso jerez",
-        "Precio": 10000,
+        "Precio": 100.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715368/images/Productos%20parte%202/Cristaleria/food-photographer-jennifer-pallian-sSnCZlEWN5E-unsplash_inm1x3.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería "
     },
     {
         "id": 51,
-        "Producto": "Arreglo de suculentas 1",
-        "Precio": 25000,
+        "Producto": "Arreglo de suculentas",
+        "Precio": 250.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715449/images/Productos%20parte%202/Suculenta/sixteen-miles-out-9dlJd7aMcOE-unsplash_g5vfbq.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
     },
     {
         "id": 52,
-        "Producto": "Arreglo de suculentas 2",
-        "Precio": 17500,
+        "Producto": "Arreglo de suculentas",
+        "Precio": 175.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715495/images/Productos%20parte%202/Suculenta/annie-spratt-nwQO2HpqcCI-unsplash_irbgqt.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
     },
     {
         "id": 53,
-        "Producto": "Arreglo de suculentas 3",
-        "Precio": 30000,
+        "Producto": "Arreglo de suculentas",
+        "Precio": 300.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715790/images/Productos%20parte%202/Suculenta/pexels-anna-khomutova-5781308_zhhr7s.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
@@ -426,7 +426,7 @@
     {
         "id": 54,
         "Producto": "Suculenta",
-        "Precio": 12500,
+        "Precio": 125.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715650/images/Productos%20parte%202/Suculenta/itzel-reyes-IMLnjVPyn8M-unsplash_yvgdu1.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
@@ -434,7 +434,7 @@
     {
         "id": 55,
         "Producto": "Suculentas en roseta",
-        "Precio": 10000,
+        "Precio": 100.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715447/images/Productos%20parte%202/Suculenta/pexels-carpe-jugulum-5035888_fwojjk.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
@@ -442,7 +442,7 @@
     {
         "id": 56,
         "Producto": "Suculenta ",
-        "Precio": 11500,
+        "Precio": 115.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715468/images/Productos%20parte%202/Suculenta/zobia-shakar-Qtso7p2tOI4-unsplash_mklmnq.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
@@ -450,7 +450,7 @@
     {
         "id": 57,
         "Producto": "Suculenta",
-        "Precio": 7500,
+        "Precio": 75.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715468/images/Productos%20parte%202/Suculenta/zhuojun-yu-UkAmskLQIZw-unsplash_czyvk2.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
@@ -458,7 +458,7 @@
     {
         "id": 58,
         "Producto": "Suculenta",
-        "Precio": 9500,
+        "Precio": 95.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715440/images/Productos%20parte%202/Suculenta/pexels-skylar-kang-6045054_bxmen8.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
@@ -466,7 +466,7 @@
     {
         "id": 59,
         "Producto": "Arreglo de cactáceas",
-        "Precio": 28000,
+        "Precio": 280.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715761/images/Productos%20parte%202/Cactaceas/pexels-teona-swift-6913833_tpaslc.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Cactáceas"
@@ -474,7 +474,7 @@
     {
         "id": 60,
         "Producto": "Cactácea 1",
-        "Precio": 11000,
+        "Precio": 110.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715382/images/Productos%20parte%202/Cactaceas/noyo-creatif-PsFYrct4f9k-unsplash_e0wb8a.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Cactáceas"
@@ -482,7 +482,7 @@
     {
         "id": 61,
         "Producto": "Cactácea 2",
-        "Precio": 6000,
+        "Precio": 60.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715595/images/Productos%20parte%202/Cactaceas/pexels-anna-tukhfatullina-food-photographerstylist-2568458_wvmtr6.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Cactáceas"
@@ -490,7 +490,7 @@
     {
         "id": 62,
         "Producto": "Cactácea 3",
-        "Precio": 17500,
+        "Precio": 175.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715876/images/Productos%20parte%202/Cactaceas/pexels-pixabay-219779_mkmihc.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Cactáceas"
@@ -498,7 +498,7 @@
     {
         "id": 63,
         "Producto": "Cactácea 4",
-        "Precio": 32000,
+        "Precio": 320.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677724048/images/Productos%20parte%202/Cactaceas/pexels-photo-7919142_ajqlg1.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Cactáceas"
@@ -506,7 +506,7 @@
     {
         "id": 64,
         "Producto": "Cactácea 5",
-        "Precio": 15000,
+        "Precio": 150.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715389/images/Productos%20parte%202/Cactaceas/pexels-yvon-gallant-8858021_ubuyog.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Cactáceas"
@@ -514,7 +514,7 @@
     {
         "id": 65,
         "Producto": "Maceta de honguitos",
-        "Precio": 20000,
+        "Precio": 200.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715707/images/Productos%20parte%202/Maceta/laura-cleffmann-M-s_k7A8VYY-unsplash_kqboxp.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -522,7 +522,7 @@
     {
         "id": 66,
         "Producto": "Maceta gato",
-        "Precio": 8500,
+        "Precio": 85.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715689/images/Productos%20parte%202/Maceta/art-and-soil-bangalore-I5ofzP2nICE-unsplash_mi6gvd.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -530,7 +530,7 @@
     {
         "id": 67,
         "Producto": "Maceta conejo",
-        "Precio": 9000,
+        "Precio": 90.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715436/images/Productos%20parte%202/Maceta/oriento-GLe--6F1Up4-unsplash_mu0lfe.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -538,7 +538,7 @@
     {
         "id": 68,
         "Producto": "Maceta erizo",
-        "Precio": 5000,
+        "Precio": 50.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715414/images/Productos%20parte%202/Maceta/599e980a23883fc9003ed96d76525eea_phqwss.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -546,7 +546,7 @@
     {
         "id": 69,
         "Producto": "Maceta  hojas doradas",
-        "Precio": 20000,
+        "Precio": 200.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715398/images/Productos%20parte%202/Maceta/0dccb38aac97e6d3adbcc6a89239edaf_qdesgr.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -554,7 +554,7 @@
     {
         "id": 70,
         "Producto": "Maceta Jirafa",
-        "Precio": 35000,
+        "Precio": 350.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715416/images/Productos%20parte%202/Maceta/9f2be90147ab822f90cd325bf3626432_ohkpsk.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -562,7 +562,7 @@
     {
         "id": 71,
         "Producto": "Maceta flores",
-        "Precio": 19000,
+        "Precio": 190.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677724133/images/Productos%20parte%202/Maceta/15b5d891a62b15187f0fde8ff1f28c13_gv1ujn.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -570,7 +570,7 @@
     {
         "id": 72,
         "Producto": "Maceta leopardo de las nieves",
-        "Precio": 35000,
+        "Precio": 350.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715422/images/Productos%20parte%202/Maceta/370b9bbef041f6a93e9a22b03f7bcc8f_i4femv.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -578,7 +578,7 @@
     {
         "id": 73,
         "Producto": "Maceta perezoso ",
-        "Precio": 47500,
+        "Precio": 475.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715418/images/Productos%20parte%202/Maceta/b71eee1754ac83dcc2ca118a35ea48e2_j7iqtb.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -586,7 +586,7 @@
     {
         "id": 74,
         "Producto": "Maceta oso panda",
-        "Precio": 12000,
+        "Precio": 120.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715409/images/Productos%20parte%202/Maceta/32b8c19afeb7be8f2d8d23be7eaf4727_y6b9kp.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Macetas"
@@ -594,7 +594,7 @@
     {
         "id": 75,
         "Producto": "Plato flores carbón",
-        "Precio": 8000,
+        "Precio": 80.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715552/images/Productos%20parte%202/Platos/lidye-fJIfOzw_e7U-unsplash_igssvd.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Platos"
@@ -602,7 +602,7 @@
     {
         "id": 76,
         "Producto": "Juego de platos escharca azul",
-        "Precio": 24000,
+        "Precio": 240.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715421/images/Productos%20parte%202/Platos/27fb8da5e08dc5e77bd962725328931a_ickrww.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Platos"
@@ -610,7 +610,7 @@
     {
         "id": 77,
         "Producto": "Juego de platos oro verde",
-        "Precio": 40000,
+        "Precio": 400.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715422/images/Productos%20parte%202/Platos/1c57acd5cc41f2f30b66cc47bd1504f8_ktmn6g.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Platos"
@@ -618,15 +618,15 @@
     {
         "id": 78,
         "Producto": "Juego de cubiertos de madera",
-        "Precio": 10000,
+        "Precio": 100.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715431/images/Productos%20parte%202/Cubiertos/maria-ilves-XXRyh-ybxDs-unsplash_qxx6ya.jpg",
         "Categoría": "Cocina ",
         "Subcategoría": "Cubiertos"
     },
     {
         "id": 79,
-        "Producto": "Juego de cubiertos leñ1a",
-        "Precio": 55000,
+        "Producto": "Juego de cubiertos leña",
+        "Precio": 550.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715391/images/Productos%20parte%202/Cubiertos/c614f174b217c5ccf0a0576e25c930f0_cmuw4c.jpg",
         "Categoría": "Cocina ",
         "Subcategoría": "Cubiertos"
@@ -634,7 +634,7 @@
     {
         "id": 80,
         "Producto": "Juego de cubiertos bambú",
-        "Precio": 60000,
+        "Precio": 600.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715392/images/Productos%20parte%202/Cubiertos/d3df4278deac1a3c2c5e42e51b71439e_yojibv.jpg",
         "Categoría": "Cocina ",
         "Subcategoría": "Cubiertos"
@@ -642,7 +642,7 @@
     {
         "id": 81,
         "Producto": "Juego de cubiertos canela",
-        "Precio": 55000,
+        "Precio": 550.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715391/images/Productos%20parte%202/Cubiertos/e0d6d256cf684329580f4dd8e0c4b627_e6krs9.jpg",
         "Categoría": "Cocina ",
         "Subcategoría": "Cubiertos"
