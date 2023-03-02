@@ -11,24 +11,24 @@ const tomarProducto = () => {
       //Cargar subtotal
       listaCarrito.innerHTML += `
       <div class="row justify-content-around align-items-center my-3">
-          <div class="col-12 col-sm-6 col-md-2 listCarrito-prudcto--img">
+          <div class="col-12 col-sm-6 col-md-3 col-lg-3 producto_img">
             <img src="${storeData[i].img}" alt="..." width=100% style="border-radius: 3%;">
           </div>
-          <div class="producto_categoria col-12 col-sm-6 col-md-3">
+          <div class="producto_categoria col-12 col-sm-6 col-md-3 col-lg-2">
             <h3>${storeData[i].nombre}</h3>
             <p>${storeData[i].categoria}</p>
           </div>
-          <div class="input-group col-12 col-sm-6 col-md-2">
+          <div class="input-group col-12 col-sm-6 col-md-2 col-lg-3">
             <button class="btn btn-outline-secondary decrement-btn" type="button">-</button>
             <input type="number" class="form-control numberProduct text-center" style="background-color: #f7f7f700;" value="1" data-precio="${parseInt(
               storeData[i].precio.match(/\d+/)[0]
             )}">
             <button class="btn btn-outline-secondary increment-btn" type="button">+</button>
           </div>
-          <div class="producto_precio col-12 col-sm-6 col-md-3">
-            <p>${storeData[i].precio}</p>
+          <div class="producto_precio col-12 col-sm-6 col-md-2 col-lg-2">
+            <p>$${storeData[i].precio} MXN</p>
           </div>
-          <div class="col-12 col-sm-12 col-md-2">
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2">
             <button type="button" class="btn btn-outline-danger" id="${i}">Eliminar</button>
           </div>
       </div`;
@@ -36,31 +36,36 @@ const tomarProducto = () => {
 
       subtotal += parseInt(storeData[i].precio.match(/\d+/)[0]);
     }
+    //Secciono envio y compra de carrito
     const Secciontotal = document.querySelector("main").insertAdjacentHTML(
       "beforeend",
       `
-    <div class="row d-flex flex-wrap justify-content-center">
-    <hr size="2">
-    <div class="col-8 text-end">
-        <h4>Envio</h4> 
-        <p>Subtotal</p>
-        <h4>Total</h4> 
+      <div class="row d-flex flex-wrap justify-content-center">
+      <hr size="2">
+        <div class="col-8 text-end">
+          <h4>Envio</h4> 
+          <p>Subtotal</p>
+          <h4>Total</h4> 
+          </div>
+          <div class="col text-start">
+          <p>$${envio} MXN</p> 
+          <p id="subtotal">$${subtotal} MXN</p>
+          <p id="total">$${subtotal + envio} MXN</p>
+          <button type="button" class="btn btn-comprar">
+            Comprar
+            <div class="button_horizontal"></div>
+            <div class="button_vertical"></div>
+          </button>
         </div>
-        <div class="col text-start">
-        <p>$${envio}</p> 
-        <p id="subtotal">$${subtotal} MXN</p>
-        <p id="total">$${subtotal + envio} MXN</p>
-        </div>
-        </div>
-        `
+      </div>
+      `
     );
   } else {
     document.querySelector(
-      ".row"
-    ).innerHTML += `<p>No tienes Productos en tu carrito</p>`;
+      'main'
+    ).innerHTML += `<p>No tienes Productos en tu carrito </p>`;
   }
 };
-
 tomarProducto();
 
 //Aumentar -  disminuir cantidad producto
