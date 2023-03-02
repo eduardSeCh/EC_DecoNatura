@@ -26,7 +26,11 @@ const tomarProducto = () => {
             <button class="btn btn-outline-secondary increment-btn" type="button">+</button>
           </div>
           <div class="producto_precio col-12 col-sm-6 col-md-2 col-lg-2">
+<<<<<<< HEAD
             <p>${storeData[i].precio} MXN</p>
+=======
+            <p>${storeData[i].precio}</p>
+>>>>>>> 1f8cfb71868cee8293c6813ab9894e39ced8f5b2
           </div>
           <div class="col-12 col-sm-12 col-md-2 col-lg-2">
             <button type="button" class="btn btn-outline-danger" id="${i}">Eliminar</button>
