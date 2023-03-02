@@ -12,8 +12,8 @@ async  function cargarDatos(){
       let contadorPlantProductos = 0;
 
       for (const producto of productos) {
-        switch (producto.Categoria) {
-          case 'Decoracion':
+        switch (producto.Categoría) {
+          case 'Decoraci\u00f3n':
             if (contadorDecoProductos == 4) continue;
             productosDecoracion += createProductCard(producto);
             contadorDecoProductos++;
@@ -38,76 +38,84 @@ async  function cargarDatos(){
       agregarFavoritos();
       agregarCarrito();
     //Click en lampara
-    btnCategoryVelas = document.querySelector('#producto-categoria--lamparas');
-    btnCategoryVelas.addEventListener('click',()=> {
-      let lamparasHTML = generarHTMLProductos('Lamparas',productos);
+    const btnCategoryLampara = document.querySelector('#producto-categoria--lamparas');
+    btnCategoryLampara.addEventListener('click',()=> {
+      let lamparasHTML = generarHTMLProductos('L\u00e1mparas',productos);
       document.querySelector('main > div.container-fluid').innerHTML = lamparasHTML;
       agregarFavoritos();
       agregarCarrito();
     })
     //Click en Velas
-    btnCategoryVelas = document.querySelector('#producto-categoria--Velas');
+    const btnCategoryVelas = document.querySelector('#producto-categoria--Velas');
     btnCategoryVelas.addEventListener('click',()=> {
       let velasHtml = generarHTMLProductos('Velas',productos);
-      agregarFavoritos();
-      agregarCarrito();
       document.querySelector('main > div.container-fluid').innerHTML = velasHtml;
-    })
-    //Click en Velas
-    btnCategoryVelas = document.querySelector('#producto-categoria--espejos');
-    btnCategoryVelas.addEventListener('click',()=> {
-      let espejosHtml = generarHTMLProductos('Espejos',productos);
       agregarFavoritos();
       agregarCarrito();
+    })
+    //Click en espejos
+    const btnCategoryEspejos = document.querySelector('#producto-categoria--espejos');
+    btnCategoryEspejos.addEventListener('click',()=> {
+      let espejosHtml = generarHTMLProductos('Espejo',productos);
       document.querySelector('main > div.container-fluid').innerHTML = espejosHtml;
+      agregarFavoritos();
+      agregarCarrito();
     })
     //Click en cubiertos
-    btnCategoryVelas = document.querySelector('#producto-categoria--cubiertos');
-    btnCategoryVelas.addEventListener('click',()=> {
+    const btnCategoryCubiertos = document.querySelector('#producto-categoria--cubiertos');
+    btnCategoryCubiertos.addEventListener('click',()=> {
       let cubiertosHtml = generarHTMLProductos('Cubiertos',productos);
+      document.querySelector('main > div.container-fluid').innerHTML = cubiertosHtml;
       agregarFavoritos();
       agregarCarrito();
-      document.querySelector('main > div.container-fluid').innerHTML = cubiertosHtml;
     })
     //Click en Cristaleria
-    btnCategoryVelas = document.querySelector('#producto-categoria--cristaleria');
-    btnCategoryVelas.addEventListener('click',()=> {
-      let cristaleriaHtml = generarHTMLProductos('Cristaleria',productos);
+    const btnCategoryCristaleria = document.querySelector('#producto-categoria--cristaleria');
+    btnCategoryCristaleria.addEventListener('click',()=> {
+      let cristaleriaHtml = generarHTMLProductos('Cristalería ',productos);
+      document.querySelector('main > div.container-fluid').innerHTML = cristaleriaHtml;
       agregarFavoritos();
       agregarCarrito();
-      document.querySelector('main > div.container-fluid').innerHTML = cristaleriaHtml;
     })
     //Click en Vajilla
-    btnCategoryVelas = document.querySelector('#producto-categoria--vajilla');
-    btnCategoryVelas.addEventListener('click',()=> {
+    const btnCategoryVajilla = document.querySelector('#producto-categoria--vajilla');
+    btnCategoryVajilla.addEventListener('click',()=> {
       let vajillaHTML = generarHTMLProductos('Vajilla',productos);
+      document.querySelector('main > div.container-fluid').innerHTML = vajillaHTML;
       agregarFavoritos();
       agregarCarrito();
-      document.querySelector('main > div.container-fluid').innerHTML = vajillaHTML;
+    })
+    //Click en platos
+    const btnCategoryPlatos = document.querySelector('#producto-categoria--platos');
+    btnCategoryPlatos.addEventListener('click',()=> {
+      let platosHTML = generarHTMLProductos('Platos',productos);
+      document.querySelector('main > div.container-fluid').innerHTML = platosHTML;
+      agregarFavoritos();
+      agregarCarrito();
     })
     //Click en Suculentas
-    btnCategoryVelas = document.querySelector('#producto-categoria--suculentas');
-    btnCategoryVelas.addEventListener('click',()=> {
+    const btnCategorySuculentas = document.querySelector('#producto-categoria--suculentas');
+    btnCategorySuculentas.addEventListener('click',()=> {
       let suculentasHTML = generarHTMLProductos('Suculentas',productos);
-      agregarFavoritos();
-      agregarCarrito();
       document.querySelector('main > div.container-fluid').innerHTML = suculentasHTML;
-    })
-    //Click en Helechos TODO cambiar (figuras)
-    btnCategoryVelas = document.querySelector('#producto-categoria--helechos');
-    btnCategoryVelas.addEventListener('click',()=> {
-      let helechosHTML = generarHTMLProductos('Figuras',productos);
       agregarFavoritos();
       agregarCarrito();
-      document.querySelector('main > div.container-fluid').innerHTML = helechosHTML;
+    })
+    //Click en Cactus
+    const btnCategoryCactus = document.querySelector('#producto-categoria--cactus');
+    btnCategoryCactus.addEventListener('click',()=> {
+      let cactusHTML = generarHTMLProductos('Cact\u00e1ceas',productos);
+      document.querySelector('main > div.container-fluid').innerHTML = cactusHTML;
+      agregarFavoritos();
+      agregarCarrito();
     })
     //Click en Macetas
-    btnCategoryVelas = document.querySelector('#producto-categoria--macetas');
-    btnCategoryVelas.addEventListener('click',()=> {
-      let macetasHTML = generarHTMLProductos('Maceta',productos);
+    const btnCategoryMacetas = document.querySelector('#producto-categoria--macetas');
+    btnCategoryMacetas.addEventListener('click',()=> {
+      let macetasHTML = generarHTMLProductos('Macetas',productos);
+      document.querySelector('main > div.container-fluid').innerHTML = macetasHTML;
       agregarFavoritos();
       agregarCarrito();
-      document.querySelector('main > div.container-fluid').innerHTML = macetasHTML;
     })
 
   } catch (error) {
@@ -120,7 +128,7 @@ function generarHTMLProductos(subcategoria, productos) {
   let html = `</div><div class="row my-4">`;
   let contadorProductos = 0;
   for (const producto of productos) {
-    if (producto.Subcategoria === subcategoria) {
+    if (producto.Subcategoría === subcategoria) {
       html += createProductCard(producto); 
       contadorProductos++;
       if (contadorProductos === 4) {
@@ -138,10 +146,10 @@ function createProductCard(producto) {
     <div class="fila col-12 col-md-6 col-lg-3">
       <div class="producto" id="producto-${producto.id}" style="width: 15rem;">
         <div class="producto_img">
-          <img src="${producto.Imagen}" alt="...">
+          <img src="${producto.Link}" alt="...">
         </div>
         <div class="producto_categoria">
-          <p>${producto.Categoria}</p>
+          <p>${producto.Categoría}</p>
         </div>
         <div class="producto_nombre">
           <h5>${producto.Producto}</h5>

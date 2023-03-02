@@ -1,882 +1,650 @@
 [
     {
         "id": 1,
-        "Producto": "Maceta en forma de conejo",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585219/images/otros/oriento-GLe--6F1Up4-unsplash_drq8c5.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Maceta"
+        "Producto": "Espejo cuerpo completo ",
+        "Precio": 500000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715810/images/Productos%20parte%202/Espejos/pexels-mathilde-langevin-14320924_ttbxfg.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 2,
-        "Producto": "Figura ave",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585221/images/otros/oriento-0dg-EfHgA8Q-unsplash_c8l5cp.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Figuras"
+        "Producto": "Espejo charco de agua",
+        "Precio": 375000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715617/images/Productos%20parte%202/Espejos/pexels-alex-quezada-15477312_uxrbfg.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 3,
-        "Producto": "Maceta en forma de caracol",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585231/images/otros/victor-collados-U3YWF2n_q-M-unsplash_gmcpkp.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Maceta"
+        "Producto": "Espejo solaris",
+        "Precio": 15000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677722743/images/Productos%20parte%202/Espejos/il_794xN.2429383194_srrr_w2j3ji.webp",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 4,
-        "Producto": "Arreglo de suculentas",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585253/images/otros/katie-burkhart-REk6cxrceoQ-unsplash_hl2yg4.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "Espejo marco tejido",
+        "Precio": 400000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677722219/images/Productos%20parte%202/Espejos/9c61a1a9a70e6aaad34ae322327d7612_ujl4mp.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 5,
-        "Producto": "Maceta en forma de gato",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585242/images/otros/art-and-soil-bangalore-I5ofzP2nICE-unsplash_d4izgw.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Maceta"
+        "Producto": "Espejo media luna",
+        "Precio": 450000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715406/images/Productos%20parte%202/Espejos/dd6efdfbb961eb299f691818dd95f001_btmem3.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 6,
-        "Producto": "Vela caracol",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585216/images/otros/dagmara-dombrovska-vMCwMYx-N8E-unsplash_fgmdfh.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Juego de espejos panel",
+        "Precio": 330000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715409/images/Productos%20parte%202/Espejos/pexels-rachel-claire-5490341_i44pey.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 7,
-        "Producto": "Figura buhos",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585504/images/otros/1_RpCQ0W4KZppFXsDYuyijLA_png_j6rvno.webp",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Figuras"
+        "Producto": "Espejo coral",
+        "Precio": 280000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715402/images/Productos%20parte%202/Espejos/33b7bd313b2c698e0490e921d7bf2db3_uyrl1g.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 8,
-        "Producto": "Suculenta 1",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578886/images/Suculentas/yousef-espanioly-63bKYmJNLME-unsplash_bo7m7d.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "Espejo niebla",
+        "Precio": 370000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715442/images/Productos%20parte%202/Espejos/pexels-michaela-s-8116709_voo6w0.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 9,
-        "Producto": "Suculenta 2",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578845/images/Suculentas/c-a-c-t-u-s-_-c-a-m-i-l-a-GVwKWNmq6bw-unsplash_ntiqrx.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "Espejo champagne",
+        "Precio": 100000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715875/images/Productos%20parte%202/Espejos/annie-spratt-7gtOBs11-3E-unsplash_rdoumd.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 10,
-        "Producto": "Suculenta 3",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578788/images/Suculentas/arif-hidayat-D2SvRLMzmUQ-unsplash_zzw61k.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "Espejo blob",
+        "Precio": 199900,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715603/images/Productos%20parte%202/Espejos/pexels-yan-krukau-5793655_unh95v.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Espejo"
     },
     {
         "id": 11,
-        "Producto": "Suculenta 4",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578768/images/Suculentas/art-and-soil-bangalore-7XkW7Dcmtv8-unsplash_rfudzy.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara  hongo",
+        "Precio": 50000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715420/images/Productos%20parte%202/Lamparas/ae59f2d1b3d4f2df7e4a7bc9390d97e3_evva8l.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 12,
-        "Producto": "Suculenta 5",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578742/images/Suculentas/annie-spratt-nwQO2HpqcCI-unsplash_jjpbp4.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara luna",
+        "Precio": 30000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715388/images/Productos%20parte%202/Lamparas/kristine-wook-j9iRNNL7W5A-unsplash_shp9ai.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 13,
-        "Producto": "Suculenta 6",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578713/images/Suculentas/junior-rodriguez-gsCecg8nrAY-unsplash_uyoaow.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara cuahuitl",
+        "Precio": 45000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715349/images/Productos%20parte%202/Lamparas/e9b6d5a6699873441c472d49a9a0c3bc_p31nw4.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 14,
-        "Producto": "Suculenta 7",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578706/images/Suculentas/jeremy-lwanga-uUwEAW5jFLE-unsplash_skpvud.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara flores y cuarzo",
+        "Precio": 150000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715420/images/Productos%20parte%202/Lamparas/885dfdf0e4a7dc150618c2fe04443d5e_ejw4aa.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 15,
-        "Producto": "Suculenta 8",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578683/images/Suculentas/sixteen-miles-out-9dlJd7aMcOE-unsplash_mjjgy3.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara alcatraz",
+        "Precio": 80000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715410/images/Productos%20parte%202/Lamparas/176f73bd0f149c279daa1583f20fd8c4_tdpovi.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 16,
-        "Producto": "Suculenta 9",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578669/images/Suculentas/kari-shea-3_cyj5YkhTs-unsplash_dkgnco.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara  cris\u00e1lida",
+        "Precio": 32000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715413/images/Productos%20parte%202/Lamparas/457b6830808c08029d7377ce05419d11_spinqs.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 17,
-        "Producto": "Suculenta 10",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578668/images/Suculentas/marisol-benitez-jX7L50Fi_GA-unsplash_hq4heo.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara p\u00e9talos",
+        "Precio": 200000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715400/images/Productos%20parte%202/Lamparas/004ca96419a2c585dce87c40728a582f_dnzfey.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 18,
-        "Producto": "Suculenta 11",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578665/images/Suculentas/galina-n-miziNqvJx5M-unsplash_gtdizr.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara colgante burbujas",
+        "Precio": 449000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715412/images/Productos%20parte%202/Lamparas/3bfd1906b1282b3ce1aa9e8aeda14c73_y8xtrm.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 19,
-        "Producto": "Suculenta 12",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578649/images/Suculentas/antonio-castellano-umYetCR_VOQ-unsplash_kkpg0r.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara colgante lluvia estelar",
+        "Precio": 390000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715411/images/Productos%20parte%202/Lamparas/1dbe8bb7f36c38e7d508b62217d71269_sp2x7h.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 20,
-        "Producto": "Suculenta banner ",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676580355/images/Suculentas/suculenta-banner_vtl8a0.jpg",
-        "Categoria": "Plantas de ornato",
-        "Subcategoria": "Suculentas"
+        "Producto": "L\u00e1mpara colgante caracoles",
+        "Precio": 265000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715345/images/Productos%20parte%202/Lamparas/cede5e8e9c9a33160b30a29dec4666f4_aixql6.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "L\u00e1mparas"
     },
     {
         "id": 21,
-        "Producto": "Cubiertos 1",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578622/images/cubiertos/micheile-dot-com-B2tKxL9KVqA-unsplash_g8ghw4.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cubiertos"
+        "Producto": "Vela caracol",
+        "Precio": 5000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715448/images/Productos%20parte%202/Velas/dagmara-dombrovska-vMCwMYx-N8E-unsplash_rfpmxh.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 22,
-        "Producto": "Cubiertos 2",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578522/images/cubiertos/good-soul-shop-2qk6Y3VFHzk-unsplash_ipjvjh.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cubiertos"
+        "Producto": "Vela aroma heno",
+        "Precio": 8000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715850/images/Productos%20parte%202/Velas/ellie-ellien-HWqsW7FLWf4-unsplash_mnxniy.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 23,
-        "Producto": "Cubiertos 3",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578464/images/cubiertos/maria-ilves-XXRyh-ybxDs-unsplash_cqmjjm.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cubiertos"
+        "Producto": "Set de velas (aromas tropicales)",
+        "Precio": 22000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715502/images/Productos%20parte%202/Velas/hanna-balan-YasQvzPbGOQ-unsplash_f4la2c.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 24,
-        "Producto": "Cubiertos 4",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578419/images/cubiertos/clair-Mv3yxyI_OY4-unsplash_uwyy44.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cubiertos"
+        "Producto": "Vela aroma bergamota",
+        "Precio": 7500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715702/images/Productos%20parte%202/Velas/svitlana-cNmK8LYCRjc-unsplash_cmk39n.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 25,
-        "Producto": "Espejo 1",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578627/images/Espejos/annie-spratt-7gtOBs11-3E-unsplash_bns5qo.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Espejos"
+        "Producto": "Vela aroma madera ahumada",
+        "Precio": 8000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715513/images/Productos%20parte%202/Velas/martipaan-QagIzHwsy4A-unsplash_vii139.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 26,
-        "Producto": "Espejo 2",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578617/images/Espejos/larisa-birta-bxAED0vjlIk-unsplash_spdyvj.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Espejos"
+        "Producto": "Vela aroma coco",
+        "Precio": 7500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715504/images/Productos%20parte%202/Velas/pexels-dasha-horoshaya-12861221_ldfctz.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 27,
-        "Producto": "Espejo 3",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578615/images/Espejos/roger-bradshaw-Y6L_zTbSmbs-unsplash_dpu5en.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Espejos"
+        "Producto": "Vela aroma rosas",
+        "Precio": 7500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715528/images/Productos%20parte%202/Velas/tyler-nix-tkoZIdfFHOE-unsplash_xhwnoi.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 28,
-        "Producto": "Espejo 4",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578580/images/Espejos/phillip-goldsberry-Vxnn-qE7dLM-unsplash_qivi0r.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Espejos"
+        "Producto": "Vela aroma vainilla ",
+        "Precio": 7000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715666/images/Productos%20parte%202/Velas/pexels-los-muertos-crew-7947723_ri6o72.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 29,
-        "Producto": "Espejo 5",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578535/images/Espejos/spacejoy-g3KbcDWrBUM-unsplash_wl2gsc.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Espejos"
+        "Producto": "Vela aroma brisa marina",
+        "Precio": 7000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715850/images/Productos%20parte%202/Velas/pexels-ekaterina-bolovtsova-7445025_dknpdt.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 30,
-        "Producto": "Espejo 6",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578472/images/Espejos/aleksander-vlad-aN_L8EIyqOs-unsplash_mezojf.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Espejos"
+        "Producto": "Vela aroma lavanda",
+        "Precio": 5500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715468/images/Productos%20parte%202/Velas/pexels-hissetmehurriyeti-9120476_w60loi.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Velas"
     },
     {
         "id": 31,
-        "Producto": "Espejo 7",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578402/images/Espejos/noah-windler-Qh4hWBKq1xA-unsplash_gbzwvn.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Espejos"
+        "Producto": "Vajilla marina",
+        "Precio": 110000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715531/images/Productos%20parte%202/Vaijlla/khloe-arledge-yD7WkMkoldg-unsplash_x9jsvu.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 32,
-        "Producto": "Velas 1",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578894/images/Velas/ellie-ellien-HWqsW7FLWf4-unsplash_qisrpd.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla pastizal ",
+        "Precio": 150000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715489/images/Productos%20parte%202/Vaijlla/pexels-anna-kanifatova-4259833_zjk2hx.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 33,
-        "Producto": "Velas 2",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578884/images/Velas/luma-candles-K1Xi_R_mfpk-unsplash_bg0c9s.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla terra",
+        "Precio": 70000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715475/images/Productos%20parte%202/Vaijlla/toa-heftiba-Nru6O8KG8Uw-unsplash_docrqo.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 34,
-        "Producto": "Velas 3",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578875/images/Velas/svitlana-lUZiv2LXsGw-unsplash_vools4.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla esmeralda",
+        "Precio": 140000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715739/images/Productos%20parte%202/Vaijlla/pexels-antoni-shkraba-6694733_yqomxs.jpg",
+        "Categoría": "Cocina ",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 35,
-        "Producto": "Velas 4",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578860/images/Velas/svitlana-tVmJij9cI-g-unsplash_arzwrs.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla bosque antiguo",
+        "Precio": 129000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715553/images/Productos%20parte%202/Vaijlla/pexels-eva-bronzini-6469342_cdrppc.jpg",
+        "Categoría": "Cocina ",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 36,
-        "Producto": "Velas 5",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578849/images/Velas/svitlana-P8l7cPKzcek-unsplash_xar4uz.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla monta\u00f1a ",
+        "Precio": 148000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715519/images/Productos%20parte%202/Vaijlla/pexels-furkanfdemir-6229523_kmyb0y.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 37,
-        "Producto": "Velas 6",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578834/images/Velas/gio-gix-Xxza9MbMNc0-unsplash_npakny.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla invernal",
+        "Precio": 125000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715737/images/Productos%20parte%202/Vaijlla/pexels-cottonbro-studio-6863362_dyagee.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 38,
-        "Producto": "Velas 7",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578787/images/Velas/hanna-balan-YasQvzPbGOQ-unsplash_jlkpae.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla sauce",
+        "Precio": 132500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715825/images/Productos%20parte%202/Vaijlla/frederic-dupont-X2TRduCQgOQ-unsplash_cjcn83.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 39,
-        "Producto": "Velas 8",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578787/images/Velas/luma-candles-59KYLY3vSJk-unsplash_cdf1c1.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla mediterr\u00e1nea",
+        "Precio": 155000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715499/images/Productos%20parte%202/Vaijlla/pexels-eva-bronzini-6569037_pakyay.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 40,
-        "Producto": "Velas 9",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578783/images/Velas/hanna-balan--UFpeUfAySs-unsplash_wuyaqf.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Vajilla flor de cerezo ",
+        "Precio": 130000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715763/images/Productos%20parte%202/Vaijlla/pexels-pavel-danilyuk-7674571_csrbhx.jpg",
+        "Categoría": "Decoraci\u00f3n",
+        "Subcategoría": "Vajilla"
     },
     {
         "id": 41,
-        "Producto": "Velas 10",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578754/images/Velas/mediamodifier-N6t3PkMkAMc-unsplash_nfolpf.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Juego de copas rosa oro",
+        "Precio": 52000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715610/images/Productos%20parte%202/Cristaleria/andrew-valdivia-TLZhubp7xOo-unsplash_z9jxen.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 42,
-        "Producto": "Velas 11",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578735/images/Velas/gio-gix-hYy7MMUnUyI-unsplash_qw3qxm.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Velas"
+        "Producto": "Copa vino tinto",
+        "Precio": 9000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715629/images/Productos%20parte%202/Cristaleria/pexels-valeria-boltneva-7474130_eeal8s.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 43,
-        "Producto": "Lamparas 1",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578305/images/Lamparas/raphael-lovaski-QdrNvftdNSY-unsplash_lww5ek.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Copa moderna",
+        "Precio": 8500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715421/images/Productos%20parte%202/Cristaleria/pexels-zumrad-normatova-11060524_kqjs5o.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 44,
-        "Producto": "Lamparas 2",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578302/images/Lamparas/beazy-toX2sYnycCw-unsplash_kcy6vb.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Copa cocktail",
+        "Precio": 5500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715359/images/Productos%20parte%202/Cristaleria/pexels-alleksana-4051355_umzxsz.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 45,
-        "Producto": "Lamparas 3",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578302/images/Lamparas/jon-tyson-py9sH2rThWs-unsplash_y81bsr.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Vaso nido",
+        "Precio": 7500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715404/images/Productos%20parte%202/Cristaleria/pexels-any-lane-5945638_n1drh3.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 46,
-        "Producto": "Lamparas 4",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578293/images/Lamparas/brina-blum-mNXTZu7AeGA-unsplash_zkqo0t.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Juego de 4 vasos",
+        "Precio": 20000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715549/images/Productos%20parte%202/Cristaleria/pexels-anna-pyshniuk-4085480_gwugng.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 47,
-        "Producto": "Lamparas 5",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578291/images/Lamparas/ochir-erdene-oyunmedeg-nPyUKODwjD8-unsplash_qkiiza.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Vaso melocot\u00f3n ",
+        "Precio": 5000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715634/images/Productos%20parte%202/Cristaleria/no-revisions-gA81ZTsql68-unsplash_dj5vvi.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 48,
-        "Producto": "Lamparas 6",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578288/images/Lamparas/atilla-taskiran-I4jC9D7r8Nc-unsplash_dgacqp.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Vaso corteza",
+        "Precio": 6500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715396/images/Productos%20parte%202/Cristaleria/pexels-vitaly-12433995_hey2pp.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 49,
-        "Producto": "Lamparas 7",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578285/images/Lamparas/sincerely-media-VDPauwJ_sHo-unsplash_bgacvm.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Vaso \u00e1mbar",
+        "Precio": 7500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715385/images/Productos%20parte%202/Cristaleria/ambitious-creative-co-rick-barrett-TSkUCyCuVH4-unsplash_jzfbrt.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 50,
-        "Producto": "Lamparas 8",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585689/images/Lamparas/kate-darmody-ywuyltbHu7E-unsplash_ds6lvg.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Vaso jerez",
+        "Precio": 10000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715368/images/Productos%20parte%202/Cristaleria/food-photographer-jennifer-pallian-sSnCZlEWN5E-unsplash_inm1x3.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería "
     },
     {
         "id": 51,
-        "Producto": "Lamparas 9",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585691/images/Lamparas/letizia-agosta-IeabWRt5ksw-unsplash_acppwp.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Arreglo de suculentas 1",
+        "Precio": 25000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715449/images/Productos%20parte%202/Suculenta/sixteen-miles-out-9dlJd7aMcOE-unsplash_g5vfbq.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     },
     {
         "id": 52,
-        "Producto": "Lamparas 10",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676585688/images/Lamparas/kristine-wook-j9iRNNL7W5A-unsplash_et7jz2.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Lamparas"
+        "Producto": "Arreglo de suculentas 2",
+        "Precio": 17500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715495/images/Productos%20parte%202/Suculenta/annie-spratt-nwQO2HpqcCI-unsplash_irbgqt.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     },
     {
         "id": 53,
-        "Producto": "Cristaleria 1",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578546/images/Cristaleria/no-revisions-gA81ZTsql68-unsplash_r0ajhz.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Arreglo de suculentas 3",
+        "Precio": 30000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715790/images/Productos%20parte%202/Suculenta/pexels-anna-khomutova-5781308_zhhr7s.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     },
     {
         "id": 54,
-        "Producto": "Cristaleria 2",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578506/images/Cristaleria/louis-hansel-Kix0S25vJEo-unsplash_m75wcb.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Suculenta",
+        "Precio": 12500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715650/images/Productos%20parte%202/Suculenta/itzel-reyes-IMLnjVPyn8M-unsplash_yvgdu1.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     },
     {
         "id": 55,
-        "Producto": "Cristaleria 3",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578477/images/Cristaleria/sam-hojati-pb7oJwtNVU4-unsplash_yq3twc.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Suculentas en roseta",
+        "Precio": 10000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715447/images/Productos%20parte%202/Suculenta/pexels-carpe-jugulum-5035888_fwojjk.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     },
     {
         "id": 56,
-        "Producto": "Cristaleria 4",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578474/images/Cristaleria/marina-zaharkina-OGwLyoTncI8-unsplash_sy2wf3.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Suculenta ",
+        "Precio": 11500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715468/images/Productos%20parte%202/Suculenta/zobia-shakar-Qtso7p2tOI4-unsplash_mklmnq.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     },
     {
         "id": 57,
-        "Producto": "Cristaleria 5",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578432/images/Cristaleria/no-revisions-GcwktmnxVuU-unsplash_p917pv.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Suculenta",
+        "Precio": 7500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715468/images/Productos%20parte%202/Suculenta/zhuojun-yu-UkAmskLQIZw-unsplash_czyvk2.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     },
     {
         "id": 58,
-        "Producto": "Cristaleria 6",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578430/images/Cristaleria/wilhelm-gunkel-ED49KjoiEek-unsplash_x1vmpt.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Suculenta",
+        "Precio": 9500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715440/images/Productos%20parte%202/Suculenta/pexels-skylar-kang-6045054_bxmen8.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     },
     {
         "id": 59,
-        "Producto": "Cristaleria 7",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578429/images/Cristaleria/angelo-abear-IO8XRikqJU4-unsplash_l7w76p.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Arreglo de cact\u00e1ceas",
+        "Precio": 28000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715761/images/Productos%20parte%202/Cactaceas/pexels-teona-swift-6913833_tpaslc.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Cact\u00e1ceas"
     },
     {
         "id": 60,
-        "Producto": "Cristaleria 8",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578419/images/Cristaleria/ilya-gorborukov-t5BojIDbegQ-unsplash_ho7kpp.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Cact\u00e1cea 1",
+        "Precio": 11000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715382/images/Productos%20parte%202/Cactaceas/noyo-creatif-PsFYrct4f9k-unsplash_e0wb8a.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Cact\u00e1ceas"
     },
     {
         "id": 61,
-        "Producto": "Cristaleria 9",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578396/images/Cristaleria/gaby-yerden-3x2cFCoBeEQ-unsplash_tlarvj.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Cact\u00e1cea 2",
+        "Precio": 6000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715595/images/Productos%20parte%202/Cactaceas/pexels-anna-tukhfatullina-food-photographerstylist-2568458_wvmtr6.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Cact\u00e1ceas"
     },
     {
         "id": 62,
-        "Producto": "Cristaleria 10",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578396/images/Cristaleria/honza-vojtek-UtByU3uhBVM-unsplash_qtf9ji.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Cact\u00e1cea 3",
+        "Precio": 17500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715876/images/Productos%20parte%202/Cactaceas/pexels-pixabay-219779_mkmihc.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Cact\u00e1ceas"
     },
     {
         "id": 63,
-        "Producto": "Cristaleria 11",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578395/images/Cristaleria/great-cocktails-gBvGB7mpbjk-unsplash_ztxmbo.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Cact\u00e1cea 4",
+        "Precio": 32000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677724048/images/Productos%20parte%202/Cactaceas/pexels-photo-7919142_ajqlg1.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Cact\u00e1ceas"
     },
     {
         "id": 64,
-        "Producto": "Cristaleria 12",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578389/images/Cristaleria/great-cocktails-9PyQwwmZxpI-unsplash_yxlqz7.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Cact\u00e1cea 5",
+        "Precio": 15000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715389/images/Productos%20parte%202/Cactaceas/pexels-yvon-gallant-8858021_ubuyog.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Cact\u00e1ceas"
     },
     {
         "id": 65,
-        "Producto": "Cristaleria 13",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578386/images/Cristaleria/ambitious-creative-co-rick-barrett-TSkUCyCuVH4-unsplash_ixanmd.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Maceta de honguitos",
+        "Precio": 20000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715707/images/Productos%20parte%202/Maceta/laura-cleffmann-M-s_k7A8VYY-unsplash_kqboxp.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 66,
-        "Producto": "Cristaleria 14",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578372/images/Cristaleria/julia-zolotova-KHhhpr8_GAs-unsplash_cr0dz2.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Maceta gato",
+        "Precio": 8500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715689/images/Productos%20parte%202/Maceta/art-and-soil-bangalore-I5ofzP2nICE-unsplash_mi6gvd.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 67,
-        "Producto": "Cristaleria 15",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578371/images/Cristaleria/crissy-jarvis-XLOx2BXzZp4-unsplash_smw0bq.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Cristaleria"
+        "Producto": "Maceta conejo",
+        "Precio": 9000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715436/images/Productos%20parte%202/Maceta/oriento-GLe--6F1Up4-unsplash_mu0lfe.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 68,
-        "Producto": "Vajilla 1",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578763/images/Vajillas/toa-heftiba-Nru6O8KG8Uw-unsplash_v9lmip.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Maceta erizo",
+        "Precio": 5000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715414/images/Productos%20parte%202/Maceta/599e980a23883fc9003ed96d76525eea_phqwss.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 69,
-        "Producto": "Vajilla 2",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578759/images/Vajillas/tom-crew-YA2E3d7a9Wo-unsplash_cicw9w.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Maceta  hojas doradas",
+        "Precio": 20000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715398/images/Productos%20parte%202/Maceta/0dccb38aac97e6d3adbcc6a89239edaf_qdesgr.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 70,
-        "Producto": "Vajilla 3",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578708/images/Vajillas/lidye-fJIfOzw_e7U-unsplash_i0faxc.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Maceta Jirafa",
+        "Precio": 35000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715416/images/Productos%20parte%202/Maceta/9f2be90147ab822f90cd325bf3626432_ohkpsk.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 71,
-        "Producto": "Vajilla 4",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578705/images/Vajillas/eniko-kis-L0g_gTN8l_A-unsplash_fe4r2w.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Maceta flores",
+        "Precio": 19000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677724133/images/Productos%20parte%202/Maceta/15b5d891a62b15187f0fde8ff1f28c13_gv1ujn.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 72,
-        "Producto": "Vajilla 5",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578704/images/Vajillas/dee-copper-and-wild-nfaVw_CAt5U-unsplash_j9wj65.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Maceta leopardo de las nieves",
+        "Precio": 35000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715422/images/Productos%20parte%202/Maceta/370b9bbef041f6a93e9a22b03f7bcc8f_i4femv.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 73,
-        "Producto": "Vajilla 6",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578697/images/Vajillas/toa-heftiba-sHgXu7DWUX4-unsplash_mf0n31.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Maceta perezoso ",
+        "Precio": 47500,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715418/images/Productos%20parte%202/Maceta/b71eee1754ac83dcc2ca118a35ea48e2_j7iqtb.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 74,
-        "Producto": "Vajilla 7",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578670/images/Vajillas/tom-crew-Mz__0nr1AM8-unsplash_f1xgca.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Maceta oso panda",
+        "Precio": 12000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715409/images/Productos%20parte%202/Maceta/32b8c19afeb7be8f2d8d23be7eaf4727_y6b9kp.jpg",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Macetas"
     },
     {
         "id": 75,
-        "Producto": "Vajilla 8",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578656/images/Vajillas/khloe-arledge--GjyAyPSMQg-unsplash_qa2fyw.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Plato flores carb\u00f3n",
+        "Precio": 8000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715552/images/Productos%20parte%202/Platos/lidye-fJIfOzw_e7U-unsplash_igssvd.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Platos"
     },
     {
         "id": 76,
-        "Producto": "Vajilla 9",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578654/images/Vajillas/khloe-arledge-yD7WkMkoldg-unsplash_ggohel.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Juego de platos escharca azul",
+        "Precio": 24000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715421/images/Productos%20parte%202/Platos/27fb8da5e08dc5e77bd962725328931a_ickrww.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Platos"
     },
     {
         "id": 77,
-        "Producto": "Vajilla 10",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578643/images/Vajillas/viviane-okubo-BgIOYG835og-unsplash_fqheyq.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Juego de platos oro verde",
+        "Precio": 40000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715422/images/Productos%20parte%202/Platos/1c57acd5cc41f2f30b66cc47bd1504f8_ktmn6g.jpg",
+        "Categoría": "Cocina",
+        "Subcategoría": "Platos"
     },
     {
         "id": 78,
-        "Producto": "Vajilla 11",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578641/images/Vajillas/tan-erica-zCYO9HxEAjI-unsplash_dpfn3p.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Juego de cubiertos de madera",
+        "Precio": 10000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715431/images/Productos%20parte%202/Cubiertos/maria-ilves-XXRyh-ybxDs-unsplash_qxx6ya.jpg",
+        "Categoría": "Cocina ",
+        "Subcategoría": "Cubiertos"
     },
     {
         "id": 79,
-        "Producto": "Vajilla 12",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676578640/images/Vajillas/sareh-askarzadeh-baI6aII6Cvk-unsplash_sdluvg.jpg",
-        "Categoria": "Cocina",
-        "Subcategoria": "Vajilla"
+        "Producto": "Juego de cubiertos leñ1a",
+        "Precio": 55000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715391/images/Productos%20parte%202/Cubiertos/c614f174b217c5ccf0a0576e25c930f0_cmuw4c.jpg",
+        "Categoría": "Cocina ",
+        "Subcategoría": "Cubiertos"
     },
     {
         "id": 80,
-        "Producto": "Cuadro 1",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586353/images/Cuadros/pawel-czerwinski-AV06Lm42mVo-unsplash_hixtua.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
+        "Producto": "Juego de cubiertos bambú",
+        "Precio": 60000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715392/images/Productos%20parte%202/Cubiertos/d3df4278deac1a3c2c5e42e51b71439e_yojibv.jpg",
+        "Categoría": "Cocina ",
+        "Subcategoría": "Cubiertos"
     },
     {
         "id": 81,
-        "Producto": "Cuadro 2",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586305/images/Cuadros/birmingham-museums-trust-wKlHsooRVbg-unsplash_gknhda.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
-    },
-    {
-        "id": 82,
-        "Producto": "Cuadro 3",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586301/images/Cuadros/birmingham-museums-trust-NspHfyZnMBE-unsplash_rtrxep.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
-    },
-    {
-        "id": 83,
-        "Producto": "Cuadro 4",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586341/images/Cuadros/vera-gorbunova-YKyoQW02Ifw-unsplash_bjgsfr.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
-    },
-    {
-        "id": 84,
-        "Producto": "Cuadro 5",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586284/images/Cuadros/mcgill-library-y4PqRPqSako-unsplash_dagdy3.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
-    },
-    {
-        "id": 85,
-        "Producto": "Cuadro 6",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586349/images/Cuadros/kino-gpg5vq7I2IQ-unsplash_claomw.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
-    },
-    {
-        "id": 86,
-        "Producto": "Cuadro 7",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586269/images/Cuadros/annie-spratt-uBxwN2VEAAg-unsplash_wnbawc.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
-    },
-    {
-        "id": 87,
-        "Producto": "Cuadro 8",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586280/images/Cuadros/stephanie-harvey-OTUahHcqs0Y-unsplash_swa0ti.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
-    },
-    {
-        "id": 88,
-        "Producto": "Cuadro 9",
-        "Precio": 300,
-        "Descripcion": "",
-        "Cantidad": "50",
-        "Imagen": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1676586342/images/Cuadros/ruta-celma-H_T0EgDO2hs-unsplash_bsw8sp.jpg",
-        "Categoria": "Decoracion",
-        "Subcategoria": "Cuadro"
+        "Producto": "Juego de cubiertos canela",
+        "Precio": 55000,
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715391/images/Productos%20parte%202/Cubiertos/e0d6d256cf684329580f4dd8e0c4b627_e6krs9.jpg",
+        "Categoría": "Cocina ",
+        "Subcategoría": "Cubiertos"
     }
 ]
