@@ -1,14 +1,116 @@
 
-.input-group{
+.producto_img {
+    height: 15rem;    
     margin: 1rem;
+}
+
+.producto_img > img {
+    width: 170px;
+    border-radius: 10px;
+    /* margin-top: 23px; */
+    height: inherit;
+    transition: scale .3s ease-in-out;
+}
+
+.producto_img > img:hover{
+    scale: 1.1;
+}
+
+.producto_categoria{
+    margin: 1rem;
+}
+  
+/* Animacion comprar */
+.btn-comprar {
+	--offset: 10px;
+	--border-size: 2px;
+	display: block;
+	position: relative;
+    left: -2rem;
+    margin-top: 2rem;
+	padding: .8em 1.2em;
+	appearance: none;
+	border: 0;
+	background: transparent;
+	color: #343a36;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 0;
+	box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+	transition: all color .8s ease;
+}
+
+.btn-comprar:hover {
+	background: #acb6ad00;
+    color: #343a36;
+    border-radius: 8%;
+}
+
+.button_horizontal,
+.button_vertical {
+	position: absolute;
+	transition: transform .8s ease;
+	will-change: transform;
+}
+
+.button_horizontal::before,
+.button_vertical::before {
+	content: '';
+	position: absolute;
+	border: inherit;
+}
+
+.button_horizontal {
+	top: var(--horizontal-offset, 0);
+	right: var(--vertical-offset, 0);
+	bottom: var(--horizontal-offset, 0);
+	left: var(--vertical-offset, 0);
+	--vertical-offset: calc(var(--offset) * -1);
+	border-top: var(--border-size) solid currentcolor;
+	border-bottom: var(--border-size) solid currentcolor;
+}
+
+.btn-comprar:hover .button_horizontal {
+	transform: scaleX(0);
+}
+
+.button_horizontal::before {
+	top: calc(var(--vertical-offset) - var(--border-size));
+	bottom: calc(var(--vertical-offset) - var(--border-size));
+	left: calc(var(--vertical-offset) * -1);
+	right: calc(var(--vertical-offset) * -1);
+}
+
+.button_vertical {
+	top: var(--horizontal-offset, 0);
+	right: var(--vertical-offset, 0);
+	bottom: var(--horizontal-offset, 0);
+	left: var(--vertical-offset, 0);
+	--horizontal-offset: calc(var(--offset) * -1);
+	border-left: var(--border-size) solid currentcolor;
+	border-right: var(--border-size) solid currentcolor;
+}
+
+.btn-comprar:hover .button_vertical {
+	transform: scaleY(0);
+}
+
+.button_vertical::before {
+	top: calc(var(--horizontal-offset) * -1);
+	bottom: calc(var(--horizontal-offset) * -1);
+	left: calc(var(--horizontal-offset) - var(--border-size));
+	right: calc(var(--horizontal-offset) - var(--border-size));
 }
 
 @media (max-width: 767px){
     .input-group{
         width: 50%;
     }
-    .listCarrito-prudcto--img{
-        padding: 4rem;
+    .producto_img{
+        padding: 2rem;
     }
 }
 
