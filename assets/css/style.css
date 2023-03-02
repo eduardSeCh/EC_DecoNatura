@@ -102,9 +102,11 @@ h3 {
 }
 
 footer {
+    position: relative;
     color: #e8e7e3;
     background-color: #343a36;
     font-size: 1rem;
+    position: absolute;
 }
 
 footer a {
@@ -162,5 +164,3 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-thumb:hover {
   background-color: #64776a;
 }
-
-
