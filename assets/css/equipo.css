@@ -8,14 +8,15 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
-    height: 80vh;
 }
 
 nav{
     background-color: rgb(52, 58, 54);
 }
 
-
+.integrantes {
+    min-height: 500px;
+}
 .nav-link{
     color:rgb(232, 231, 227);
 }
