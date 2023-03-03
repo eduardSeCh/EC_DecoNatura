@@ -620,7 +620,7 @@
         "Producto": "Juego de cubiertos de madera",
         "Precio": 100.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715431/images/Productos%20parte%202/Cubiertos/maria-ilves-XXRyh-ybxDs-unsplash_qxx6ya.jpg",
-        "Categoría": "Cocina ",
+        "Categoría": "Cocina",
         "Subcategoría": "Cubiertos"
     },
     {
@@ -628,7 +628,7 @@
         "Producto": "Juego de cubiertos leña",
         "Precio": 550.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715391/images/Productos%20parte%202/Cubiertos/c614f174b217c5ccf0a0576e25c930f0_cmuw4c.jpg",
-        "Categoría": "Cocina ",
+        "Categoría": "Cocina",
         "Subcategoría": "Cubiertos"
     },
     {
@@ -636,7 +636,7 @@
         "Producto": "Juego de cubiertos bambú",
         "Precio": 600.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715392/images/Productos%20parte%202/Cubiertos/d3df4278deac1a3c2c5e42e51b71439e_yojibv.jpg",
-        "Categoría": "Cocina ",
+        "Categoría": "Cocina",
         "Subcategoría": "Cubiertos"
     },
     {
@@ -644,7 +644,40 @@
         "Producto": "Juego de cubiertos canela",
         "Precio": 550.00,
         "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677715391/images/Productos%20parte%202/Cubiertos/e0d6d256cf684329580f4dd8e0c4b627_e6krs9.jpg",
-        "Categoría": "Cocina ",
+        "Categoría": "Cocina",
         "Subcategoría": "Cubiertos"
+    },
+    {
+        "id": 82,
+        "Producto": "Vajilla cielo",
+        "Precio": 1500.00,
+        "Link": "#",
+        "Categoría": "Cocina",
+        "Subcategoría": "Vajilla"
+    },
+    {
+        "id": 83,
+        "Producto": "Juego de 4 vasos esfera",
+        "Precio": 250.00,
+        "Link": "#",
+        "Categoría": "Cocina",
+        "Subcategoría": "Cristalería"
+    },
+    {
+        "id": 84,
+        "Producto": "Plato arena",
+        "Precio": 100.00,
+        "Link": "#",
+        "Categoría": "Cocina",
+        "Subcategoría": "Platos"
+    },
+    {
+        "id": 85,
+        "Producto": "Suculenta ",
+        "Precio": 100.00,
+        "Link": "#",
+        "Categoría": "Plantas de ornato",
+        "Subcategoría": "Suculentas"
     }
+
 ]
