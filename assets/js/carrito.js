@@ -26,10 +26,12 @@ const tomarProducto = () => {
             <button class="btn btn-outline-secondary increment-btn" type="button">+</button>
           </div>
           <div class="producto_precio col-12 col-sm-6 col-md-2 col-lg-2">
-            <p>${storeData[i].precio} MXN</p>
+            <p>${storeData[i].precio}</p>
           </div>
           <div class="col-12 col-sm-12 col-md-2 col-lg-2">
-            <button type="button" class="btn btn-outline-danger" id="${i}">Eliminar</button>
+            <button type="button" class="btn btn-outline-danger" id="${i}">
+            <img src="../assets/img/iconos/icono_botebasura.png" alt="">
+            </button>
           </div>
       </div`;
       document.querySelector("main").appendChild(listaCarrito);
@@ -43,7 +45,7 @@ const tomarProducto = () => {
       <div class="row d-flex flex-wrap justify-content-center pagoSection">
       <hr size="2">
         <div class="col-8 text-end">
-          <h4>Envio</h4> 
+          <p>Envío</p> 
           <p>Subtotal</p>
           <h4>Total</h4> 
           </div>
@@ -57,13 +59,21 @@ const tomarProducto = () => {
             <div class="button_vertical"></div>
           </button>
         </div>
-        <h3>Aceptamos</h3>
-        <div class="row metodosPago">
-          <img src="../assets/img/visa.png" alt="">
-          <img src="../assets/img/paypal.png" alt="">
-          <img src="../assets/img/oxxo.png" alt="">
-        </div>
       </div>
+
+      <div class="row metodosPago mt-5 justify-content-end">
+          <h4 class="text-start">Aceptamos</h4>
+          <div class="col-12 col-md-4 my-3">
+            <img src="../assets/img/iconos/icono_visa.svg" alt="ícono de visa" style="height: 25px;">
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img src="../assets/img/iconos/icono_paypal.svg" alt="ícono de paypal" style="height: 27px;">
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img src="../assets/img/iconos/icono_oxxo.svg" alt="ícono de oxxo" style="height: 37px;">
+          </div>
+      </div>
+
       `
     );
   } else {

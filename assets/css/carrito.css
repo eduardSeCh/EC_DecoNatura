@@ -105,8 +105,40 @@
 	right: calc(var(--horizontal-offset) - var(--border-size));
 }
 
+/* Botón eliminar/ bote de basura */
+
+.btn-outline-danger img{
+	width: 20px;
+}
+
+.btn-outline-danger {
+    --bs-btn-color: #e9ecef;
+    --bs-btn-border-color: #343a36;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #343a36;
+    --bs-btn-hover-border-color: #343a3600;
+    --bs-btn-focus-shadow-rgb: 220,53,69;
+    --bs-btn-active-color: #343a36;
+    --bs-btn-active-bg: #343a36;
+    --bs-btn-active-border-color: #343a36;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #343a36;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #343a3600;
+    --bs-gradient: none;
+    background-color: #343a36;
+}
+
+.btn-outline-danger:hover {
+    background-color: #343a36c2;
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+
 .pagoSection{
-	background-color: #acb6ad00;
+	/* background-color: #acb6ad00; */
+	background-color: #acb6ad66;
+	border-radius:5px;
 }
 
 .metodosPago{
@@ -114,13 +146,14 @@
 }
 
 .metodosPago img{
-	height: 80px;
+	/* height: 80px; */
 	width: auto;
 }
 
 h3{
 	text-align: start;
-	font-weight: bolder;
+	/* font-weight: bolder; */
+	font-family: "El Messiri", sans-serif;
 }
 
 @media (max-width: 767px){
