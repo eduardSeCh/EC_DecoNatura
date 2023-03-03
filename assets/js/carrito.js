@@ -26,7 +26,7 @@ const tomarProducto = () => {
             <button class="btn btn-outline-secondary increment-btn" type="button">+</button>
           </div>
           <div class="producto_precio col-12 col-sm-6 col-md-2 col-lg-2">
-            <p>${storeData[i].precio}</p>
+            <p>${storeData[i].precio} MXN</p>
           </div>
           <div class="col-12 col-sm-12 col-md-2 col-lg-2">
             <button type="button" class="btn btn-outline-danger" id="${i}">Eliminar</button>
@@ -40,7 +40,7 @@ const tomarProducto = () => {
     const Secciontotal = document.querySelector("main").insertAdjacentHTML(
       "beforeend",
       `
-      <div class="row d-flex flex-wrap justify-content-center">
+      <div class="row d-flex flex-wrap justify-content-center pagoSection">
       <hr size="2">
         <div class="col-8 text-end">
           <h4>Envio</h4> 
@@ -51,11 +51,17 @@ const tomarProducto = () => {
           <p>$${envio} MXN</p> 
           <p id="subtotal">$${subtotal} MXN</p>
           <p id="total">$${subtotal + envio} MXN</p>
-          <button type="button" class="btn btn-comprar">
+          <button type="button" class="btn btn-comprar" data-toggle="modal" data-target="#modalCompra">
             Comprar
             <div class="button_horizontal"></div>
             <div class="button_vertical"></div>
           </button>
+        </div>
+        <h3>Aceptamos</h3>
+        <div class="row metodosPago">
+          <img src="../assets/img/visa.png" alt="">
+          <img src="../assets/img/paypal.png" alt="">
+          <img src="../assets/img/oxxo.png" alt="">
         </div>
       </div>
       `
@@ -120,4 +126,27 @@ botonesEliminar.forEach((boton, index) => {
       .removeChild(boton.parentElement.parentElement);
     location.reload();
   });
+});
+
+const btnComprar = document.querySelector('.btn-comprar');
+
+btnComprar.addEventListener('click', () => {
+  // Creamos un div para el mensaje personalizado
+  const mensaje = document.createElement('div');
+  mensaje.textContent = '¡Compra realizada con éxito!';
+  mensaje.style.backgroundColor = '#28a745';
+  mensaje.style.color = 'white';
+  mensaje.style.padding = '10px';
+  mensaje.style.position = 'absolute';
+  mensaje.style.top = '10px';
+  mensaje.style.right = '10px';
+  mensaje.style.borderRadius = '5px';
+  
+  // Añadimos el mensaje al body
+  document.body.appendChild(mensaje);
+  
+  // Ocultamos el mensaje después de 3 segundos
+  setTimeout(() => {
+    mensaje.style.display = 'none';
+  }, 3000);
 });

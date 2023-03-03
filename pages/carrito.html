@@ -88,7 +88,26 @@
   <h3 class="my-2">Carrito de compras</h3>
   <main class="container-fluid text-center my-2 p-5">
   </main>
-
+  
+  <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="modalCompraLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalCompraLabel">Confirmar compra</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ¿Desea confirmar la compra?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" onclick="alert('Enviado')">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Footer -->
   <footer class="container-fluid text-center pt-3">
       <div class="row d-flex align-items-center">

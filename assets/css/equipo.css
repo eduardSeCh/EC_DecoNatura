@@ -1,10 +1,4 @@
-body{
-    background-color: rgb(232, 231, 227);
-    font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
+
 
 header {
     flex-grow: 1;
@@ -20,7 +14,9 @@ nav{
     background-color: rgb(52, 58, 54);
 }
 
-
+.integrantes {
+    min-height: 500px;
+}
 .nav-link{
     color:rgb(232, 231, 227);
 }

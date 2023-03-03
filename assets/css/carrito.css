@@ -105,6 +105,24 @@
 	right: calc(var(--horizontal-offset) - var(--border-size));
 }
 
+.pagoSection{
+	background-color: #acb6ad00;
+}
+
+.metodosPago{
+	justify-content: space-around;
+}
+
+.metodosPago img{
+	height: 80px;
+	width: auto;
+}
+
+h3{
+	text-align: start;
+	font-weight: bolder;
+}
+
 @media (max-width: 767px){
     .input-group{
         width: 50%;
