@@ -99,9 +99,15 @@
     font-size: larger;
 }
 
+h3{
+    font-family: "El Messiri", sans-serif;
+}
+
 h4{
     text-align: left;
+    font-family: "El Messiri", sans-serif;
 }
+
 
 .producto{
     margin-top: 1rem;
