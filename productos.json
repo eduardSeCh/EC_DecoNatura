@@ -651,7 +651,7 @@
         "id": 82,
         "Producto": "Vajilla cielo",
         "Precio": 1500.00,
-        "Link": "#",
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677865833/images/khloe-arledge--GjyAyPSMQg-unsplash_uder2a.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Vajilla"
     },
@@ -659,7 +659,7 @@
         "id": 83,
         "Producto": "Juego de 4 vasos esfera",
         "Precio": 250.00,
-        "Link": "#",
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677865827/images/gaby-yerden-3x2cFCoBeEQ-unsplash_y9ppzm.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Cristalería"
     },
@@ -667,7 +667,7 @@
         "id": 84,
         "Producto": "Plato arena",
         "Precio": 100.00,
-        "Link": "#",
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677865814/images/ec9bf588cbb33c983d599be30a7a5102_jidmnh.jpg",
         "Categoría": "Cocina",
         "Subcategoría": "Platos"
     },
@@ -675,7 +675,7 @@
         "id": 85,
         "Producto": "Suculenta ",
         "Precio": 100.00,
-        "Link": "#",
+        "Link": "https://res.cloudinary.com/dgtrdgsgg/image/upload/v1677865812/images/pexels-dich-ken-13150570_fem3qm.jpg",
         "Categoría": "Plantas de ornato",
         "Subcategoría": "Suculentas"
     }
