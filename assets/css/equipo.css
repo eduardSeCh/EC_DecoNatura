@@ -1,5 +1,3 @@
-
-
 header {
     flex-grow: 1;
 }
@@ -45,26 +43,41 @@ nav{
     box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0.202);
 }
 
+/* Row - texto imagen */
 
 .texto{
     background-color: rgb(52, 58, 54);
     color:rgb(232, 231, 227);
     display: flex;
     align-items: center;
+    border-radius: 3px;
+    height: 270px;
 }
 
-h1{
+h1, h3{
     font-family: 'El Messiri', sans-serif;
 }
 
 h3{
     text-align: center;
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+h5{
+    font-weight: bold;
+    color: #343a36;
 }
 
 .imagen{
-    background-image: url(../img/plantas.jpg);
+    background-image: url(../img/amigos.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    height: 270px;
 }
+
+/* Carrusel */
 
 .carousel-item img{
     border-radius:50%;
@@ -87,7 +100,6 @@ h3{
     background-color: rgb(52 58 54);
 }
 
-
 .carousel-control-next, .carousel-control-prev{
     width: 0%;
 }
@@ -96,14 +108,11 @@ h3{
     height: 1.5rem;
 }
 
-
-
-
-
 .contacto_gh{
     width: 45px;
 }
 
+/* Links en iconos redes */
 a{
     text-decoration: none;
 }
