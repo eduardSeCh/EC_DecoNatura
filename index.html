@@ -123,13 +123,13 @@
 
     <!-- Productos -->
     <main class="container text-center">
-        <section class="productos-destacados">
+        <section class="productos-destacados" id="fila-1">
             <div class="row mt-5 my-3">
                 <h3>Productos destacados</h3>
             </div>
 
             <!-- Primera fila -->
-            <div class="container productos-destacados mt-4">
+           <!--  <div class="container productos-destacados mt-4">
                 <div class="row my-4">
                     <div class="fila col-12 col-md-6 col-lg-3">
                         <div class="producto">
@@ -252,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <!-- Ahorra ...-->
@@ -272,129 +272,8 @@
         </div>
 
         <!-- Segunda fila -->
-        <section class="container productos-destacados mt-4">
-            <div class="row my-4">
-                <div class="fila col-12 col-md-6 col-lg-3">
-                    <div class="producto">
-                        <div class="producto_img">
-                            <img src="./assets/img/main/vaso_cristaleria.jpg"
-                                alt="...">
-                        </div>
-                        <hr>
-                        <div class="producto_categoria">
-                            <div class="row">
-                                <div class="col-5">
-                                    <p>Cocina</p>
-                                </div>
-                                <div class="col-5">
-                                    <button class="favorito-button" id="meGusta">
-                                        <img src="./assets/img/iconos/favorito-icon-red.png" alt="" style="width:23px">
-                                    </button>
-                                    <button class="carrito-button" id="btnCarrito">
-                                        <img src="./assets/img/iconos/carrito-de-compras.png" alt="" style="width:20px">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="producto_nombre">
-                            <h5>Juego de cuatro vasos</h5>
-                        </div>
-                        <div class="producto_precio mb-2">
-                            <p>$250.00 MXN</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="fila col-12 col-md-6 col-lg-3">
-                    <div class="producto">
-                        <div class="producto_img">
-                            <img src="./assets/img/main/cubiertos.jpg"
-                                alt="...">
-                        </div>
-                        <hr>
-                        <div class="producto_categoria">
-                            <div class="row">
-                                <div class="col-5">
-                                    <p>Cocina</p>
-                                </div>
-                                <div class="col-5">
-                                    <button class="favorito-button" id="meGusta">
-                                        <img src="./assets/img/iconos/favorito-icon-red.png" alt="" style="width:23px">
-                                    </button>
-                                    <button class="carrito-button" id="btnCarrito">
-                                        <img src="./assets/img/iconos/carrito-de-compras.png" alt="" style="width:20px">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="producto_nombre">
-                            <h5>Juego de cubiertos canela</h5>
-                        </div>
-                        <div class="producto_precio mb-2">
-                            <p>$550.00 MXN</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="fila col-12 col-md-6 col-lg-3">
-                    <div class="producto">
-                        <div class="producto_img">
-                            <img src="./assets/img/main/suculenta.jpg"
-                                alt="...">
-                        </div>
-                        <hr>
-                        <div class="producto_categoria">
-                            <div class="row">
-                                <div class="col-5">
-                                    <p>Cocina</p>
-                                </div>
-                                <div class="col-5">
-                                    <button class="favorito-button" id="meGusta">
-                                        <img src="./assets/img/iconos/favorito-icon-red.png" alt="" style="width:23px">
-                                    </button>
-                                    <button class="carrito-button" id="btnCarrito">
-                                        <img src="./assets/img/iconos/carrito-de-compras.png" alt="" style="width:20px">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="producto_nombre">
-                            <h5>Suculenta</h5>
-                        </div>
-                        <div class="producto_precio mb-2">
-                            <p>$150.00 MXN</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="fila col-12 col-md-6 col-lg-3">
-                    <div class="producto">
-                        <div class="producto_img">
-                            <img src="./assets/img/main/copa_cocktail.jpg" 
-                                alt="...">
-                        </div>
-                        <hr>
-                        <div class="producto_categoria">
-                            <div class="row">
-                                <div class="col-5">
-                                    <p>Cocina</p>
-                                </div>
-                                <div class="col-5">
-                                    <button class="favorito-button" id="meGusta">
-                                        <img src="./assets/img/iconos/favorito-icon-red.png" alt="" style="width:23px">
-                                    </button>
-                                    <button class="carrito-button" id="btnCarrito">
-                                        <img src="./assets/img/iconos/carrito-de-compras.png" alt="" style="width:20px">
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="producto_nombre">
-                            <h5>Copa cocktail</h5>
-                        </div>
-                        <div class="producto_precio mb-2">
-                            <p>$55.00 MXN</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section class="container productos-destacados mt-4" id="fila-2">
+            
         </section>
     </main>
 
@@ -443,7 +322,7 @@
 
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    
+    <script type="module" src="./assets/js/index.js"></script>
 </body>
 
 </html>

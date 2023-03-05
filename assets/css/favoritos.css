@@ -108,68 +108,22 @@ h4{
     text-align: left;
 }
 
-.producto{
-    margin-top: 1rem;
-    position: relative;
+.producto {
+    /* margin: 1rem !important; */
+    width: 240px !important;
 }
 
-.producto_img {
-    height: 15rem;    
-}
-
-.producto_img > img {
-    width: 170px;
-    border-radius: 10px;
-    /* margin-top: 23px; */
-    height: inherit;
-    transition: scale .3s ease-in-out;
-}
-
-.producto_img > img:hover{
-    scale: 1.1;
+.producto .producto_img{
+    width: 150px;
+    margin: auto;
 }
 
 .favorito-button {
-    display: inline-block;
     all: unset;
 }
 
-.producto_categoria{
-    margin-top: 1rem;
-}
-
-.producto_nombre {
-    margin-top: -1rem;
-}
-
-.producto_categoria, .producto_nombre, .producto_precio{
-    text-align: left;
-    padding-left: 20%;
-}
-
-.btn-secondary{
-    margin-bottom: 15px;
-    background-color: #495057;
-}
-
-.producto-corazon {
-    position: relative;
-    /* top: -98%;
-    width: 50%; */
-    /* z-index: 100; */
-}
-
-.producto-corazon img {
-  mix-blend-mode: multiply;
-  
-}
-
-.favorito-eliminar{
-    all: unset;
-    position: absolute;
-    top: 73%;
-    left: 60%;
-    z-index: 100;
+.owl-stage-outer{
+    height: 28rem;
 }
 
 /* Button carousel */

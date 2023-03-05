@@ -78,6 +78,37 @@ h3 {
   padding: 1rem;
 }
 
+
+/* Corazon de megusta */
+.favorito-button{
+  all: unset;
+  padding-left: 15%;
+  filter: grayscale(100%) invert(100%) brightness(100%);
+}
+
+.favorito-button.active {
+  filter:  none;
+}
+
+@keyframes cambioTamanio {
+  50%{
+      scale: 1.12;
+  }
+  100%{
+      scale: 1;
+  }
+}
+
+.favorito-button:active {
+  animation: cambioTamanio .5s ease-in-out;
+  /* filter: none; */
+}
+
+/* Carrito */
+.carrito-button{
+  all: unset;
+}
+
 /* Carousel */
 .owl-nav {
   display: none;
@@ -86,6 +117,60 @@ h3 {
 .owl-stage {
   display: flex;
 } */
+
+.producto{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  height: 23rem;
+}
+
+
+.producto_img {
+  height: 15rem;    
+}
+
+.producto_img > img {
+  width: 150px;
+  border-radius: 10px;
+  height: inherit;
+  transition: scale .3s ease-in-out;
+}
+
+.producto_img > img:hover{
+  scale: 1.1;
+}
+
+.producto_categoria{
+  margin-top: 1rem;
+}
+
+.producto_nombre {
+  margin-top: -1rem;
+}
+
+.producto_categoria, .producto_nombre, .producto_precio{
+  text-align: left;
+  padding-left: 20%;
+}
+
+.favorito-button.active {
+  filter:  none;
+}
+
+@keyframes cambioTamanio {
+  50%{
+      scale: 1.12;
+  }
+  100%{
+      scale: 1;
+  }
+}
+
+.favorito-button:active {
+  animation: cambioTamanio .5s ease-in-out;
+  /* filter: none; */
+}
 
 @media (max-width:768px){
   .owl-carousel .producto {

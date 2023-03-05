@@ -10,10 +10,6 @@ header {
 }
 
 /* Productos */
-.productos_img {
-    width:150px;
-    border-radius: 5px;
-}
 
 .blur{
     background-image: url(../img/main/promocion_img.jpg);
@@ -46,15 +42,18 @@ h2{
     font-weight: 600;
 }
 
-.producto{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    position: relative;
+.producto_img {
+    height: 15rem;    
 }
 
-.producto_img > img {
+.productos_img {
+    width:150px;
     border-radius: 5px;
+}
+.producto_img > img {
     width: 150px;
+    border-radius: 5px;
+    height: inherit;
     transition: scale .3s ease-in-out;
 }
 
@@ -94,9 +93,7 @@ h2{
     }
 }
 
-.favorito-button:active {
-    animation: cambioTamanio .5s ease-in-out;
-}
+
 
 .carrito-button{
     all: unset;

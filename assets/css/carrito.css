@@ -1,25 +1,13 @@
-
-.producto_img {
-    height: 15rem;    
-    margin: 1rem;
+.producto_img{
+	height: 17rem;
+}
+.producto_img img {
+	height: auto;
 }
 
-.producto_img > img {
-    width: 170px;
-    border-radius: 10px;
-    /* margin-top: 23px; */
-    height: inherit;
-    transition: scale .3s ease-in-out;
+.nombreAndCategoria{
+	margin-top: 1rem;
 }
-
-.producto_img > img:hover{
-    scale: 1.1;
-}
-
-.producto_categoria{
-    margin: 1rem;
-}
-  
 /* Animacion comprar */
 .btn-comprar {
 	--offset: 10px;
@@ -151,8 +139,6 @@
 }
 
 h3{
-	text-align: start;
-	/* font-weight: bolder; */
 	font-family: "El Messiri", sans-serif;
 }
 

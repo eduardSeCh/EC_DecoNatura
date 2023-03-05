@@ -5,27 +5,36 @@ const tomarProducto = (storeData) => {
     //producto = document.createElement("div");
     let listaFavoritos = document.getElementById("listaFavoritos");
     for (let i = 0; i < storeData.length; i++) {
-      listaFavoritos.innerHTML += `
-        <div class="producto" style="width: 15rem;">
-          <button class="favorito-eliminar" id="${i}">
-            <img src="../assets/img/iconos/favorito-icon-red.png" alt="">
-          </button>
-          <div class="producto_img">
-            <img src="${storeData[i].img}" alt="...">
-          </div>
-          <div class="producto_categoria">
-            <p>${storeData[i].categoria}</p>
-          </div>
-          <div class="producto_nombre">
-            <h5>${storeData[i].nombre}</h5>
-          </div>
-          <div class="producto_precio">
-            <p>${storeData[i].precio}</p>
-          </div>
-          <div>
-           <button type="button" class="btn btn-secondary">Añadir al carrito</button>
-          </div>
-        </div`;
+      listaFavoritos.innerHTML += 
+      `
+      <div class="producto" id="producto-${storeData.id}">
+            <div class="producto_img">
+                <img src="${storeData[i].img}" alt="...">
+            </div>
+            <hr>
+            <div class="producto_categoria">
+                <div class="row">
+                    <div class="col-5">
+                        <p>${storeData[i].categoria}</p>
+                    </div>
+                    <div class="col-5">
+                        <button class="favorito-button favorito-eliminar" id="meGusta">
+                            <img src="../assets/img/iconos/favorito-icon-red.png" alt="">
+                        </button>
+                        <button type="button" class="carrito-button" id="btnCarrito">
+                            <img src="../assets/img/iconos/carrito-de-compras.png" alt="" style="width:20px">
+                        </button>
+                    </div>    
+                </div>
+            </div>
+            <div class="producto_nombre">
+                <h5>${storeData[i].nombre}</h5>
+            </div>
+            <div class="producto_precio mb-2">
+                <p>$${storeData[i].precio} MXN</p>
+            </div>
+        </div>
+      `
     }
     //Inicializa el carousel
     $(".owl-carousel").owlCarousel({
