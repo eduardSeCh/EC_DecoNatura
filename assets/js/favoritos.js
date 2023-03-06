@@ -56,7 +56,17 @@ const tomarProducto = (storeData) => {
   } else {
     document.querySelector(
       ".row"
-    ).innerHTML += `<p>No tienes favoritos por el momento</p>`;
+    ).innerHTML += `
+    <div class="container">
+      <lord-icon
+      src="https://cdn.lordicon.com/iwaotjbp.json"
+        trigger="hover"
+        colors="primary:#f28ba8,secondary:#ebe6ef"
+        style="width:250px;height:250px">
+      </lord-icon>
+      <p>No tienes favoritos por el momento</p>
+    </div>
+    `;
   }
 };
 tomarProducto(storeData);

@@ -42,6 +42,10 @@ h2{
     font-weight: 600;
 }
 
+.producto {
+    width: auto !important;
+}
+
 .producto_img {
     height: 15rem;    
 }

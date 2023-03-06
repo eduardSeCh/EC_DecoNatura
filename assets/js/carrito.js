@@ -86,7 +86,16 @@ const tomarProducto = () => {
   } else {
     document.querySelector(
       'main'
-    ).innerHTML += `<p>No tienes Productos en tu carrito </p>`;
+    ).innerHTML += `
+      <div class="container justify-content-center">
+        <lord-icon
+            src="https://cdn.lordicon.com/ggihhudh.json"
+            trigger="hover"
+            style="width:250px;height:250px">
+        </lord-icon>
+        <p>No tienes Productos en tu carrito</p>
+      </div>`;
+    // document.querySelector('footer').style = "bottom: 0;";
   }
 };
 tomarProducto();

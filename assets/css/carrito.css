@@ -1,3 +1,6 @@
+main{
+	min-height: 59rem;
+}
 .producto_img{
 	height: 17rem;
 }
@@ -145,6 +148,9 @@ h3,h4,h5{
 }
 
 @media (max-width: 767px){
+	main {
+		min-height: 35rem;
+	}
     .input-group{
         width: 50%;
     }
@@ -169,4 +175,10 @@ h3,h4,h5{
     .input-group{
         width: 10rem;
     }
+}
+
+footer{
+	position: static;
+	/* bottom: 0; */
+	margin-top: 1rem;
 }

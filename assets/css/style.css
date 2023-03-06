@@ -13,6 +13,10 @@ body {
   height: 100vh;
 }
 
+main .container-fluid .row {
+  min-height: 30rem;
+}
+
 nav {
   background-color: var(--verde-principal);
 }
@@ -109,14 +113,15 @@ h3 {
   all: unset;
 }
 
+.carrito-button.active {
+  background-color: #f7d28e;
+  box-shadow: 0 0 10px #f7d28e;
+  border-radius: 50%;
+ }
 /* Carousel */
 .owl-nav {
   display: none;
 }
-/* 
-.owl-stage {
-  display: flex;
-} */
 
 .producto{
   margin-top: 1rem;

@@ -40,12 +40,12 @@ export function createProductCard(producto) {
                     <div class="col-5">
                         <p>${producto.Categoría}</p>
                     </div>
-                    <div class="col-5">
+                    <div class="col-7 align-items-center">
                         <button class="favorito-button" id="meGusta">
-                            <img src="../assets/img/iconos/favorito-icon-red.png" alt="">
+                          <img src="../assets/img/iconos/favorito-icon-red.png" alt="">
                         </button>
                         <button type="button" class="carrito-button" id="btnCarrito">
-                            <img src="../assets/img/iconos/carrito-de-compras.png" alt="" style="width:20px">
+                          <img src="../assets/img/iconos/carrito-de-compras.png" alt="" style="width:20px">                                                                               
                         </button>
                     </div>    
                 </div>
@@ -122,6 +122,12 @@ export function agregarFavoritos(){
         carrito[carrito.length] = productoJSON;
         // Convertir el array a un string JSON y almacenarlo en el localStorage
         localStorage.setItem("carrito", JSON.stringify(carrito));
+
+        //Animacion carrito
+        button.classList.add("active")
+        /* button.addEventListener('transitionend',()=> {
+          button.classList.remove("active");
+        }, {once: true}); */
       });
     });
   }
