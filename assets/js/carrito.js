@@ -20,12 +20,12 @@ const tomarProducto = () => {
           </div>
           <div class="input-group col-12 col-sm-6 col-md-2 col-lg-3">
             <button class="btn btn-outline-secondary decrement-btn" type="button">-</button>
-            <input type="number" class="form-control numberProduct text-center" style="background-color: #f7f7f700;" value="1" data-precio="${parseInt(
+            <input type="number" class="form-control numberProduct text-center" style="background-color: #f7f7f700;" value="1" data-precio="${parseFloat(
               storeData[i].precio.match(/\d+/)[0]
             )}">
             <button class="btn btn-outline-secondary increment-btn" type="button">+</button>
           </div>
-          <div class="col-12 col-sm-6 col-md-2 col-lg-2">
+          <div class="col-12 col-sm-6 col-md-2 col-lg-2" id="precio-${i}">
             <p>${storeData[i].precio}</p>
           </div>
           <div class="col-12 col-sm-12 col-md-2 col-lg-2">
@@ -42,22 +42,29 @@ const tomarProducto = () => {
     const Secciontotal = document.querySelector("main").insertAdjacentHTML(
       "beforeend",
       `
+      <hr size="2" class="m-2">
       <div class="row d-flex flex-wrap justify-content-center pagoSection">
-      <hr size="2">
-        <div class="col-8 text-end">
-          <p>Envío</p> 
-          <p>Subtotal</p>
-          <h4>Total</h4> 
+        <div class="col-8 text-center">
+          <div class="d-flex justify-content-end">
+            <h5 class="m-2">Envío</h5> <p class="m-2">$${envio} MXN</p> 
           </div>
-          <div class="col text-start">
-          <p>$${envio} MXN</p> 
-          <p id="subtotal">$${subtotal} MXN</p>
-          <p id="total">$${subtotal + envio} MXN</p>
-          <button type="button" class="btn btn-comprar" data-toggle="modal" data-target="#modalCompra">
-            Comprar
-            <div class="button_horizontal"></div>
-            <div class="button_vertical"></div>
+          <div class="d-flex justify-content-end">
+            <h5 class="m-2">Subtotal</h5> <p class="m-2" id="subtotal">$${subtotal} MXN</p>
+          </div>
+          <div class="d-flex justify-content-end">
+            <hr size="2" class="m-2" width=20%>
+          </div>
+          <div class="d-flex justify-content-end">
+            <h4 class="m-2">Total</h4> <p class="m-2" id="total">$${subtotal + envio} MXN</p>
+          </div>
+          </div>
+          <div class="col justify-content-center">
+            <button type="button" class="btn btn-comprar" data-toggle="modal" data-target="#modalCompra">
+              Comprar
+              <div class="button_horizontal"></div>
+              <div class="button_vertical"></div>
           </button>
+          </div>
         </div>
       </div>
 
@@ -94,17 +101,19 @@ btnDecrement.forEach((boton) => {
       subtotal -= parseFloat(input.dataset.precio) * input.value;
       document.querySelector("#subtotal").textContent = `$${subtotal} MXN`;
       document.querySelector("#total").textContent = `$${subtotal + envio} MXN`;
+      parseFloat(document.querySelector('.numberProduct').value)
     }
   });
 });
 const btnIncrement = document.querySelectorAll(".increment-btn");
-btnIncrement.forEach((boton) => {
+btnIncrement.forEach((boton,index) => {
   boton.addEventListener("click", () => {
     const input = boton.closest(".input-group").querySelector(".numberProduct");
     input.value++;
     subtotal += parseFloat(input.dataset.precio);
     document.querySelector("#subtotal").textContent = `$${subtotal} MXN`;
     document.querySelector("#total").textContent = `$${subtotal + envio} MXN`;
+    document.querySelector(`#precio-${index} > p`).textContent = `$${input.dataset.precio*input.value} MXN`
   });
 });
 
@@ -139,24 +148,37 @@ botonesEliminar.forEach((boton, index) => {
 });
 
 const btnComprar = document.querySelector('.btn-comprar');
-
 btnComprar.addEventListener('click', () => {
   // Creamos un div para el mensaje personalizado
-  const mensaje = document.createElement('div');
-  mensaje.textContent = '¡Compra realizada con éxito!';
-  mensaje.style.backgroundColor = '#28a745';
-  mensaje.style.color = 'white';
-  mensaje.style.padding = '10px';
-  mensaje.style.position = 'absolute';
-  mensaje.style.top = '10px';
-  mensaje.style.right = '10px';
-  mensaje.style.borderRadius = '5px';
-  
-  // Añadimos el mensaje al body
-  document.body.appendChild(mensaje);
+  let modal = document.createElement('div');
+  modal.classList.add('modal', 'fade');
+  modal.setAttribute('id', 'modalCompra');
+  modal.setAttribute('tabindex', '-1');
+  modal.setAttribute('role', 'dialog');
+  modal.setAttribute('aria-labelledby', 'modalCompraLabel');
+  modal.setAttribute('aria-hidden', 'true');
+  modal.innerHTML = `
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalCompraLabel">Confirmar compra</h5>
+        </div>
+        <div class="modal-body">
+          Compra realizada :)
+        </div>
+     </div>
+    </div>
+  `;
+  // agrega el modal al cuerpo de la página
+  document.querySelector('body').appendChild(modal);
+
+  // muestra el modal
+  let modalInstance = new bootstrap.Modal(document.querySelector('#modalCompra'));
+  modalInstance.show();
   
   // Ocultamos el mensaje después de 3 segundos
   setTimeout(() => {
-    mensaje.style.display = 'none';
+    modalInstance.hide();
   }, 3000);
+
 });

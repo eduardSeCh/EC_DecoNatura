@@ -13,9 +13,10 @@
 	--offset: 10px;
 	--border-size: 2px;
 	display: block;
+	justify-content: center;
 	position: relative;
-    left: -2rem;
-    margin-top: 2rem;
+    left: 30%;
+    margin-top: 3rem;
 	padding: .8em 1.2em;
 	appearance: none;
 	border: 0;
@@ -125,6 +126,7 @@
 
 .pagoSection{
 	/* background-color: #acb6ad00; */
+	padding: 1rem;
 	background-color: #acb6ad66;
 	border-radius:5px;
 }
@@ -138,7 +140,7 @@
 	width: auto;
 }
 
-h3{
+h3,h4,h5{
 	font-family: "El Messiri", sans-serif;
 }
 
@@ -149,6 +151,9 @@ h3{
     .producto_img{
         padding: 2rem;
     }
+	.btn-comprar{
+		left: 8%;
+	}
 }
 
 @media (min-width: 768px){
