@@ -12,7 +12,10 @@ document.querySelector("#txtSearch").addEventListener("keyup", (e) => {
         dato.Categoría.toLowerCase().includes(letra) ||
         dato.Subcategoría.toLowerCase().includes(letra)        
       );
-      
+      console.log(resultados)
+      if (resultados.length == 0) {
+        document.querySelector('main').innerHTML = "<p>No hay elementos que coincidan</p>";
+      } 
       renderSuggestions(resultados);
     } else {
       suggestionsList.innerHTML = "<p>No hay elementos que coincidan</p>";
@@ -60,6 +63,8 @@ suggestionsList.addEventListener("click", (e) => {
     renderSuggestions(productosOrdenados, txtSearch.value)
 
     console.log(txtSearch.value);
+  }else{
+    document.querySelector('main').innerHTML = "<p>No hay elementos que coincidan</p>";    
   }
 });
 

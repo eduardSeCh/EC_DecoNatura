@@ -111,3 +111,9 @@ h4{
     text-align: left;
     font-family: "El Messiri", sans-serif;
 }
+
+@media (max-width:992px){
+    form {
+        flex-direction: column;
+    }
+}
