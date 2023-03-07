@@ -1,0 +1,44 @@
+
+.text{
+    height: 620px;
+}
+
+.imagen{
+    background-image: url(../img/envio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    height: 620px; 
+}
+
+.envio{
+    border: var(--bs-border-width) solid rgb(52 58 54 / 34%);
+    background-color: #ffffff7d;
+}
+
+
+.envio:focus{
+    background-color: #f8f8f8b3;
+    box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0);
+    border-color:#80837f;
+}
+
+.form-select{
+    background-color: #f3f3f1;
+    border: var(--bs-border-width) solid #aaaba7;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid{
+    background-image: none;
+}
+
+.was-validated .form-select:valid:not([multiple]):not([size]){
+    --bs-form-select-bg-icon: none;
+}
+
+
+
+footer{
+    bottom: -168px;
+    position: relative;
+}
