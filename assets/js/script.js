@@ -1,20 +1,24 @@
 //tomar datos API
 export  async  function cargarDatos(){
     try {
-      const response = await fetch('../../productos.json');
+      const response = await fetch('https://deconatura.up.railway.app/api/catalogo');
       const productos = await  response.json()
       return productos;
   
     } catch (error) {
       console.log(error)
     }
+   /* const response = fetch(`https://deconatura.up.railway.app/api/catalogo`)
+   .then(response => response.json())
+   .then(data => console.log(data))
+   .catch(error => console.log(error));  */
 }
 
 export function generarHTMLProductos(subcategoria, productos) {
     let html = `</div><div class="row my-4">`;
     let contadorProductos = 0;
     for (const producto of productos) {
-      if (producto.Subcategoría === subcategoria) {
+      if (producto.subcategoria === subcategoria) {
         html += createProductCard(producto); 
         contadorProductos++;
         if (contadorProductos === 4) {
@@ -32,13 +36,13 @@ export function createProductCard(producto) {
     <div class="fila col-12 col-md-6 col-lg-3">
         <div class="producto" id="producto-${producto.id}" style="width: 15rem;">
             <div class="producto_img">
-                <img src="${producto.Link}" alt="...">
+                <img src="${producto.imagen}" alt="...">
             </div>
             <hr>
             <div class="producto_categoria">
                 <div class="row">
                     <div class="col-5">
-                        <p>${producto.Categoría}</p>
+                        <p>${producto.categoria}</p>
                     </div>
                     <div class="col-7 align-items-center">
                         <button class="favorito-button" id="meGusta">
@@ -51,10 +55,10 @@ export function createProductCard(producto) {
                 </div>
             </div>
             <div class="producto_nombre">
-                <h5>${producto.Producto}</h5>
+                <h5>${producto.producto}</h5>
             </div>
             <div class="producto_precio mb-2">
-                <p>$${producto.Precio} MXN</p>
+                <p>$${producto.precio} MXN</p>
             </div>
         </div>
     </div>`;
