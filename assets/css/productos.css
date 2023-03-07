@@ -18,7 +18,7 @@ main {
 
 .btn:hover {
     color: var(--bs-btn-hover-color);
-    background-color: #343a36;
+    background-color: #a0a9a0;
     border-color: #343a3600;
 }
 
