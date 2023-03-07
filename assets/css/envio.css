@@ -1,0 +1,71 @@
+/* Contenedor formulario */
+.text{
+    height: 620px;
+}
+
+.text h2{
+    font-family: "El Messiri", sans-serif;
+}
+/* Columan imagen */
+.imagen{
+    background-image: url(../img/envio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+    height: 620px; 
+}
+
+/* Input form control envio */
+.envio{
+    border: var(--bs-border-width) solid #aaaba7;
+    background-color: #ffffff7d;
+}
+
+.envio:focus{
+    background-color: #f8f8f8b3;
+    box-shadow: 0 0 0 0.25rem rgba(244, 245, 247, 0);
+    border: var(--bs-border-width) solid #aaaba7;
+}
+
+.form-select{
+    background-color: #f3f3f1;
+    border: var(--bs-border-width) solid #aaaba775;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid{
+    background-image: none;
+}
+
+.form-control{
+    background-color: #ffffffb0;
+    border: var(--bs-border-width) solid #aaaba73d;
+}
+
+.was-validated .form-select:valid:not([multiple]):not([size]){
+    --bs-form-select-bg-icon: none;
+}
+
+.form-select:focus {
+    border: var(--bs-border-width) solid #aaaba7;
+    box-shadow: 0 0 0 0.25rem #80837f38;
+}
+
+/* Botones */
+.btn-primary {
+    --bs-btn-bg: #e8e7e300;
+    --bs-btn-color: rgb(52 58 54);
+    --bs-btn-border-color: rgb(52 58 54);
+    --bs-btn-hover-bg: rgb(52 58 54);
+    --bs-btn-hover-border-color: rgb(52 58 54);
+    --bs-btn-active-bg: rgb(52 58 54);
+}
+
+.modal-content{
+    background-color: #e8e7e3;
+    box-shadow: rgb(6 6 6 / 26%) 0px 0px 12px 1rem;
+}
+
+footer{
+    bottom: -168px;
+    position: relative;
+}
