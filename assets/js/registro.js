@@ -139,19 +139,11 @@ enviarform.addEventListener('keyup', ()=> {
 enviarform.addEventListener('submit', e => {
   e.preventDefault();
   //Obtener usuarios almacenados, si hay
-  let usuarios = JSON.parse(localStorage.getItem('usuarios')) || []
+  //let usuarios = JSON.parse(localStorage.getItem('usuarios')) || []
   if(validateForm(nombre.value,email.value,telefono.value,password.value,!terminos.validity.valueMissing)){
-    const Newuser = {
-      id: usuarios.length + 1,
-      name: nombre.value,
-      email: email.value,
-      telefono: telefono.value,
-      password: password.value
-    };
-    //Agregar al array
-    usuarios.push(Newuser);
-    //Agregar array actulizado al localStogra
-    localStorage.setItem('usuarios',JSON.stringify(usuarios));
+    
+    enviarDatos(nombre.value,email.value,telefono.value,password.value);
+    
     enviarform.classList.remove("was-validated")
     for (field of enviarform) field.value="";
     terminos.checked = false;
@@ -160,3 +152,30 @@ enviarform.addEventListener('submit', e => {
     //console.log('por fin')
   }
 })
+//////////TESTS FETCH
+
+async function enviarDatos(nombre,correo,telefono,contrasenia){
+  host="https://deconatura.up.railway.app/api/users"
+  console.log("Haciendo fetch...");
+await fetch(host, {
+  method: "post",
+  headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json'
+  },
+
+  body: JSON.stringify({
+    name: nombre,
+    email: correo,
+    phone: telefono,
+    password:contrasenia
+  })
+  
+})
+.then( (response) => { 
+   //do something awesome that makes the world a better place
+   console.log("LA respuesta es:");
+   console.log(response);
+});
+}
+
