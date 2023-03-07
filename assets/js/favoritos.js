@@ -1,3 +1,5 @@
+import * as products from "./script.js";
+
 const storeData = JSON.parse(localStorage.getItem("favoritos"));
 const tomarProducto = (storeData) => {
   if (storeData.length >= 1) {
@@ -31,7 +33,7 @@ const tomarProducto = (storeData) => {
                 <h5>${storeData[i].nombre}</h5>
             </div>
             <div class="producto_precio mb-2">
-                <p>$${storeData[i].precio} MXN</p>
+                <p>${storeData[i].precio}</p>
             </div>
         </div>
       `
@@ -70,6 +72,9 @@ const tomarProducto = (storeData) => {
   }
 };
 tomarProducto(storeData);
+
+//Función agregar a carrito
+products.agregarCarrito();
 
 //Eliminar producto
 const eliminarProducto = (id) => {

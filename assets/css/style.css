@@ -109,9 +109,10 @@ h3 {
   all: unset;
 }
 
+
 .carrito-button.active {
-  background-color: #f7d28e;
-  box-shadow: 0 0 10px #f7d28e;
+  background-color: #b5d5a5;
+  box-shadow: 0px 0px 11px 2px #bbefa2;
   border-radius: 50%;
 }
 /* Carousel */

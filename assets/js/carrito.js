@@ -91,9 +91,10 @@ const tomarProducto = () => {
         <lord-icon
             src="https://cdn.lordicon.com/ggihhudh.json"
             trigger="hover"
-            style="width:250px;height:250px">
+            style="width:250px;height:250px; background-color: #1e412a2e;
+            border-radius: 124px;">
         </lord-icon>
-        <p>No tienes Productos en tu carrito</p>
+        <p>No tienes productos en tu carrito</p>
       </div>`;
     // document.querySelector('footer').style = "bottom: 0;";
   }
