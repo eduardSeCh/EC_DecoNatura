@@ -176,6 +176,7 @@ botonPagar.addEventListener("click", (e) => {
         else{
             //Mostrar ventana de pago
             document.getElementById("successMsg").innerHTML="¡Compra realizada con éxito!";
+          
         }
     }, false 
 );

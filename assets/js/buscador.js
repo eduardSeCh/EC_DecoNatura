@@ -8,9 +8,9 @@ document.querySelector("#txtSearch").addEventListener("keyup", (e) => {
   products.cargarDatos().then((datos) => {
     if (letra !== "") {
       resultados = datos.filter((dato) =>
-        dato.Producto.toLowerCase().includes(letra) ||
-        dato.Categoría.toLowerCase().includes(letra) ||
-        dato.Subcategoría.toLowerCase().includes(letra)        
+        dato.producto.toLowerCase().includes(letra) ||
+        dato.categoria.toLowerCase().includes(letra) ||
+        dato.subcategoria.toLowerCase().includes(letra)        
       );
       console.log(resultados)
       if (resultados.length == 0) {
@@ -31,7 +31,7 @@ function renderSuggestions(resultados) {
     const li = document.createElement("li");
     const enlace = document.createElement("a");
     enlace.classList.add("dropdown-item");
-    enlace.textContent = result.Producto;
+    enlace.textContent = result.producto;
     li.appendChild(enlace);
     suggestionsList.appendChild(li);
   });
@@ -73,10 +73,10 @@ function ordenarPorProducto(productos, busqueda) {
   const busquedaEnMinusculas = busqueda.toLowerCase();
 
   // Filtra los productos que incluyen la cadena de búsqueda en su propiedad 'Producto'
-  const productosFiltrados = productos.filter(producto => producto.Producto.toLowerCase().includes(busquedaEnMinusculas));
+  const productosFiltrados = productos.filter(producto => producto.producto.toLowerCase().includes(busquedaEnMinusculas));
 
   // Ordena los productos filtrados por su propiedad 'Producto'
-  productosFiltrados.sort((a, b) => (a.Producto > b.Producto) ? 1 : -1);
+  productosFiltrados.sort((a, b) => (a.producto > b.producto) ? 1 : -1);
 
   return productosFiltrados;
 }
