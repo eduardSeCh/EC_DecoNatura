@@ -60,7 +60,7 @@ const tomarProducto = () => {
           </div>
           <div class="col justify-content-center">
             <button type="button" class="btn btn-comprar" data-toggle="modal" data-target="#modalCompra">
-              Comprar
+            <a href="./envio.html">Comprar</a>
               <div class="button_horizontal"></div>
               <div class="button_vertical"></div>
           </button>
@@ -141,6 +141,7 @@ const eliminarProducto = (id) => {
   }
 };
 
+
 // Añade un event listener a los botones de eliminar
 const botonesEliminar = document.querySelectorAll(".btn-outline-danger");
 botonesEliminar.forEach((boton, index) => {
@@ -156,6 +157,7 @@ botonesEliminar.forEach((boton, index) => {
   });
 });
 
+/*
 const btnComprar = document.querySelector('.btn-comprar');
 btnComprar.addEventListener('click', () => {
   // Creamos un div para el mensaje personalizado
@@ -191,3 +193,4 @@ btnComprar.addEventListener('click', () => {
   }, 3000);
 
 });
+*/

@@ -41,6 +41,12 @@ main{
     border-radius: 8%;
 }
 
+.btn-comprar a{
+	text-decoration: none;
+	color: #343a36;
+}
+
+
 .button_horizontal,
 .button_vertical {
 	position: absolute;
