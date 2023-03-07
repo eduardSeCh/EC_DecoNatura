@@ -1,3 +1,5 @@
+import * as products from "./script.js";
+
 const storeData = JSON.parse(localStorage.getItem("favoritos"));
 const tomarProducto = (storeData) => {
   if (storeData.length >= 1) {
@@ -70,6 +72,9 @@ const tomarProducto = (storeData) => {
   }
 };
 tomarProducto(storeData);
+
+//Función agregar a carrito
+products.agregarCarrito();
 
 //Eliminar producto
 const eliminarProducto = (id) => {
