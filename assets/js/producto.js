@@ -1,6 +1,7 @@
 import * as products from "./script.js";
 //dernar productos por categoria
 products.cargarDatos().then(productos => {
+  console.log(productos[0]) 
   document.getElementById('productosDecoracion').innerHTML = mostrarProductosPorCategoria(productos,'Decoración');
   document.getElementById('productosCocina').innerHTML = mostrarProductosPorCategoria(productos,'Cocina');
   document.getElementById('productosPlantas').innerHTML = mostrarProductosPorCategoria(productos,'Plantas de ornato');
@@ -34,7 +35,7 @@ function mostrarProductosPorCategoria(productos, categoria) {
   let contadorProductos = 0;
 
   for (const producto of productos) {
-    if (producto.Categoría === categoria && contadorProductos < 4) {
+    if (producto.categoria === categoria && contadorProductos < 4) {
       productosHTML += products.createProductCard(producto);
       contadorProductos++;
     }
