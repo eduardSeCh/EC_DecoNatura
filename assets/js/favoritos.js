@@ -31,7 +31,7 @@ const tomarProducto = (storeData) => {
                 <h5>${storeData[i].nombre}</h5>
             </div>
             <div class="producto_precio mb-2">
-                <p>$${storeData[i].precio} MXN</p>
+                <p>${storeData[i].precio}</p>
             </div>
         </div>
       `
