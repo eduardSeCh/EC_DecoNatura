@@ -76,7 +76,8 @@ procederPago.addEventListener('keyup', () => {
 //Si los datos son inválidos o falta llenar algún campo 
 // no puede proceder a pagar
 procederPago.addEventListener("submit", (e) => {
-    if( !validateForm(street.value, streetNumber.value, zipCode.value, province.value))
+    procederPago.classList.add('was-validated');
+    if( !validateForm(street, streetNumber, zipCode, province))
         //console.log(street, streetNumber, zipCode, province)
         e.preventDefault();
         //console.log(street);
@@ -117,7 +118,7 @@ function validateCardNumber(cardNumber) {
 function validateExpDate(expDate){
     const regExpDate=/^[01]\d\/\d{2}$/g;
     if(regExpDate.test(expDate)){
-		[month,year] = date.split('/');
+		[month,year] = expDate.split('/');
 		if(new Date(2000+parseInt(year),month,0)>new Date()){
             document.querySelector('#inputExpDate').setCustomValidity("");
                 return true;
@@ -138,7 +139,8 @@ function validateCvv(cvv) {
     }
 }
 
-function validateForm(fullName, cardNumber, expDate, cvv) {
+function validateForm2(fullName, cardNumber, expDate, cvv) {
+    pagar.classList.add('was-validated');
     if (validateFullName(fullName.value) &&
         validateCardNumber(cardNumber.value) &&
         validateExpDate(expDate.value) &&
@@ -148,6 +150,7 @@ function validateForm(fullName, cardNumber, expDate, cvv) {
         else {
             return false;
         }
+        
 }
 
 fullName = document.getElementById("inputfullName")
@@ -156,6 +159,7 @@ expDate = document.getElementById("inputExpDate")
 cvv = document.getElementById("inputCvv")
 
 const pagar = document.querySelectorAll('.needs-validation')[1]
+const botonPagar = document.getElementById("pagar");
 pagar.addEventListener('keyup', () => {
         validateFullName(fullName.value) &&
         validateCardNumber(cardNumber.value) &&
@@ -163,10 +167,10 @@ pagar.addEventListener('keyup', () => {
         validateCvv(cvv.value)
 
     pagar.classList.add('was-validated');
-});
+},false);
 
-pagar.addEventListener("submit", (e) => {
-    if( !validateForm(fullName, cardNumber, expDate, cvv)){
+botonPagar.addEventListener("click", (e) => {
+    if( !validateForm2(fullName, cardNumber, expDate, cvv)){
         e.preventDefault();
     }
         else{
