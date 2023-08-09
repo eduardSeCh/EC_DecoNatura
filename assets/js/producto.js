@@ -35,7 +35,7 @@ function mostrarProductosPorCategoria(productos, categoria) {
   let contadorProductos = 0;
 
   for (const producto of productos) {
-    if (producto.categoria === categoria && contadorProductos < 4) {
+    if (producto.Categoría === categoria && contadorProductos < 4) {
       productosHTML += products.createProductCard(producto);
       contadorProductos++;
     }

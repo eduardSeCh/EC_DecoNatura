@@ -3,7 +3,7 @@ import * as products from "./script.js";
 products.cargarDatos().then(productos => {
 
     const productosOrdenador = [...productos];
-    productosOrdenador.sort( (a,b) => a.precio - b.precio)
+    productosOrdenador.sort( (a,b) => a.Precio - b.Precio)
     let productosFila1 = [];
     let productosFila2 = [];
     let contador = 0;
