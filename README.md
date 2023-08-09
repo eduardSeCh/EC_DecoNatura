@@ -11,4 +11,4 @@ Dentro de las tecnologías utilizadas se encuentran:
  
 **Deploy**
 
-Puedes visitar nuestra página [aquí](https://ecdeconatura-dev.netlify.app/)
+Puedes visitar nuestra página [aquí](https://deconatura.netlify.app/)
